@@ -14,15 +14,15 @@ folder: avsitter1
 
 <b>BASIC CHAIR SETUP VIDEO</b>
 
-<iframe height="349" src="http://www.youtube.com/embed/sel5-BuCZOM?rel=0" frameborder="0" width="560" allowfullscreen=""></iframe><br>
+<iframe height="349" src="https://www.youtube.com/embed/sel5-BuCZOM?rel=0" frameborder="0" width="560" allowfullscreen=""></iframe><br>
 
 <b>COUPLES POSES VIDEO</b>
 
-<iframe height="349" src="http://www.youtube.com/embed/jOMhtJr1KC8?rel=0" frameborder="0" width="560" allowfullscreen=""></iframe><br>
+<iframe height="349" src="https://www.youtube.com/embed/jOMhtJr1KC8?rel=0" frameborder="0" width="560" allowfullscreen=""></iframe><br>
 
 <b>NOTECARD COMMANDS VIDEO</b>
 
-<iframe height="349" src="http://www.youtube.com/embed/TO5rm5J3FdY?rel=0" frameborder="0" width="560" allowfullscreen=""></iframe>
+<iframe height="349" src="https://www.youtube.com/embed/TO5rm5J3FdY?rel=0" frameborder="0" width="560" allowfullscreen=""></iframe>
 
 
 
