@@ -8,23 +8,23 @@ toc: false
 
 ## Updates in Second Life
 
-If you have purchased AVsitter in Second Life, please collect the latest package by visiting our <a href="{{ site.inworld }}">location in Second Life</a> and click the update giver on the table. The latest packaged release is also sent when you rez the AVsitter package in Second Life.
+If you have purchased AVsitterPlus in Second Life, please collect the latest package by visiting our <a href="{{ site.inworld }}">location in Second Life</a> and click the update giver on the table. The latest packaged release is also sent when you rez the AVsitterPlus package in Second Life.
 
 ## Updates in OpenSim
 
-If you have purchased AVsitter for OpenSim from Kitely Market, we suggest you manage any updates manually by taking any updated scripts from the <a href='https://github.com/AVsitter/AVsitter/releases'>the project release page</a> however to request a packaged update please IM AVsitter Resident in Kitely.
+If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest you manage any updates manually by taking any updated scripts from the <a href='https://github.com/missyrestless/AVsitterPlus/releases'>the project release page</a> however to request a packaged update please IM Missy Restless in Second Life or email missyrestless@gmail.com.
 
 ## Notes about updates
 
-{% include note.html content="Before starting a new project, it is a good idea to check <a href='https://github.com/AVsitter/AVsitter/releases'>the project release page</a> for the latest version." %}
+{% include note.html content="Before starting a new project, it is a good idea to check <a href='https://github.com/missyrestless/AVsitterPlus/releases'>the project release page</a> for the latest version." %}
 
 {% include tip.html content="When a script is updated, the current box number is placed in the description of the script." %}
 
 {% include warning.html content="For compatibility reasons, please make sure ALL scripts in the furniture are from the SAME box version." %}
 
-## Release history
+## Previous AVsitter2 Release history
 
-{% include important.html content="Release notes can now be found <a href='https://github.com/AVsitter/AVsitter/releases'>on the project release page</a>." %}
+{% include important.html content="Release notes can now be found <a href='https://github.com/missyrestless/AVsitterPlus/releases'>on the project release page</a>." %}
 
 ### AVsitter2, box 2.2-01 - 10 Aug 2017
 - Scripts in the SL package updated to sync with <a href="https://github.com/AVsitter/AVsitter/releases/tag/2.2-01">first GitHub release</a>.
