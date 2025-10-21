@@ -12,11 +12,11 @@ If you have purchased AVsitterPlus in Second Life, please collect the latest pac
 
 ## Updates in OpenSim
 
-If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest you manage any updates manually by taking any updated scripts from the <a href='https://github.com/missyrestless/AVsitterPlus/releases'>the project release page</a> however to request a packaged update please IM Missy Restless in Second Life or email missyrestless@gmail.com.
+If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest you manage any updates manually by taking any updated scripts from the <a href='https://github.com/AVsitterPlus/AVsitterPlus/releases'>the project release page</a> however to request a packaged update please IM Missy Restless in Second Life or email missyrestless@gmail.com.
 
 ## Notes about updates
 
-{% include note.html content="Before starting a new project, it is a good idea to check <a href='https://github.com/missyrestless/AVsitterPlus/releases'>the project release page</a> for the latest version." %}
+{% include note.html content="Before starting a new project, it is a good idea to check <a href='https://github.com/AVsitterPlus/AVsitterPlus/releases'>the project release page</a> for the latest version." %}
 
 {% include tip.html content="When a script is updated, the current box number is placed in the description of the script." %}
 
@@ -24,7 +24,7 @@ If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest yo
 
 ## Previous AVsitter2 Release history
 
-{% include important.html content="Release notes can now be found <a href='https://github.com/missyrestless/AVsitterPlus/releases'>on the project release page</a>." %}
+{% include important.html content="Release notes can now be found <a href='https://github.com/AVsitterPlus/AVsitterPlus/releases'>on the project release page</a>." %}
 
 ### AVsitter2, box 2.2-01 - 10 Aug 2017
 - Scripts in the SL package updated to sync with <a href="https://github.com/AVsitter/AVsitter/releases/tag/2.2-01">first GitHub release</a>.

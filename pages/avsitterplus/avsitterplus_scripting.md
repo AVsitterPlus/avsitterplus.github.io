@@ -180,6 +180,6 @@ See the following pages for AVsitterPlus script examples:
 - [LSL Examples (Beginner)](avsitterplus_lsl_examples_beginner.html)
 - [LSL Examples (Advanced)](avsitterplus_lsl_examples_advanced.html)
 
-{% include note.html content="Advanced scripters can [check here for the complete list of messages](https://github.com/missyrestless/AVsitterPlus/blob/master/AVsitterPlus/avsitterplus_link_message_reference.md). You may need to consult the AVsitterPlus source code about what some messages do specifically. Keep in mind that the messages listed in there may change without warning." %}
+{% include note.html content="Advanced scripters can [check here for the complete list of messages](https://github.com/AVsitterPlus/AVsitterPlus/blob/master/AVsitterPlus/avsitterplus_link_message_reference.md). You may need to consult the AVsitterPlus source code about what some messages do specifically. Keep in mind that the messages listed in there may change without warning." %}
 
 {% include links.html %}
