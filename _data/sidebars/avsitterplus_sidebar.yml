@@ -1,0 +1,108 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: AVsitterPlus
+  product: AVsitterPlus&trade;
+  version: 2.3
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Core System
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /avsitterplus_home.html
+      output: web
+
+    - title: AVpos
+      url: /avsitterplus_avpos.html
+      output: web
+
+    - title: Utilities
+      url: /avsitterplus_utilities.html
+      output: web
+
+    - title: SitTargets
+      url: /avsitterplus_sittargets.html
+      output: web
+
+    - title: Scripting
+      url: /avsitterplus_scripting.html
+      output: web
+
+    - title: Example Items
+      url: /avsitterplus_examples.html
+      output: web, pdf
+
+    - title: LSL Examples (Beginner)
+      url: /avsitterplus_lsl_examples_beginner.html
+      output: web, pdf
+
+    - title: LSL Examples (Advanced)
+      url: /avsitterplus_lsl_examples_advanced.html
+      output: web, pdf
+
+  - title: Plugins
+    output: web, pdf
+    folderitems:
+
+    - title: AVprop
+      url: /avsitterplus_prop.html
+      output: web, pdf
+
+    - title: AVfaces
+      url: /avsitterplus_faces.html
+      output: web, pdf
+
+    - title: AVcamera
+      url: /avsitterplus_camera.html
+      output: web, pdf
+
+    - title: AVsequence
+      url: /avsitterplus_sequence.html
+      output: web, pdf
+
+    - title: AVcontrol
+      url: /avsitterplus_control.html
+      output: web, pdf
+
+    - title: AVfavs
+      url: /avsitterplus_plugin_AVfavs.html
+      output: web, pdf
+
+    - title: LockMeister
+      url: /avsitterplus_plugin_LockMeister.html
+      output: web, pdf
+ 
+    - title: LSL Examples (AVprop)
+      url: /avsitterplus_lsl_examples_avprop.html
+      output: web, pdf
+
+  - title: Step By Step Guides
+    output: web, pdf
+    folderitems:
+
+    - title: MLP Converter
+      url: /avsitterplus_StepByStepGuides_MLPconverter.html
+      output: web, pdf
+  - title: Special Commands
+    output: web, pdf
+    folderitems:
+
+    - title: AVpos
+      url: avsitterplus_SpecialCommands_AVpos.html
+      output: web, pdf

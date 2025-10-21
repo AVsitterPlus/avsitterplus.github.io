@@ -6,19 +6,16 @@ entries:
   levels: one
   folders:
 
-  - title: AVsitter Documentation
+  - title: AVsitterPlus Documentation
     output: web
     folderitems:
     - title: Introduction
       url: /index.html
       output: web
-    - title: AVsitter2
-      url: /avsitter2_home.html
+    - title: AVsitterPlus
+      url: /avsitterplus_home.html
       output: web
-    - title: AVsitter1
-      url: /avsitter1_home.html
-      output: web
-      
+
   - title: News & Updates
     output: web
     folderitems:

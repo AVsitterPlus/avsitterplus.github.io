@@ -8,23 +8,23 @@ toc: false
 
 ## Updates in Second Life
 
-If you have purchased AVsitter in Second Life, please collect the latest package by visiting our <a href="{{ site.inworld }}">location in Second Life</a> and click the update giver on the table. The latest packaged release is also sent when you rez the AVsitter package in Second Life.
+If you have purchased AVsitterPlus in Second Life, please collect the latest package by visiting our <a href="{{ site.inworld }}">location in Second Life</a> and click the update giver on the table. The latest packaged release is also sent when you rez the AVsitterPlus package in Second Life.
 
 ## Updates in OpenSim
 
-If you have purchased AVsitter from Kitely Market, updates can be collected by visiting <a href="hop://grid.kitely.com:8002/AVsitter%20sandbox/128/127/23">AVsitter sandbox</a> region in Kitely and clicking on the update giver in the center of the sim.
+If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest you manage any updates manually by taking any updated scripts from the <a href='https://github.com/missyrestless/AVsitterPlus/releases'>the project release page</a> however to request a packaged update please IM Missy Restless in Second Life or email missyrestless@gmail.com.
 
 ## Notes about updates
 
-{% include note.html content="Before starting a new project, it is a good idea to check <a href='https://github.com/AVsitter/AVsitter/releases'>the project release page</a> for the latest version." %}
+{% include note.html content="Before starting a new project, it is a good idea to check <a href='https://github.com/missyrestless/AVsitterPlus/releases'>the project release page</a> for the latest version." %}
 
 {% include tip.html content="When a script is updated, the current box number is placed in the description of the script." %}
 
 {% include warning.html content="For compatibility reasons, please make sure ALL scripts in the furniture are from the SAME box version." %}
 
-## Release history
+## Previous AVsitter2 Release history
 
-{% include important.html content="Release notes can now be found <a href='https://github.com/AVsitter/AVsitter/releases'>on the project release page</a>." %}
+{% include important.html content="Release notes can now be found <a href='https://github.com/missyrestless/AVsitterPlus/releases'>on the project release page</a>." %}
 
 ### AVsitter2, box 2.2-01 - 10 Aug 2017
 - Scripts in the SL package updated to sync with <a href="https://github.com/AVsitter/AVsitter/releases/tag/2.2-01">first GitHub release</a>.
@@ -64,12 +64,12 @@ If you have purchased AVsitter from Kitely Market, updates can be collected by v
 
 ### AVsitter2, box 2.1-10 - 07 Nov 2015
 - Several changes to AVcontrol plugin including the following updates to the <a href="/avsitter2_control.html">AVcontrol instructions</a>:
-	- Added ONRELEASE and ONSIT ASKONLY options.
-	- Default is now to unsit RLV captives when released (if you don't want this see info for ONRELEASE).
-	- If a Dom is sitting, then non-sitting avatars can't control the menu even if furniture is 'unlocked'.
-	- SWAP now enabled by default unless using ONSIT ASK or ONSIT ASKONLY.
-	- Added new <a href="/avsitter2_examples.html">AVcontrol examples</a>.
-	- Updated scripts include: [AV]sitA, [AV]sitB, [AV]root-security, [AV]root-control, [AV]root-RLV, [AV]root-RLV-extra
+    - Added ONRELEASE and ONSIT ASKONLY options.
+    - Default is now to unsit RLV captives when released (if you don't want this see info for ONRELEASE).
+    - If a Dom is sitting, then non-sitting avatars can't control the menu even if furniture is 'unlocked'.
+    - SWAP now enabled by default unless using ONSIT ASK or ONSIT ASKONLY.
+    - Added new <a href="/avsitter2_examples.html">AVcontrol examples</a>.
+    - Updated scripts include: [AV]sitA, [AV]sitB, [AV]root-security, [AV]root-control, [AV]root-RLV, [AV]root-RLV-extra
 - [AV]sequence - only stops sounds if the last played sequence includes sounds (for compatability with other sound scripts).
 - [AV]camera - added <a href="/avsitter2_camera.html">[AV]camera script</a> to the Utilities box.
 
@@ -190,7 +190,7 @@ If you have purchased AVsitter from Kitely Market, updates can be collected by v
 - [AV]sitA & [AV]adjuster - simplified default SitTargets: assigns avis to sitters in the order in which they sit (<a href="/avsitter2_sittargets.html">see SitTargets</a>).
 
 ### AVsitter2, box 2.0-05 - 31 Jan 2014
-- [AV]sitA & [AV]sitB - <a href="/avsitter2_scripting.html#link-messages-to-receive">scripting link messages</a> now use LINK_SET. 
+- [AV]sitA & [AV]sitB - <a href="/avsitter2_scripting.html#link-messages-to-receive">scripting link messages</a> now use LINK_SET.
 - Added <a href="/avsitter2_utilities.html#anim-perm-checker-script">Anim perm checker</a> to Utilities [BOX].
 
 ### AVsitter2, box 2.0-04 - 29 Jan 2014

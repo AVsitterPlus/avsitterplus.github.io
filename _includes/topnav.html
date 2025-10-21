@@ -52,17 +52,17 @@
                 </li>
                 {% endfor %}
                 {% endfor %}
-                
+
                 {% if site.feedback_disable == null or site.feedback_disable == false %}
-			{% include feedback.html %}
-		{% endif %}
+                    {% include feedback.html %}
+                {% endif %}
                 <!--comment out this block if you want to hide search-->
                 <li>
                     <!--start search-->
                     <div id="search-demo-container">
                         <div id="searchform_span"></div>
                     </div>
-                    
+
 
 
 <script>
@@ -71,12 +71,12 @@ document.getElementById('searchform_span').innerHTML = '<form id="searchform" ac
 
 function SubmitSearch(){
 
-	document.getElementById('searchform').q.value += " site:avsitter.github.io";
-	document.getElementById('searchform').submit();
+    document.getElementById('searchform').q.value += " site:avsitterplus.github.io";
+    document.getElementById('searchform').submit();
 }
 
 </script>
-                    
+
 
                     <!--end search-->
                 </li>
