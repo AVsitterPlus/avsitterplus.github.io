@@ -12,30 +12,30 @@ The AVcontrol&trade; plugin adds specialized features to AVsitterPlus&trade; fur
 
 {% include important.html content="AVcontrol scripts and examples are found inside the AVcontrol [BOX] (inside the Plugins [BOX])." %}
 
-### [AV]root-control script
-The [AV]root-control script allows menus of sitting avatars to be controlled by another avatar. e.g. for photo studio.
+### AVP_root-control script
+The AVP_root-control script allows menus of sitting avatars to be controlled by another avatar. e.g. for photo studio.
 
 To use this feature, start with the <a href="/avsitterplus_home.html#setup">normal setup</a> procedure, then:
 
-- Drop the [[AV]root-security](avsitterplus_utilities.html#avroot-security-script) script into the *root prim* of your furniture. (Utilities box)
-- Remove the [[AV]root](avsitterplus_utilities.html#avroot-script) script, if you were using it.
-- Drop the [AV]root-control script into the *root prim* of your furniture.
+- Drop the [AVP_root-security](avsitterplus_utilities.html#avroot-security-script) script into the *root prim* of your furniture. (Utilities box)
+- Remove the [AVP_root](avsitterplus_utilities.html#avroot-script) script, if you were using it.
+- Drop the AVP_root-control script into the *root prim* of your furniture.
 - Anyone can now touch the furniture to control the menu of the sitting avatars, depending on the security level.
 
-### [AV]root-RLV script
-The [AV]root-RLV script allows you to add RLV (Restrained Love Viewer) functions to your furniture. Specifically, it allows an avatar to *capture* other avatars and impose RLV restrictions upon them. To be controlled by RLV, avatars *must* be wearing an *RLV relay* based on the [RLV API](http://wiki.secondlife.com/wiki/LSL_Protocol/RestrainedLoveAPI) (e.g. [OpenCollar](http://opencollar.at)), and turn on RLV in the SL viewer.
+### AVP_root-RLV script
+The AVP_root-RLV script allows you to add RLV (Restrained Love Viewer) functions to your furniture. Specifically, it allows an avatar to *capture* other avatars and impose RLV restrictions upon them. To be controlled by RLV, avatars *must* be wearing an *RLV relay* based on the [RLV API](http://wiki.secondlife.com/wiki/LSL_Protocol/RestrainedLoveAPI) (e.g. [OpenCollar](http://opencollar.at)), and turn on RLV in the SL viewer.
 
 To use this feature:
 
-- Start with the instructions for [[AV]root-control](avsitterplus_control.html#avroot-control-script).
-- Drop the [AV]root-RLV script into the *root prim* of your furniture.
+- Start with the instructions for [AVP_root-control](avsitterplus_control.html#avroot-control-script).
+- Drop the AVP_root-RLV script into the *root prim* of your furniture.
 - Place a notecard named AVpos into the *root prim* of your furniture (if there is not one already there).
 
 {% include important.html content="If working with a couples setup and RLV, the sitA+sitB scripts *must* be in the root prim." %}
 
-{% include important.html content="The [AV]root-RLV script can not be used when assigning SitTargets for [multiple SET](avsitterplus_sittargets.html) in the same object." %}
+{% include important.html content="The AVP_root-RLV script can not be used when assigning SitTargets for [multiple SET](avsitterplus_sittargets.html) in the same object." %}
 
-{% include tip.html content="For examples, see the [[AV]control examples](avsitterplus_control.html#examples) provided to you in the AVcontrol [BOX]." %}
+{% include tip.html content="For examples, see the [AVP_control examples](avsitterplus_control.html#examples) provided to you in the AVcontrol [BOX]." %}
 
 #### Capture behavior
 
@@ -53,8 +53,8 @@ The Control menu contains the following options:
 - **Release!** - release the captive avatar.
 - **Take Keys/Drop Keys** - allows the controlling avatar to "lock" or "unlock" the menu.
 - **Timelock** - start/stop/change the countdown timer for automatic release.
-- **Restrict** - available only if the [AV]root-RLV-extra script is included (see below).
-- **Un/Dress** - available only if the [AV]root-RLV-extra script is included (see below).
+- **Restrict** - available only if the AVP_root-RLV-extra script is included (see below).
+- **Un/Dress** - available only if the AVP_root-RLV-extra script is included (see below).
 - **Menu** - goes to the regular pose menu of the captive avatar.
 - **[STOP]** - releases and unsits all avatars.
 
@@ -187,9 +187,9 @@ ONCAPTURE @unsit=n|@fartouch=n
 ```
 {% include important.html content="RLV settings are not printed out during settings [DUMP]! Remember to leave your settings at the top of the notecard." %}
 
-{% include tip.html content="For more examples, see the [[AV]control examples](avsitterplus_control.html#examples) provided to you in the AVcontrol [BOX]." %}
+{% include tip.html content="For more examples, see the [AVP_control examples](avsitterplus_control.html#examples) provided to you in the AVcontrol [BOX]." %}
 
-### [AV]root-RLV-extra script
+### AVP_root-RLV-extra script
 
 Adding this optional script will provide additional RLV Restrict and Un/Dress menus, which include the following options:
 
@@ -205,25 +205,25 @@ Adding this optional script will provide additional RLV Restrict and Un/Dress me
 
 A link message exists so scripters can make things happen when avatars are captured/released. See [here](http://avsitter.com/qa/501).
 
-### [AV]Xcite! script
+### AVP_Xcite! script
 This optional script allows you to make your AVsitterPlus&trade; furniture compatible with Xcite! and Sensations products in SL.
 
-{% include note.html content="Instructions for the [AV]Xcite! script are included within the [AV]Xcite_settings notecard." %}
+{% include note.html content="Instructions for the AVP_Xcite! script are included within the AVP_Xcite_settings notecard." %}
 
 {% include important.html content="You must include a copy of your Xcite! partner script (provided by Xcite!) and/or your Sensations partner script (provided by Sensations) in your furniture." %}
 
 {% include note.html content="Xcite! compatible features should be switched on/off via the product's menu (e.g. on the HUD provided with the Xcite! or Sensations product menu)." %}
 
-### [AV]LockGuard script
-This optional script allows you to make your AVsitterPlus&trade; furniture work with [LockGuard V2](http://wiki.secondlife.com/wiki/LSL_Protocol/LockGuard) compatible cuffs (e.g. [OpenCollar](http://opencollar.at)) for particle chains. Details for use are included within the [AV]LockGuard script itself.
+### AVP_LockGuard script
+This optional script allows you to make your AVsitterPlus&trade; furniture work with [LockGuard V2](http://wiki.secondlife.com/wiki/LSL_Protocol/LockGuard) compatible cuffs (e.g. [OpenCollar](http://opencollar.at)) for particle chains. Details for use are included within the AVP_LockGuard script itself.
 
 ## Examples
 The following Examples are provided in the AVcontrol box:
 
 - **Photo Stand**
-Basic example of the [AV]root-control script for a non-RLV situation.
+Basic example of the AVP_root-control script for a non-RLV situation.
 - **Photo Stand, multiple setup prims**
-Example of the [AV]root-control script for a non-RLV situation, with multiple setup prims.
+Example of the AVP_root-control script for a non-RLV situation, with multiple setup prims.
 - **RLV & LockGuard, 1 sub**
 RLV for 1 submissive.
 - **RLV & LockGuard, Dom+sub**

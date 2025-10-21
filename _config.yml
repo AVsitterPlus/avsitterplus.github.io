@@ -1,4 +1,4 @@
-repository: missyrestless/avsitterplus.github.io
+repository: AVsitterPlus/avsitterplus.github.io
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -12,7 +12,7 @@ site_title: AVsitterPlus&trade; documentation
 company_name: Avcode Technologies
 # this appears in the footer
 
-github_editme_path: missyrestless/avsitterplus.github.io/
+github_editme_path: AVsitterPlus/avsitterplus.github.io/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 disqus_shortname: 
@@ -28,6 +28,7 @@ port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
 exclude:
+  - vendor
   - .idea/
   - .gitignore
 # these are the files and directories that jekyll will exclude from the build
@@ -43,7 +44,7 @@ feedback_disable: false
 # feedback_text: "Need help?"
 # if you uncomment the previous line, it changes the Feedback text
 
-feedback_link: "https://github.com/missyrestless/avsitterplus.github.io/issues"
+feedback_link: "https://github.com/AVsitterPlus/avsitterplus.github.io/issues"
 # if you uncomment the previous line, it changes where the feedback link points to
 
 highlighter: rouge
@@ -128,7 +129,7 @@ description: "AVsitterPlus"
 url: https://avsitterplus.github.io
 
 # Site variables
-script_github: https://github.com/missyrestless/AVsitterPlus
+script_github: https://github.com/AVsitterPlus/AVsitterPlus
 sl_website: https://secondlife.com
 marketplace: https://marketplace.secondlife.com/stores/44210
 inworld: http://maps.secondlife.com/secondlife/Scylla/208/33/375

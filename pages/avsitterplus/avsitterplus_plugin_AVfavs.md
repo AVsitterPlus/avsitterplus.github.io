@@ -6,11 +6,11 @@ permalink: avsitterplus_plugin_AVfavs.html
 folder: Plugins
 ---
 
-# [AV]favs
+# AVP_favs
 
-`[AV]favs`, available since version 2.2r04, gives the user the ability to manage a list of their favorite poses in an engine. The use is simple: we can add the current pose to our favorites list, delete the current pose, and show a menu to select a pose to play among our favorites (select favorite menu).
+`AVP_favs`, available since version 2.2r04, gives the user the ability to manage a list of their favorite poses in an engine. The use is simple: we can add the current pose to our favorites list, delete the current pose, and show a menu to select a pose to play among our favorites (select favorite menu).
 
-It is set up through linked messages, so we need to use either the `BUTTON` or `ADJUST` commands. Below you can see some examples of how to implement the `[AV]favs` plugin.
+It is set up through linked messages, so we need to use either the `BUTTON` or `ADJUST` commands. Below you can see some examples of how to implement the `AVP_favs` plugin.
 
 ## Example 1
 

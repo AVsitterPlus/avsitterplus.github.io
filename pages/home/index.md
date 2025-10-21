@@ -9,7 +9,7 @@ toc: false
 <br><br>
 Welcome to the instructions for the AVsitterPlus&trade; pose system, as available in Second Life<sup>&reg;</sup>.
 
-The AVsitterPlus scripts are available <a href="https://github.com/missyrestless/AVsitterPlus">here on GitHub</a> and licensed under the <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License, Version 2.0</a>.
+The AVsitterPlus scripts are available <a href="https://github.com/AVsitterPlus/AVsitterPlus">here on GitHub</a> and licensed under the <a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License, Version 2.0</a>.
 
 The AVsitterPlus Documentation covers the following topics:
 

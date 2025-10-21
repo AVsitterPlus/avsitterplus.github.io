@@ -76,7 +76,7 @@ Default value. All warnings are shown by default.
 
 ### WARN 2
 
-If you collect a new package (box 2.1-12.04 or later), the `[AV]prop` script has been modified so you can switch off the next-owner permission check for props by typing `WARN 2` at the top of the notecard. Just be aware that setting next-owner perms on props to no-copy or no-transfer will break props if the furniture is transferred.
+If you collect a new package (box 2.1-12.04 or later), the `AVP_prop` script has been modified so you can switch off the next-owner permission check for props by typing `WARN 2` at the top of the notecard. Just be aware that setting next-owner perms on props to no-copy or no-transfer will break props if the furniture is transferred.
 
 _Original discussion can be found at [https://avsitter.com/qa/867](https://avsitter.com/qa/867)_
 

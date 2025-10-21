@@ -18,8 +18,8 @@ If you need advice with using AVsitterPlus, we suggest:
 
 ## Reporting code & documentation bugs
 
--  Code bugs can be reported on the <a href="https://github.com/missyrestless/AVsitterPlus/issues">AVsitterPlus GitHub issues page</a>.
--  For AVsitterPlus Documentation issues please use the <a href="https://github.com/missyrestless/avsitterplus.github.io/issues">AVsitterPlus Documentation GitHub issues page</a>.
+-  Code bugs can be reported on the <a href="https://github.com/AVsitterPlus/AVsitterPlus/issues">AVsitterPlus GitHub issues page</a>.
+-  For AVsitterPlus Documentation issues please use the <a href="https://github.com/AVsitterPlus/avsitterplus.github.io/issues">AVsitterPlus Documentation GitHub issues page</a>.
 
 ## Marketplace enquiries
 If you have a Marketplace or purchase related enquiry please contact <a href="http://world.secondlife.com/resident/3506213c-29c8-4aa1-a38f-e12f6d41b804">Missy Restless</a> with a full description. Messages will be checked every 3-4 days, so please be patient awaiting a response.

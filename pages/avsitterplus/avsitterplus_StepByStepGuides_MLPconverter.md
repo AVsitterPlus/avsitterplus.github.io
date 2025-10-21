@@ -40,7 +40,7 @@ This will not complete everything we must do. Let's insist on this:
 
 - We have to manually redo our menus
 - Props must be redone with the AVsitterPlus scripts, and replaced into the object
-- Sequences must be redone to suit the format of the `[AV]sequence_settings` notecard
+- Sequences must be redone to suit the format of the `AVP_sequence_settings` notecard
 - Facial expressions must be added manually
 - etc.
 

@@ -10,8 +10,8 @@ folder: contribute
 
 ## Scripting contributions
 
-- Script contributions should be submitted via pull request on the [AVsitterPlus GitHub repository](https://github.com/missyrestless/AVsitterPlus).
-- There is a link message guide for AVsitterPlus [here](https://github.com/missyrestless/AVsitterPlus/blob/master/AVsitterPlus/avsitterplus_link_message_reference.md).
+- Script contributions should be submitted via pull request on the [AVsitterPlus GitHub repository](https://github.com/AVsitterPlus/AVsitterPlus).
+- There is a link message guide for AVsitterPlus [here](https://github.com/AVsitterPlus/AVsitterPlus/blob/master/AVsitterPlus/avsitterplus_link_message_reference.md).
 - AVsitterPlus LSL scripts are licensed under the [Mozilla Public License Version 2.0](https://www.mozilla.org/en-US/MPL/2.0/) and must include the following header:
 <pre>/* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -19,7 +19,7 @@ folder: contribute
 
 ## Documentation contributions
 
-- Documentation improvements should be submitted via pull request on the [GitHub repository for AVsitterPlus Documentation](https://github.com/missyrestless/avsitterplus.github.io).
+- Documentation improvements should be submitted via pull request on the [GitHub repository for AVsitterPlus Documentation](https://github.com/AVsitterPlus/avsitterplus.github.io).
 - AVsitterPlus Documentation uses the [Jekyll Documentation Theme](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_pages.html) ([see template guidelines](/mydoc_introduction.html)).
 - AVsitterPlus Documentation is released under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 - LSL example scripts provided in the AVsitterPlus Documentation are released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license.

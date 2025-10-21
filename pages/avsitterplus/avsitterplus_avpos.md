@@ -171,7 +171,7 @@ Same as MTYPE 1, except the menu does not automatically return when a pose is se
 
     MTYPE 3
 
-With MTYPE 3 the menu is completely switched off and cannot be accessed (except via [link message 90005](/avsitterplus_scripting.html#message-90005) or [[AV]root script](/avsitterplus_utilities.html#avroot-script) or [[AV]root-security](/avsitterplus_utilities.html#avroot-security-script)). You might want this if you have only one pose in the furniture, and don't want a menu.
+With MTYPE 3 the menu is completely switched off and cannot be accessed (except via [link message 90005](/avsitterplus_scripting.html#message-90005) or [AVP_root script](/avsitterplus_utilities.html#avroot-script) or [AVP_root-security](/avsitterplus_utilities.html#avroot-security-script)). You might want this if you have only one pose in the furniture, and don't want a menu.
 
     MTYPE 4
 
@@ -195,7 +195,7 @@ The default. Avatars in a SYNC return to the first pose in their menu if someone
 Avatars in a SYNC will be "unseated" if a pose that does not include them is played in the prim.
 
 ### SITTER
-Begins the menu section for each avatar. The number of SITTER sections should match the number of [AV]sit (A+B) pairs of scripts you have in the prim. SITTER numbering starts at 0. A notecard that contains the info for 3 sitters would have 3 SITTER sections.
+Begins the menu section for each avatar. The number of SITTER sections should match the number of AVP_sit (A+B) pairs of scripts you have in the prim. SITTER numbering starts at 0. A notecard that contains the info for 3 sitters would have 3 SITTER sections.
 
 e.g.
 
@@ -215,7 +215,7 @@ POSE Sit1|animation1
 
 Each SITTER section must contain the entire menu for one sitting location.
 
-You may also name each SITTER by including your own text. This text will be shown in the menu dialog, and in the select menu as the button for the SITTER if you are using the [[AV]select script](/avsitterplus_utilities.html#avselect-script).
+You may also name each SITTER by including your own text. This text will be shown in the menu dialog, and in the select menu as the button for the SITTER if you are using the [AVP_select script](/avsitterplus_utilities.html#avselect-script).
 
 e.g.
 
@@ -238,15 +238,15 @@ i.e.
     SET 0
 
 ### SELECT
-Placed once at the top of the notecard, this controls menu behavior when using the [[AV]select script](/avsitterplus_utilities.html#avselect-script).
+Placed once at the top of the notecard, this controls menu behavior when using the [AVP_select script](/avsitterplus_utilities.html#avselect-script).
 
     SELECT 0
 
-The default. The [[AV]select](/avsitterplus_utilities.html#avselect-script) menu shows a disabled symbol (<span style="font-size:150%;">&oslash;</span>) for an occupied seat. The symbol is shown only while solo POSE is being played and not during a SYNC.
+The default. The [AVP_select](/avsitterplus_utilities.html#avselect-script) menu shows a disabled symbol (<span style="font-size:150%;">&oslash;</span>) for an occupied seat. The symbol is shown only while solo POSE is being played and not during a SYNC.
 
     SELECT 1
 
-No disabled symbol will be shown in the [[AV]select](/avsitterplus_utilities.html#avselect-script) menu and avatars will always be able to swap into an occupied seat.
+No disabled symbol will be shown in the [AVP_select](/avsitterplus_utilities.html#avselect-script) menu and avatars will always be able to swap into an occupied seat.
 
     SELECT 2
 
@@ -273,7 +273,7 @@ The default. Adds [SWAP] in all submenus, not just the top level of the menu.
 
 {% include note.html content="You can override SWAP 0 or SWAP 1 and make [SWAP] appear for a specific submenu (see [here](http://avsitter.com/qa/652))." %}
 
-{% include warning.html content="The optional [[AV]select script](/avsitterplus_utilities.html#avselect-script) completely replaces the normal [SWAP] buttons." %}
+{% include warning.html content="The optional [AVP_select script](/avsitterplus_utilities.html#avselect-script) completely replaces the normal [SWAP] buttons." %}
 
 ### ADJUST
 Placed once at the top of the notecard, allows addition of custom buttons to the [ADJUST] menu.  When selected by an avatar, the button will send a "link message" that can be received by your own scripts. The format is:
@@ -322,7 +322,7 @@ Same as `AMENU 2`, but custom buttons under the [ADJUST] menu will not send the 
 {% include note.html content="You can override AMENU 0 or AMENU 1 and make [ADJUST] appear for a specific submenu (see [here](http://avsitter.com/qa/652))." %}
 
 ### SEQUENCE
-Creates a button that starts a sequence specified in the [AV]sequence_settings notecard. See [sequence instructions](/avsitterplus_sequence.html) for details. e.g.
+Creates a button that starts a sequence specified in the AVP_sequence_settings notecard. See [sequence instructions](/avsitterplus_sequence.html) for details. e.g.
 
     SEQUENCE Scene1
 

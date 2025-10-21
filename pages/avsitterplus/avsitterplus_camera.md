@@ -6,20 +6,20 @@ permalink: avsitterplus_camera.html
 folder: avsitterplus
 ---
 
-## [AV]camera script
-The [AV]camera script allows creators to set the camera position for each pose.
+## AVP_camera script
+The AVP_camera script allows creators to set the camera position for each pose.
 
-Please note AVsitterPlus also has a [built-in camera setting](/avsitterplus_home.html#camera) that can set the camera prim property. Only use the [AV]camera script if you need different camera settings for different poses, or want to set different camera positions chosen by menu button.
+Please note AVsitterPlus also has a [built-in camera setting](/avsitterplus_home.html#camera) that can set the camera prim property. Only use the AVP_camera script if you need different camera settings for different poses, or want to set different camera positions chosen by menu button.
 
-{% include important.html content="The [AV]camera script is provided in the Plugins [BOX]." %}
+{% include important.html content="The AVP_camera script is provided in the Plugins [BOX]." %}
 
 ### Adding Camera Settings
 To add camera settings to your furniture, start with the [normal setup](/avsitterplus_home.html#setup) procedure, then:
 
-- Ensure the [AV]helper and [AV]adjuster are in the prim.
-- Drop an [AV]camera script into the prim for <ins>each</ins> sitter. If your furniture is for 2 avatars you'll need 2 x [AV]camera scripts.
+- Ensure the AVP_helper and AVP_adjuster are in the prim.
+- Drop an AVP_camera script into the prim for <ins>each</ins> sitter. If your furniture is for 2 avatars you'll need 2 x AVP_camera scripts.
 - Sit on the furniture, then choose a pose from the menu that you want to add a camera setting to.
-- Choose [ADJUST] then [HELPER] from the menu, and the [AV]helper stick will rez.
+- Choose [ADJUST] then [HELPER] from the menu, and the AVP_helper stick will rez.
 - Choose [NEW] from the menu, then choose [CAMERA] and select [SAVE].
 - Repeat for each pose you want to give a camera setting.
 - When you have finished adding all your camera settings, click [DUMP] to output your settings into chat.

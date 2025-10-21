@@ -20,11 +20,11 @@ These AVsitterPlus examples are provided in the Examples [BOX], inside the main 
 <li/>Example#03 (all sitters in one cushion w/couples)
 <li/>Example#04 (bed)
 <li/>Example#05 (singles poseball)
-<li/>Example#06a ([AV]select, one pose per sitter)
-<li/>Example#06b ([AV]select, multiple poses per sitter)
+<li/>Example#06a (AVP_select, one pose per sitter)
+<li/>Example#06b (AVP_select, multiple poses per sitter)
 <li/>Example#07a (sequence with "built-in" sequence)
-<li/>Example#07b (sequence with [AV]sequence)
-<li/>Example#07c (piano with [AV]sequence)
+<li/>Example#07b (sequence with AVP_sequence)
+<li/>Example#07c (piano with AVP_sequence)
 <li/>Example#08 (3 seats w/couples)
 <li/>Example#09 (3 single seats+couples)
 <li/>Example#10a (2 couples same prim)
@@ -47,19 +47,19 @@ Also be sure to see <a href="/avsitterplus_avpos.html#example-notecards">these e
 These <a href="/avsitterplus_prop.html">AVprop</a> examples are provided in the Plugins [BOX], inside the main AVsitterPlus package:
 
 <ul>
-<li/>[AV]prop Example#01 (single sitter)
-<li/>[AV]prop Example#02 (all sitters in one prim)
-<li/>[AV]prop Example#03 (table)
-<li/>[AV]prop Example#04 (shelf)
-<li/>[AV]prop Example#05 (drink dispenser)
+<li/>AVP_prop Example#01 (single sitter)
+<li/>AVP_prop Example#02 (all sitters in one prim)
+<li/>AVP_prop Example#03 (table)
+<li/>AVP_prop Example#04 (shelf)
+<li/>AVP_prop Example#05 (drink dispenser)
 </ul>
 
 ### AVfaces Examples
 These <a href="/avsitterplus_faces.html">AVfaces</a> examples are provided in the Plugins [BOX], inside the main AVsitterPlus package:
 
 <ul>
-<li/>[AV]faces Example#01 (single sitter)
-<li/>[AV]faces Example#02 (multiple sitters in one prim)
+<li/>AVP_faces Example#01 (single sitter)
+<li/>AVP_faces Example#02 (multiple sitters in one prim)
 </ul>
 
 ### AVcontrol Examples
