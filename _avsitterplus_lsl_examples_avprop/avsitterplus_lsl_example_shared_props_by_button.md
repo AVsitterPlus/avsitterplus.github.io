@@ -7,7 +7,7 @@ permalink: avsitterplus_lsl_example_shared_props_by_button.html
 //  Shared props with BUTTON (alpha) v0.01a
 //
 //  Allows props to be rezzed by button. They won't derez when sitters "swap" or
-//  if only one avatar stands up. Requires [AV]prop script from AVsitterPlus
+//  if only one avatar stands up. Requires AVP_prop script from AVsitterPlus
 //  box 2.1-09.01 or later. Shared props should use PROP3 in the AVpos notecard
 //  (a special prop type specifically for shared props).
 //

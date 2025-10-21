@@ -9,7 +9,7 @@ permalink: avsitterplus_lsl_example_shared_props_by_pose.html
 //  - Allows props to be "shared" i.e. props will rez while any one of a number
 //    of POSE/SYNC are playing for any avatar.
 //  - Also replaces the need for the "Rez Same Prop for Several Poses" script.
-//  - Requires [AV]prop script from AVsitterPlus box 2.1-09 or later.
+//  - Requires AVP_prop script from AVsitterPlus box 2.1-09 or later.
 //  - Shared props should use PROP3 in the AVpos notecard (a special prop type
 //    specifically for shared props).
 //  - Shared props can be set up in SITTER 0 section of the AVpos notecard in a

@@ -8,17 +8,17 @@ folder: avsitterplus
 
 ## AVfaces&trade;
 
-The [AV]faces script allows creators to add facial expressions to AVsitterPlus&trade; furniture.
+The AVP_faces script allows creators to add facial expressions to AVsitterPlus&trade; furniture.
 
 {% include important.html content="Facial expressions can be switched off via the [FACES] button in the [ADJUST] menu." %}
 
 ### Adding Facial Expressions
 To add facial expressions to your furniture, start with the [normal setup](/avsitterplus_home.html#setup) procedure, then:
 
-1. Ensure the [AV]helper and [AV]adjuster are in the prim.
-2. Drop the [AV]faces script into the prim.
+1. Ensure the AVP_helper and AVP_adjuster are in the prim.
+2. Drop the AVP_faces script into the prim.
 3. Sit on the furniture, then choose a pose from the menu that will trigger the facial expression.
-4. Choose [ADJUST] then [HELPER] from the menu, and the [AV]helper stick will rez.
+4. Choose [ADJUST] then [HELPER] from the menu, and the AVP_helper stick will rez.
 5. Choose [NEW] from the menu, then choose [FACE] and select an expression from the list.
 6. You should see the facial expression playing on your avatar.
 7. Repeat for each pose you want to give a facial expression.

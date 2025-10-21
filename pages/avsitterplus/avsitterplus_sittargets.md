@@ -10,7 +10,7 @@ folder: avsitterplus
 
 To sit on an object in SL, the object must have an available SitTarget. Each prim in an object can only have one SitTarget and when an avatar sits on a prim, the avatar will occupy that SitTarget. AVsitterPlus's default is to assign avatars to SITTERs in the order they sit. The first avatar to sit will be assigned to SITTER 0 and the second avatar to sit will be assigned to SITTER 1.
 
-{% include note.html content="An [AV]sit (A+B) pair of scripts defines a SITTER, which is the seat and menu for one avatar." %}
+{% include note.html content="An AVP_sit (A+B) pair of scripts defines a SITTER, which is the seat and menu for one avatar." %}
 
 {% include note.html content="For most setups, AVsitterPlus automatically assigns SitTargets as required. You only need to understand this section if you have [Multiple Setups](/avsitterplus_home.html#multiple-setups) in your furniture, or if you want to allow avatars to target a certain prim to sit on a specific SITTER." %}
 
@@ -45,7 +45,7 @@ To override the default behavior:
 
 {% include important.html content="If you assign SitTargets or SET #'s you should do so for all SITTERS in every setup that is for more than one avatar." %}
 
-{% include note.html content="With the [AV]adjuster script in the prim, you can type **/5 targets** in chat to briefly show the SitTargets in hovertext." %}
+{% include note.html content="With the AVP_adjuster script in the prim, you can type **/5 targets** in chat to briefly show the SitTargets in hovertext." %}
 
 {% include important.html content="If you need to use the prim description for another script, you can place the AVsitterPlus bit after a #. e.g. **tablecloth#0-0**." %}
 

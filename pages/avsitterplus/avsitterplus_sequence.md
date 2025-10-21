@@ -8,19 +8,19 @@ folder: avsitterplus
 
 ## AVsequence&trade;
 
-The [AV]sequence script allows for sequencing of poses, sounds and chat text to create a "scene". Each sequence is composed of any number of steps. If the sequence has multiple animations then a menu is given to control the sequence. You can also have sequences  that simply play a sound or some chat, whenever a pose is played.
+The AVP_sequence script allows for sequencing of poses, sounds and chat text to create a "scene". Each sequence is composed of any number of steps. If the sequence has multiple animations then a menu is given to control the sequence. You can also have sequences  that simply play a sound or some chat, whenever a pose is played.
 
-{% include important.html content="The [AV]sequence script is specifically made for couples or single-sitter setups. It is not suitable for controlling multiple solo sequences playing at the same time within the same setup prim or for playing sequences across separate prims. See the ['built-in' sequencing method](/avsitterplus_avpos.html#built-in-animation-sequence) for another option. For Yoga / Tai-Chi / Line Dancing see [here](https://avsitter.com/qa/815) instead." %}
+{% include important.html content="The AVP_sequence script is specifically made for couples or single-sitter setups. It is not suitable for controlling multiple solo sequences playing at the same time within the same setup prim or for playing sequences across separate prims. See the ['built-in' sequencing method](/avsitterplus_avpos.html#built-in-animation-sequence) for another option. For Yoga / Tai-Chi / Line Dancing see [here](https://avsitter.com/qa/815) instead." %}
 
-{% include note.html content="The [AV]sequence script can be found in the Plugins [BOX]." %}
+{% include note.html content="The AVP_sequence script can be found in the Plugins [BOX]." %}
 
 ### Sequence Basics
 To begin creating sequences:
 
-1. Add the [AV]sequence script and [AV]sequence_settings notecard to a prim that already has working poses.
-2. Design the structure of your scene by typing sequence commands into the [AV]sequence_settings notecard.
+1. Add the AVP_sequence script and AVP_sequence_settings notecard to a prim that already has working poses.
+2. Design the structure of your scene by typing sequence commands into the AVP_sequence_settings notecard.
 
-The following is an example [AV]sequence_settings notecard with one sequence, "Lovescene".
+The following is an example AVP_sequence_settings notecard with one sequence, "Lovescene".
 
 ```
 SEQUENCE Lovescene
@@ -41,19 +41,19 @@ Alternately, make sure your [AVpos](/avsitterplus_avpos.html) notecard has a POS
 
     SYNC Lovescene|<animation_filename>
 
-{% include note.html content="Sequences in the [AV]sequence_settings notecard are triggered by [SEQUENCE](/avsitterplus_avpos.html#sequence), [POSE](/avsitterplus_avpos.html#pose) or [SYNC](/avsitterplus_avpos.html#sync) in the AVpos notecard." %}
+{% include note.html content="Sequences in the AVP_sequence_settings notecard are triggered by [SEQUENCE](/avsitterplus_avpos.html#sequence), [POSE](/avsitterplus_avpos.html#pose) or [SYNC](/avsitterplus_avpos.html#sync) in the AVpos notecard." %}
 
 {% include important.html content="For full sequence examples see the [examples section](/avsitterplus_sequence.html#sequence-examples) further down this page." %}
 
 {% include tip.html content="Be sure to examine the sequence furniture examples provided in the AVsitterPlus Examples [BOX]." %}
 
 ## Sequence Commands
-This section outlines each of the notecard commands you can use in the [AV]sequence_settings notecard.
+This section outlines each of the notecard commands you can use in the AVP_sequence_settings notecard.
 
 ### SEQUENCE
 Placed at the start of a new sequence. The name must match the name of a [SEQUENCE](/avsitterplus_avpos.html#sequence), [POSE](/avsitterplus_avpos.html#pose) or [SYNC](/avsitterplus_avpos.html#sync) line in the AVpos notecard.
 
-e.g. in your [AV]sequence_settings notecard:
+e.g. in your AVP_sequence_settings notecard:
 
     SEQUENCE Lovescene
 
@@ -181,7 +181,7 @@ All steps of a sequence will be whispered in chat.
 
 ## Sequence Examples
 
-### [AV]sequence_settings notecard
+### AVP_sequence_settings notecard
 
 ```
 SEQUENCE Dance

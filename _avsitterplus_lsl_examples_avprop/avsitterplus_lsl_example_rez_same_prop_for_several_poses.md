@@ -5,7 +5,7 @@ permalink: avsitterplus_lsl_example_rez_same_prop_for_several_poses.html
 
 ```js
 /******************************************************************
-* Requires [AV]prop script from box 2.1-07 or later!
+* Requires AVP_prop script from box 2.1-07 or later!
 *
 * This example uses 90220 to rez a prop while any one of a number of poses are playing.
 * Useful if you want the same prop to remain rezzed for several poses.

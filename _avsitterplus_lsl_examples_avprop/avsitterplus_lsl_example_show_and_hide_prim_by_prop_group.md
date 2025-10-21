@@ -7,7 +7,7 @@ permalink: avsitterplus_lsl_example_show_and_hide_prim_by_prop_group.html
 /******************************************************************
  * Hide/Show furniture prim when certain <prop_group> is rezzed or derezzed/detached.
  * Place in the prim to hide/show.
- * Uses [AV]prop's 90500 link message.
+ * Uses AVP_prop's 90500 link message.
 ******************************************************************/
 
 string PROP_GROUP = "GROUP1"; // <prop_group> to hide/show for

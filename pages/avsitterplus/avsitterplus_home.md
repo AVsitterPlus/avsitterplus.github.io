@@ -12,17 +12,17 @@ folder: avsitterplus
 
 AVsitterPlus can be freely obtained from GitHub and imported into Second Life by following our <a href='https://github.com/missyrestless/AVsitterPlus/blob/master/AVsitterPlus/IMPORT_GUIDE.md'>import guide</a>.
 
-{% include tip.html content="If you would prefer a packaged version of the latest release, and to receive in-world updates of future releases, visit the <a href='https://marketplace.secondlife.com/stores/79645'>SL Marketplace</a> or <a href='https://www.kitely.com/market?store=15535242'>Kitely Market</a>. Proceeds from marketplace sales are shared with open-source contributors and help support continued development." %}
+{% include tip.html content="If you would prefer a packaged version of the latest release, and to receive in-world updates of future releases, visit the <a href='https://marketplace.secondlife.com/stores/44210'>SL Marketplace</a>. Proceeds from marketplace sales are shared with open-source contributors and help support continued development." %}
 
 ## Inside the AVsitterPlus Package
 
 The main AVsitterPlus package contains:
 
--  <b>[AV]sitA & [AV]sitB scripts</b>
+-  <b>AVP_sitA & AVP_sitB scripts</b>
 
    The main scripts that must always be used in a pair (A+B), one pair for each avatar to sit. Each pair will define a SITTER.
 
--  <b>[AV]adjuster script & [AV]helper object</b>
+-  <b>AVP_adjuster script & AVP_helper object</b>
 
    These are setup items that allow the default pose positions to be adjusted.
 
@@ -60,17 +60,17 @@ The most basic setup is a prim that seats one avatar.
 <li/>Drop the following into an empty prim in your furniture:
 
 <ul>
-<li/>[AV]sitA + [AV]sitB scripts
-<li/>[AV]adjuster script
-<li/>[AV]helper object
+<li/>AVP_sitA + AVP_sitB scripts
+<li/>AVP_adjuster script
+<li/>AVP_helper object
 <li/>AVpos notecard
 <li/>The animation files you plan to use
 </ul>
-{% include note.html content="One pair of [AV]sit (A+B) scripts will mean the prim has <i>one</i> SITTER." %}
+{% include note.html content="One pair of AVP_sit (A+B) scripts will mean the prim has <i>one</i> SITTER." %}
 
 <li/>Sit on your furniture, and the menu will appear (if you lose the menu just touch your furniture again to get the menu back).
 
-<li/>Choose [ADJUST] then [HELPER] from the menu, and the [AV]helper stick will rez.
+<li/>Choose [ADJUST] then [HELPER] from the menu, and the AVP_helper stick will rez.
 
 <li/>Choose [NEW] from the menu, then choose [POSE] to create a singles pose.
 
@@ -91,7 +91,7 @@ The most basic setup is a prim that seats one avatar.
 <br>
 {% include important.html content="When you [DUMP] you'll see the diamond character (&diams;) on every line. All text on a notecard line before the diamond is ignored by the script. This allows you to copy-paste chat output directly into your notecard without having to remove the timestamp from every line. If you remove the timestamps from your notecard then you can safely remove the diamonds." %}
 
-{% include tip.html content="Once setup is complete, you can (optionally) remove the [AV]helper and [AV]adjuster from your furniture. Leaving them in will allow the <u>next owner</u> to modify and [SAVE] the default pose positions (although they will not have access to [DUMP] or [NEW] unless they are an AVsitterPlus owner)." %}
+{% include tip.html content="Once setup is complete, you can (optionally) remove the AVP_helper and AVP_adjuster from your furniture. Leaving them in will allow the <u>next owner</u> to modify and [SAVE] the default pose positions (although they will not have access to [DUMP] or [NEW] unless they are an AVsitterPlus owner)." %}
 
 <br>
 <b>Basic Setup Video</b>
@@ -107,10 +107,10 @@ Setup of a prim for multiple avatars is the same as for <a href="/avsitterplus_h
 <ol>
 <li/>Your object must have a prim count equal to or greater than the number of avatars you plan on sitting.
 
-<li/>You will need to drop one pair of [AV]sit (A+B) scripts into the prim <i>for each avatar you want to sit</i>.
-i.e. For 2 sitters you'll need 2 pairs of [AV]sit (A+B) scripts.
+<li/>You will need to drop one pair of AVP_sit (A+B) scripts into the prim <i>for each avatar you want to sit</i>.
+i.e. For 2 sitters you'll need 2 pairs of AVP_sit (A+B) scripts.
 
-{% include note.html content="SL should automatically name your scripts sequentially when you drop them in together. Please make sure it does this correctly, as the names must be sequential. i.e. [AV]sitA, [AV]sitA 1, [AV]sitB, [AV]sitB 1" %}
+{% include note.html content="SL should automatically name your scripts sequentially when you drop them in together. Please make sure it does this correctly, as the names must be sequential. i.e. AVP_sitA, AVP_sitA 1, AVP_sitB, AVP_sitB 1" %}
 
 <li/>In the [NEW] menu, choosing [POSE] will create a singles pose and choosing [SYNC] will create a couples pose.
 
@@ -159,16 +159,16 @@ To save a camera position...
 
 {% include warning.html content="For camera settings in multiple prims, be aware of JIRA <a href=\"https://jira.secondlife.com/browse/BUG-5494\">BUG-5494</a>." %}
 
-{% include note.html content="If you need a different camera position for each pose, see information for the <a href='/avsitterplus_camera.html'>[AV]camera script</a> instead." %}
+{% include note.html content="If you need a different camera position for each pose, see information for the <a href='/avsitterplus_camera.html'>AVP_camera script</a> instead." %}
 
 ### Chat Commands
 
-The following chat commands can be typed into local chat while the [AV]adjuster and [AV]helper are in the furniture:
+The following chat commands can be typed into local chat while the AVP_adjuster and AVP_helper are in the furniture:
 
 <ul>
 <li/>/5 helper - rezzes the helpers (alternate to using menu).
 
-<li/>/5 cleanup - deletes the [AV]adjuster & [AV]helper from the prim.
+<li/>/5 cleanup - deletes the AVP_adjuster & AVP_helper from the prim.
 
 <li/>/5 &lt;avatar uuid&gt; - moves the helper into the exact position of another avatar. Useful for copying positions from poseballs.
 
@@ -199,7 +199,7 @@ It is possible to have any mix of singles & couples setups in different prims of
 
 ### Setups for 3+ Avatars
 
-Setups in one prim for 3+ avatars is the same as for <a href="/avsitterplus_home.html#couples-prim-setup">couples setup</a> but needs to include more pairs of [AV]sit (A+B) scripts. The [NEW] menu will allow you to add a SYNC pose for multiple SITTERs but you should also learn to add/edit poses <a href="/avsitterplus_avpos.html">manually in the notecard</a>.
+Setups in one prim for 3+ avatars is the same as for <a href="/avsitterplus_home.html#couples-prim-setup">couples setup</a> but needs to include more pairs of AVP_sit (A+B) scripts. The [NEW] menu will allow you to add a SYNC pose for multiple SITTERs but you should also learn to add/edit poses <a href="/avsitterplus_avpos.html">manually in the notecard</a>.
 
 {% include note.html content="If your furniture does not include SYNC poses you could instead set each avatar's poses in separate prims. e.g. a table with 4 chairs around would usually be best with a singles setup in each chair, rather than 4 SITTERs in one." %}
 

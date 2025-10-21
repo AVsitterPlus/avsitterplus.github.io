@@ -19,23 +19,23 @@ folder: avsitterplus
 Before adding a prop to your project, you'll need to create the prop object:
 
 1. Choose any object you want to use as a prop. e.g. Laptop Computer, Reading Book, Coffee Cup, etc.
-2. Drop the **[AV]object** script into the object's root prim.
+2. Drop the **AVP_object** script into the object's root prim.
 3. Repeat for each object you plan to use as a prop.
 
 {% include important.html content="Normal props *must* be COPY-OK for NEXT OWNER." %}
 
 {% include note.html content="If your prop is to be an avatar attachment, also see the [section about avatar attachments](/avsitterplus_prop.html#attachment-props)." %}
 
-{% include warning.html content="Remember to use the correct script: [AV]object goes inside your prop objects." %}
+{% include warning.html content="Remember to use the correct script: AVP_object goes inside your prop objects." %}
 
 ## Setting up a Prop with AVsitterPlus&trade;
 
 To add props to your furniture, start with the [normal setup](/avsitterplus_home.html#setup) procedure, then:
 
-1. Ensure the [AV]helper and [AV]adjuster are in the prim.
-2. Drop the [AV]prop script and your prepared prop objects into the prim.
+1. Ensure the AVP_helper and AVP_adjuster are in the prim.
+2. Drop the AVP_prop script and your prepared prop objects into the prim.
 3. Sit on the prim, then choose a pose from the menu that you want to trigger the prop.
-4. Choose [ADJUST] then [HELPER] from the menu, and the [AV]helper stick will rez.
+4. Choose [ADJUST] then [HELPER] from the menu, and the AVP_helper stick will rez.
 5. Choose [NEW] from the menu, then choose [PROP].
 6. Choose your prop object from the menu and the prop object will rez inworld.
 7. Move the prop object with the SL building tools to where you want it to rez inworld, then click [SAVE]. Props can rez a maximum of 10 metres from the border of the prim.
@@ -45,7 +45,7 @@ To add props to your furniture, start with the [normal setup](/avsitterplus_home
 
 {% include note.html content="Props are defined separately for each SITTER." %}
 
-{% include warning.html content="Remember to use the correct script: [AV]object goes inside your prop objects, [AV]prop goes inside your furniture." %}
+{% include warning.html content="Remember to use the correct script: AVP_object goes inside your prop objects, AVP_prop goes inside your furniture." %}
 
 ### Props with AVsit Video
 
@@ -55,17 +55,17 @@ To add props to your furniture, start with the [normal setup](/avsitterplus_home
 
 ## Setting up a Prop with AVmenu&trade;
 
-With AVmenu&trade; you can create menus in prims that don't have animations. The [AV]menu script can be used in spare prims of furniture or in stand-alone objects that don't have seating (e.g. lazy Susan, kitchen/bar, item dispenser, drinks machine).
+With AVmenu&trade; you can create menus in prims that don't have animations. The AVP_menu script can be used in spare prims of furniture or in stand-alone objects that don't have seating (e.g. lazy Susan, kitchen/bar, item dispenser, drinks machine).
 
-{% include important.html content="The [AV]menu script can be used in any prim that does *NOT* include the [AV]sit, [AV]root or [AV]root-security scripts." %}
+{% include important.html content="The AVP_menu script can be used in any prim that does *NOT* include the AVP_sit, AVP_root or AVP_root-security scripts." %}
 
-As with the [AV]sit scripts, [AV]menu is controlled by an AVpos notecard. [AV]menu allows BUTTON, TOMENU, MENU, TEXT and MTYPE 3 from the [Notecard Commands](/avsitterplus_avpos.html#notecard-commands) to be used to create menus and also reacts to the [90005 link message](/avsitterplus_scripting.html#link-messages-to-send) in the same way as the [AV]sit scripts.
+As with the AVP_sit scripts, AVP_menu is controlled by an AVpos notecard. AVP_menu allows BUTTON, TOMENU, MENU, TEXT and MTYPE 3 from the [Notecard Commands](/avsitterplus_avpos.html#notecard-commands) to be used to create menus and also reacts to the [90005 link message](/avsitterplus_scripting.html#link-messages-to-send) in the same way as the AVP_sit scripts.
 
-To add props to a prim using [AV]menu:
+To add props to a prim using AVP_menu:
 
 1. Drop the following into the prim:
-  - [AV]menu script
-  - [AV]prop script
+  - AVP_menu script
+  - AVP_prop script
   - AVpos notecard
   - Your prepared prop objects
 2. Touch the prim, choose [OWNER] to enter the owner menu.
@@ -77,7 +77,7 @@ To add props to a prim using [AV]menu:
 7. When you have finished saving all your props, click [DUMP] to output your settings into chat.
 8. Copy-paste the [DUMP] result into your AVpos notecard, replacing the contents of the notecard.
 
-{% include warning.html content="End-users of objects made with [AV]menu & [AV]prop will see [NEW] and [DUMP] in [AV]menu's [OWNER] menu, unless you set the [AV]prop script to NO-COPY or NO-TRANSFER." %}
+{% include warning.html content="End-users of objects made with AVP_menu & AVP_prop will see [NEW] and [DUMP] in AVP_menu's [OWNER] menu, unless you set the AVP_prop script to NO-COPY or NO-TRANSFER." %}
 
 ### Props with AVmenu Video
 
@@ -123,7 +123,7 @@ Possible values:
 ## Experience Keys
 Second Life has now enabled 'experiences' which will allow automatic attachments (without need for any permission request).
 
-{% include important.html content="The packaged version of AVsitterPlus (inworld updates and marketplace) includes the [AV]object script compiled with the AVsitter experience by Code Violet. If you compiled [AV]object from GitHub yourself, this section doesn't apply, as the script won't have the experience enabled." %}
+{% include important.html content="The packaged version of AVsitterPlus (inworld updates and marketplace) includes the AVP_object script compiled with the AVsitter experience by Code Violet. If you compiled AVP_object from GitHub yourself, this section doesn't apply, as the script won't have the experience enabled." %}
 
 For automatic attachments to work, Users will need to enable the experience <ins>'AVsitter'</ins> (created by Code Violet) on their land. An experience may be enabled at the Estate or Parcel level by [adding it to the **'Allowed Experiences'** list](https://avsitter.com/pics/experiences.jpg). For an excellent explanation, [see this video by Froukje Hoorenbeek](https://www.youtube.com/watch?v=3gcy403FtAk). Be sure to choose [the experience created by Code Violet](https://avsitter.com/pics/experiences2.jpg) as anyone could have accidentally created an experience with the same name.
 
@@ -253,7 +253,7 @@ PROP Couples1|laptop|G1|<0.319954, 0.837922, 0.312684>|<-105.833200, -55.077900,
 
 ### AVmenu&trade; Example
 
-Example notecard for [AV]menu with [AV]prop. Demonstrates use of prop groups (shelf1,shelf2,shelf3).
+Example notecard for AVP_menu with AVP_prop. Demonstrates use of prop groups (shelf1,shelf2,shelf3).
 
 ```
 TEXT Welcome to my display case :)\nChoose items to rez!\n
@@ -272,7 +272,7 @@ PROP Plates|plates|shelf3|<0.199730, -0.000938, 0.434692>|<-90.000000, 73.000010
 PROP Vase|vase|shelf3|<-0.022728, -0.019066, 0.440918>|<0.000000, 0.000009, 174.400100>
 ```
 
-{% include tip.html content="For working examples, see the [AV]prop examples provided to you in the Plugins Examples [BOX]." %}
+{% include tip.html content="For working examples, see the AVP_prop examples provided to you in the Plugins Examples [BOX]." %}
 
 ## LSL Scripting
 Scripting methods can be used to rez and remove props, and respond to prop related events.
@@ -284,7 +284,7 @@ Scripting methods can be used to rez and remove props, and respond to prop relat
 
 #### Message 90200 & 90220
 
-Instructs [AV]prop to rez a prop by its &lt;trigger_name&gt;. e.g.
+Instructs AVP_prop to rez a prop by its &lt;trigger_name&gt;. e.g.
 
     llMessageLinked(LINK_THIS, 90220, "Fruit", "");
 
@@ -306,7 +306,7 @@ To derez a specific prop by name, just add "remprop_" to the beginning of the &l
 
 {% include important.html content="If you want the menu returned to the avatar, use 90200 instead of 90220." %}
 
-{% include note.html content="The [AV]prop script can be used by itself to create a rezzing prim where props defined in an AVpos notecard are rezzed entirely via link messages (i.e. without sit scripts in the same prim)." %}
+{% include note.html content="The AVP_prop script can be used by itself to create a rezzing prim where props defined in an AVpos notecard are rezzed entirely via link messages (i.e. without sit scripts in the same prim)." %}
 
 {% include note.html content="Link Messages that rez/derez props must be sent from the same prim the props are in." %}
 
@@ -314,7 +314,7 @@ To derez a specific prop by name, just add "remprop_" to the beginning of the &l
 
 #### Message 90500
 
-[AV]prop reports on events relating to props with link message 90500. The key field will include the UUID of the avatar. The string field includes the event type, SITTER #, &lt;trigger_name&gt;, &lt;prop_object&gt;, &lt;prop_group&gt; & the prop's UUID, each separated by the pipe ( &#124; ) character (to separate this information, llParseStringKeepNulls(); is used). Possible event types are ATTACHED, DETACHED, REZ, DEREZ. This information may be useful to trigger scripted actions in certain advanced projects.
+AVP_prop reports on events relating to props with link message 90500. The key field will include the UUID of the avatar. The string field includes the event type, SITTER #, &lt;trigger_name&gt;, &lt;prop_object&gt;, &lt;prop_group&gt; & the prop's UUID, each separated by the pipe ( &#124; ) character (to separate this information, llParseStringKeepNulls(); is used). Possible event types are ATTACHED, DETACHED, REZ, DEREZ. This information may be useful to trigger scripted actions in certain advanced projects.
 
 e.g.
 
@@ -339,9 +339,9 @@ default
 }
 ```
 
-### LSL Link Messages Source in [AV]menu
+### LSL Link Messages Source in AVP_menu
 
-If you're using [AV]menu, starting in version $NEXTVERSION you can select which prims to accept link messages from, by using the command `LMSOURCE` in the AVpos notecard as follows:
+If you're using AVP_menu, starting in version $NEXTVERSION you can select which prims to accept link messages from, by using the command `LMSOURCE` in the AVpos notecard as follows:
 
 - `LMSOURCE 0` means that it accepts script link messages from the current prim only.
 - `LMSOURCE 1` means it accepts script link messages from any prim.
