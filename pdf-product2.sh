@@ -1,3 +1,16 @@
+#!/bin/bash
+
+have_prince=$(type -p prince)
+[ "${have_prince}" ] || {
+  echo "ERROR: could not locate prince. Exiting."
+  exit 1
+}
+have_jekyll=$(type -p jekyll)
+[ "${have_jekyll}" ] || {
+  echo "ERROR: could not locate jekyll. Exiting."
+  exit 1
+}
+
 echo 'Killing all Jekyll instances'
 kill -9 $(ps aux | grep '[j]ekyll' | awk '{print $2}')
 clear
