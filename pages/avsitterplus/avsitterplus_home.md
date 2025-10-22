@@ -207,10 +207,10 @@ Setups in one prim for 3+ avatars is the same as for <a href="/avsitterplus_home
 
 ### Animation Sequences
 
-AVsitterPlus provides two ways to do sequences: the <a href="/avsitterplus_sequence.html">AVsequence&trade;</a> script and the <a href="/avsitterplus_avpos.html#built-in-animation-sequence">"built-in" sequence</a> method. Read about both and use the method most appropriate for your situation.
+AVsitterPlus provides two ways to do sequences: the <a href="/avsitterplus_sequence.html">AVP_sequence&trade;</a> script and the <a href="/avsitterplus_avpos.html#built-in-animation-sequence">"built-in" sequence</a> method. Read about both and use the method most appropriate for your situation.
 
 ### Sounds and Songs
 
-Playing sound files is achieved with the <a href="/avsitterplus_sequence.html">AVsequence&trade;</a> script (includes playing a single sound with a pose, or a complete song).
+Playing sound files is achieved with the <a href="/avsitterplus_sequence.html">AVP_sequence&trade;</a> script (includes playing a single sound with a pose, or a complete song).
 
 {% include links.html %}

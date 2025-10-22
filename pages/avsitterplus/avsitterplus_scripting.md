@@ -43,7 +43,7 @@ If the string includes a [MENU](/avsitterplus_avpos.html#menu) name then it will
 
     llMessageLinked(LINK_SET, 90005, "My Submenu", <avatar_uuid>);
 
-If using [AVcontrol](/avsitterplus_control.html), you can send the controlling avatar's UUID and the sitting avatar's UUID, separated by the pipe (`|`) character. e.g.
+If using [AVP_control](/avsitterplus_control.html), you can send the controlling avatar's UUID and the sitting avatar's UUID, separated by the pipe (`|`) character. e.g.
 
     llMessageLinked(LINK_SET, 90005, "", <controller_uuid>|<sitter_uuid>);
 

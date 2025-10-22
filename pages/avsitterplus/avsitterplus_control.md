@@ -1,16 +1,16 @@
 ---
-title: AVcontrol&trade;
+title: AVP_control&trade;
 keywords: plugin, control
 sidebar: avsitterplus_sidebar
 permalink: avsitterplus_control.html
 folder: avsitterplus
 ---
 
-## AVcontrol&trade;
+## AVP_control&trade;
 
-The AVcontrol&trade; plugin adds specialized features to AVsitterPlus&trade; furniture including for photo studio or furniture where one avatar wants to control the menu of another avatar. The plugin also includes scripts for compatibility with some popular 3rd party adult roleplay systems in SL such as [RLV](http://wiki.secondlife.com/wiki/Third_Party_Viewer_Directory/Restrained_Love), [Xcite!](https://www.getxcite.com/) and [Lockguard](http://lslwiki.net/lslwiki/wakka.php?wakka=exchangeLockGuard).
+The AVP_control&trade; plugin adds specialized features to AVsitterPlus&trade; furniture including for photo studio or furniture where one avatar wants to control the menu of another avatar. The plugin also includes scripts for compatibility with some popular 3rd party adult roleplay systems in SL such as [RLV](http://wiki.secondlife.com/wiki/Third_Party_Viewer_Directory/Restrained_Love), [Xcite!](https://www.getxcite.com/) and [Lockguard](http://lslwiki.net/lslwiki/wakka.php?wakka=exchangeLockGuard).
 
-{% include important.html content="AVcontrol scripts and examples are found inside the AVcontrol [BOX] (inside the Plugins [BOX])." %}
+{% include important.html content="AVP_control scripts and examples are found inside the AVP_control [BOX] (inside the Plugins [BOX])." %}
 
 ### AVP_root-control script
 The AVP_root-control script allows menus of sitting avatars to be controlled by another avatar. e.g. for photo studio.
@@ -35,7 +35,7 @@ To use this feature:
 
 {% include important.html content="The AVP_root-RLV script can not be used when assigning SitTargets for [multiple SET](avsitterplus_sittargets.html) in the same object." %}
 
-{% include tip.html content="For examples, see the [AVP_control examples](avsitterplus_control.html#examples) provided to you in the AVcontrol [BOX]." %}
+{% include tip.html content="For examples, see the [AVP_control examples](avsitterplus_control.html#examples) provided to you in the AVP_control [BOX]." %}
 
 #### Capture behavior
 
@@ -187,7 +187,7 @@ ONCAPTURE @unsit=n|@fartouch=n
 ```
 {% include important.html content="RLV settings are not printed out during settings [DUMP]! Remember to leave your settings at the top of the notecard." %}
 
-{% include tip.html content="For more examples, see the [AVP_control examples](avsitterplus_control.html#examples) provided to you in the AVcontrol [BOX]." %}
+{% include tip.html content="For more examples, see the [AVP_control examples](avsitterplus_control.html#examples) provided to you in the AVP_control [BOX]." %}
 
 ### AVP_root-RLV-extra script
 
@@ -217,8 +217,11 @@ This optional script allows you to make your AVsitterPlus&trade; furniture compa
 ### AVP_LockGuard script
 This optional script allows you to make your AVsitterPlus&trade; furniture work with [LockGuard V2](http://wiki.secondlife.com/wiki/LSL_Protocol/LockGuard) compatible cuffs (e.g. [OpenCollar](http://opencollar.at)) for particle chains. Details for use are included within the AVP_LockGuard script itself.
 
+### AVP_LockMeister script
+The LockMeister System is a keyring of commands used for enhanced functions in bondage toys. Its main function is to get the keys needed for particle chains. This optional script allows you to make your AVsitterPlus&trade; furniture work with [LockMeister V2](https://wiki.secondlife.com/wiki/LSL_Protocol/LockMeister_System).
+
 ## Examples
-The following Examples are provided in the AVcontrol box:
+The following Examples are provided in the AVP_control box:
 
 - **Photo Stand**
 Basic example of the AVP_root-control script for a non-RLV situation.

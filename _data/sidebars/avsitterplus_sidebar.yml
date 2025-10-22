@@ -60,35 +60,35 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: AVprop
+    - title: AVP_prop
       url: /avsitterplus_prop.html
       output: web, pdf
 
-    - title: AVfaces
+    - title: AVP_faces
       url: /avsitterplus_faces.html
       output: web, pdf
 
-    - title: AVcamera
+    - title: AVP_camera
       url: /avsitterplus_camera.html
       output: web, pdf
 
-    - title: AVsequence
+    - title: AVP_sequence
       url: /avsitterplus_sequence.html
       output: web, pdf
 
-    - title: AVcontrol
+    - title: AVP_control
       url: /avsitterplus_control.html
       output: web, pdf
 
-    - title: AVfavs
-      url: /avsitterplus_plugin_AVfavs.html
+    - title: AVP_favs
+      url: /avsitterplus_plugin_AVP_favs.html
       output: web, pdf
 
     - title: LockMeister
       url: /avsitterplus_plugin_LockMeister.html
       output: web, pdf
  
-    - title: LSL Examples (AVprop)
+    - title: LSL Examples (AVP_prop)
       url: /avsitterplus_lsl_examples_avprop.html
       output: web, pdf
 

@@ -1,6 +1,6 @@
 ---
-title: AVprop&trade;
-summary: AVprop allows AVsitterPlus&trade; to rez props and can also be used as a standalone prop rezzer in creations without seating. Props are inworld objects rezzed on the land. Props can also become avatar attachments.
+title: AVP_prop&trade;
+summary: AVP_prop allows AVsitterPlus&trade; to rez props and can also be used as a standalone prop rezzer in creations without seating. Props are inworld objects rezzed on the land. Props can also become avatar attachments.
 keywords: plugin, prop
 sidebar: avsitterplus_sidebar
 permalink: avsitterplus_prop.html
@@ -9,7 +9,7 @@ folder: avsitterplus
 
 {% include note.html content="Props are not TEMP_ON_REZ and will count towards land prim limits." %}
 
-{% include tip.html content="For examples that use props, see the AVprop examples in the Plugins Examples [BOX]." %}
+{% include tip.html content="For examples that use props, see the AVP_prop examples in the Plugins Examples [BOX]." %}
 
 {% include important.html content="For answers to some common questions about props please see the [AVsitter Q&A archive.](https://avsitter.com/qa)" %}
 
@@ -180,7 +180,7 @@ PROP Clear Quilt||G1
 {% include important.html content="Attachment props will <i>not</i> create new inventory and will disappear on disconnect." %}
 
 ## Example Notecards
-Following are some examples of notecard lines and complete notecards relating to AVprop&trade;
+Following are some examples of notecard lines and complete notecards relating to AVP_prop&trade;
 
 ### PROP line examples
 
@@ -348,6 +348,6 @@ If you're using AVP_menu, starting in version $NEXTVERSION you can select which 
 
 
 ### Script Examples
-For AVprop script examples click [here](/avsitterplus_lsl_examples_avprop.html).
+For AVP_prop script examples click [here](/avsitterplus_lsl_examples_avprop.html).
 
 {% include links.html %}

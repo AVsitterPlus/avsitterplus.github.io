@@ -1,8 +1,8 @@
 ---
-title: The AVfavs plugin
+title: The AVP_favs plugin
 keywords: AVsitterPlus, avfavs
 sidebar: avsitterplus_sidebar
-permalink: avsitterplus_plugin_AVfavs.html
+permalink: avsitterplus_plugin_AVP_favs.html
 folder: Plugins
 ---
 
