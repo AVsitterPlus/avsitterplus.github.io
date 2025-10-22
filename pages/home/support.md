@@ -13,7 +13,7 @@ If you need advice with using AVsitterPlus, we suggest:
 -  Study the <a href="https://avsitterplus.github.io">instructions</a> including the <a href="https://www.youtube.com/user/code5violet/videos">AVsitter tutorials on youtube</a>.
 -  Examine the <a href="/avsitterplus_examples.html">example items</a> found inside the AVsitterPlus Examples [BOX] (included in the <a href="{{ site.marketplace }}">packaged edition</a>).
 -  Search the <a href="https://avsitter.com/qa">AVsitter support Q&A website archive</a> where many questions were answered.
--  Join <a href="http://world.secondlife.com/group/ccd07e24-4fdd-750f-f28f-fadd795d32ca">Unofficial AVsitter Support Group</a> in Second Life, where community members may be able to help. If you don't receive an immediate answer, try again at another time when other users are online.
+-  Join <a href="http://world.secondlife.com/group/ddc3029b-7111-81d1-55ff-c2f2e6e583e0">Unofficial AVsitterPlus Support Group</a> in Second Life, where community members may be able to help. If you don't receive an immediate answer, try again at another time when other users are online.
 -  Follow the <a href="/news_archive.html">news page</a> for information about future development.
 
 ## Reporting code & documentation bugs
