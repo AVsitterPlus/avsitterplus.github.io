@@ -1,12 +1,12 @@
 ---
-title: AVfaces&trade;
+title: AVP_faces&trade;
 keywords: plugin, faces
 sidebar: avsitterplus_sidebar
 permalink: avsitterplus_faces.html
 folder: avsitterplus
 ---
 
-## AVfaces&trade;
+## AVP_faces&trade;
 
 The AVP_faces script allows creators to add facial expressions to AVsitterPlus&trade; furniture.
 
@@ -86,7 +86,7 @@ If you want to re-use an ANIM line that is already defined for the same sitter, 
 
 {% include important.html content="We suggest a sensible maximum of 3 expressions per ANIM line, to conserve script memory and reduce clutter. Also, scripts can only read the first 255 characters (bytes) per notecard line." %}
 
-{% include tip.html content="For examples that use AVfaces&trade;, see the Plugins Examples [BOX]." %}
+{% include tip.html content="For examples that use AVP_faces&trade;, see the Plugins Examples [BOX]." %}
 
 {% include important.html content="<a href='https://community.secondlife.com/t5/Featured-News/Introducing-Project-Bento-New-Bones-Added-to-Second-Life-Avatar/ba-p/2987206'>Project Bento</a> is now a reality in Second Life. It changes nothing about this script. For Bento mesh heads to work with this script, they should have a piece of scripting that reacts to a facial expression by launching its own Bento associated animation." %}
 

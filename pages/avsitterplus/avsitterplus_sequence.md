@@ -1,12 +1,12 @@
 ---
-title: AVsequence&trade;
+title: AVP_sequence&trade;
 keywords: sequence
 sidebar: avsitterplus_sidebar
 permalink: avsitterplus_sequence.html
 folder: avsitterplus
 ---
 
-## AVsequence&trade;
+## AVP_sequence&trade;
 
 The AVP_sequence script allows for sequencing of poses, sounds and chat text to create a "scene". Each sequence is composed of any number of steps. If the sequence has multiple animations then a menu is given to control the sequence. You can also have sequences  that simply play a sound or some chat, whenever a pose is played.
 

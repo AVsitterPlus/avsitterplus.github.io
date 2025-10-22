@@ -43,8 +43,8 @@ These AVsitterPlus examples are provided in the Examples [BOX], inside the main 
 </ul>
 Also be sure to see <a href="/avsitterplus_avpos.html#example-notecards">these example notecards</a>.
 
-### AVprop Examples
-These <a href="/avsitterplus_prop.html">AVprop</a> examples are provided in the Plugins [BOX], inside the main AVsitterPlus package:
+### AVP_prop Examples
+These <a href="/avsitterplus_prop.html">AVP_prop</a> examples are provided in the Plugins [BOX], inside the main AVsitterPlus package:
 
 <ul>
 <li/>AVP_prop Example#01 (single sitter)
@@ -54,15 +54,15 @@ These <a href="/avsitterplus_prop.html">AVprop</a> examples are provided in the 
 <li/>AVP_prop Example#05 (drink dispenser)
 </ul>
 
-### AVfaces Examples
-These <a href="/avsitterplus_faces.html">AVfaces</a> examples are provided in the Plugins [BOX], inside the main AVsitterPlus package:
+### AVP_faces Examples
+These <a href="/avsitterplus_faces.html">AVP_faces</a> examples are provided in the Plugins [BOX], inside the main AVsitterPlus package:
 
 <ul>
 <li/>AVP_faces Example#01 (single sitter)
 <li/>AVP_faces Example#02 (multiple sitters in one prim)
 </ul>
 
-### AVcontrol Examples
-See the <a href="/avsitterplus_control.html">AVcontrol instructions</a> for a list of AVcontrol examples.
+### AVP_control Examples
+See the <a href="/avsitterplus_control.html">AVP_control instructions</a> for a list of AVP_control examples.
 
 {% include links.html %}

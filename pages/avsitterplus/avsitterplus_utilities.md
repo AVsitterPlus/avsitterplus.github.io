@@ -34,7 +34,7 @@ If you have a setup with more than one SITTER then you may prefer to offer a men
 
 - If a singles POSE is playing, AVP_select will show a disabled symbol (<span style="font-size:150%;">&oslash;</span>) in the menu if a seat is occupied by another avatar. When a couples SYNC pose is playing, AVP_select will allow swapping with an occupied seat. You can switch off the disabled symbol to always allow swapping by including [SELECT 1](/avsitterplus_avpos.html#select) in your AVpos notecard.
 
-{% include important.html content="The AVP_select script is *NOT* compatible with the AVP_root-control script from the AVcontrol&trade; plugin!" %}
+{% include important.html content="The AVP_select script is *NOT* compatible with the AVP_root-control script from the AVP_control&trade; plugin!" %}
 
 {% include tip.html content="For working examples, see the AVP_select examples provided to you in the Examples [BOX]." %}
 

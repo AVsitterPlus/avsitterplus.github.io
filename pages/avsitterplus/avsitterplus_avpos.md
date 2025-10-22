@@ -85,9 +85,9 @@ This creates a button that can be used for customization of your creations, so u
 
 
 - If &lt;custom_string&gt; is empty then &lt;menu_name&gt; will be used as the string.
-- If &lt;custom_integer&gt; is empty then 90200 will be used (90200 is used specifically by the [AVprop plugin](/avsitterplus_prop.html)).
+- If &lt;custom_integer&gt; is empty then 90200 will be used (90200 is used specifically by the [AVP_prop plugin](/avsitterplus_prop.html)).
 - If &lt;custom_integer&gt; is set to [90005](/avsitterplus_scripting.html#message-90005) then the menu will be returned automatically.
-- If &lt;custom_key&gt; is empty then the avatar's UUID will be used as the key. If a different avatar is controlling the menu with [AVcontrol](/avsitterplus_control.html) then the key will include the controller and sitter UUIDs, separated by the pipe (`|`) character.
+- If &lt;custom_key&gt; is empty then the avatar's UUID will be used as the key. If a different avatar is controlling the menu with [AVP_control](/avsitterplus_control.html) then the key will include the controller and sitter UUIDs, separated by the pipe (`|`) character.
 - Two special values have been added for &lt;custom_key&gt;: `<C>` and `<S>`, which will be replaced with CONTROLLER and SITTER respectively. This is to avoid issues with generic scripts that respond to a link message without being specifically designed for AVsitterPlus, because they don't expect the extra UUID.
 - If &lt;menu_name&gt; is empty, then an empty button will be created.
 
@@ -177,7 +177,7 @@ With MTYPE 3 the menu is completely switched off and cannot be accessed (except 
 
 Same as MTYPE 3, except the menu does not automatically return when a pose is selected.
 
-{% include important.html content="Please note that MTYPE will be ignored when using the [AVcontrol&trade;](/avsitterplus_control.html) plugin." %}
+{% include important.html content="Please note that MTYPE will be ignored when using the [AVP_control&trade;](/avsitterplus_control.html) plugin." %}
 
 ### ETYPE
 Placed once at the top of the notecard, this controls the "exit type" for all SITTERs. Controls SYNC pose behavior when another pose is played in the same prim. NOTE: does not cancel a SYNC if an avatar simply stands up (for that see the [Autoplay script example](/avsitterplus_lsl_example_autoplay.html)).
@@ -286,7 +286,7 @@ The link message will send the &lt;button_name&gt;, &lt;custom_integer&gt;, and 
 
 Will add the buttons [COLOR] and [TEXTURE] to the [ADJUST] menu.
 
-The UUID of the avatar is also sent. When a different avatar is controlling the menu with [AVcontrol](/avsitterplus_control.html), then [ADJUST] sends the controller and sitter UUIDs, separated by the pipe (`|`) character.
+The UUID of the avatar is also sent. When a different avatar is controlling the menu with [AVP_control](/avsitterplus_control.html), then [ADJUST] sends the controller and sitter UUIDs, separated by the pipe (`|`) character.
 
 To override this and provide compatibility with generic scripts that respond to link messages, see [AMENU](#amenu).
 
@@ -476,7 +476,7 @@ Usually a sequence will loop, but if a dash ( - ) is entered instead of a durati
 
 {% include important.html content="Be sure to examine the sequence furniture examples provided in the AVsitterPlus Examples [BOX]." %}
 
-{% include important.html content="For an alternate sequence method, see the [AVsequence&trade;](/avsitterplus_sequence.html) script." %}
+{% include important.html content="For an alternate sequence method, see the [AVP_sequence&trade;](/avsitterplus_sequence.html) script." %}
 
 ## Auto-assign by gender
 Determining the gender of an avatar's shape is [now possible](http://wiki.secondlife.com/wiki/OBJECT_BODY_SHAPE_TYPE), and can be used for automatic sitter and default pose assignment in AVsitterPlus. The gender of an avatar's shape can be set from the Appearance Editor in the SL viewer.

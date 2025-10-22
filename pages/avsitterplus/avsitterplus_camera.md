@@ -1,5 +1,5 @@
 ---
-title: AVcamera
+title: AVP_camera
 keywords: camera
 sidebar: avsitterplus_sidebar
 permalink: avsitterplus_camera.html
