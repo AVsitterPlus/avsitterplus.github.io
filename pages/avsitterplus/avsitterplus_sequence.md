@@ -10,7 +10,7 @@ folder: avsitterplus
 
 The AVP_sequence script allows for sequencing of poses, sounds and chat text to create a "scene". Each sequence is composed of any number of steps. If the sequence has multiple animations then a menu is given to control the sequence. You can also have sequences  that simply play a sound or some chat, whenever a pose is played.
 
-{% include important.html content="The AVP_sequence script is specifically made for couples or single-sitter setups. It is not suitable for controlling multiple solo sequences playing at the same time within the same setup prim or for playing sequences across separate prims. See the ['built-in' sequencing method](/avsitterplus_avpos.html#built-in-animation-sequence) for another option. For Yoga / Tai-Chi / Line Dancing see [here](https://avsitter.com/qa/815) instead." %}
+{% include important.html content="The AVP_sequence script is specifically made for couples or single-sitter setups. It is not suitable for controlling multiple solo sequences playing at the same time within the same setup prim or for playing sequences across separate prims. See the ['built-in' sequencing method](/avsitterplus_avp_positions.html#built-in-animation-sequence) for another option. For Yoga / Tai-Chi / Line Dancing see [here](https://avsitter.com/qa/815) instead." %}
 
 {% include note.html content="The AVP_sequence script can be found in the Plugins [BOX]." %}
 
@@ -33,15 +33,15 @@ WAIT 60
 LOOP
 ```
 
-For the above sequence, you'll need to add a matching SEQUENCE line to your [AVpos](/avsitterplus_avpos.html) notecard. e.g.
+For the above sequence, you'll need to add a matching SEQUENCE line to your [AVP_Positions](/avsitterplus_avp_positions.html) notecard. e.g.
 
     SEQUENCE Lovescene
 
-Alternately, make sure your [AVpos](/avsitterplus_avpos.html) notecard has a POSE or SYNC that matches the sequence name. e.g.
+Alternately, make sure your [AVP_Positions](/avsitterplus_avp_positions.html) notecard has a POSE or SYNC that matches the sequence name. e.g.
 
     SYNC Lovescene|<animation_filename>
 
-{% include note.html content="Sequences in the AVP_sequence_settings notecard are triggered by [SEQUENCE](/avsitterplus_avpos.html#sequence), [POSE](/avsitterplus_avpos.html#pose) or [SYNC](/avsitterplus_avpos.html#sync) in the AVpos notecard." %}
+{% include note.html content="Sequences in the AVP_sequence_settings notecard are triggered by [SEQUENCE](/avsitterplus_avp_positions.html#sequence), [POSE](/avsitterplus_avp_positions.html#pose) or [SYNC](/avsitterplus_avp_positions.html#sync) in the AVP_Positions notecard." %}
 
 {% include important.html content="For full sequence examples see the [examples section](/avsitterplus_sequence.html#sequence-examples) further down this page." %}
 
@@ -51,14 +51,14 @@ Alternately, make sure your [AVpos](/avsitterplus_avpos.html) notecard has a POS
 This section outlines each of the notecard commands you can use in the AVP_sequence_settings notecard.
 
 ### SEQUENCE
-Placed at the start of a new sequence. The name must match the name of a [SEQUENCE](/avsitterplus_avpos.html#sequence), [POSE](/avsitterplus_avpos.html#pose) or [SYNC](/avsitterplus_avpos.html#sync) line in the AVpos notecard.
+Placed at the start of a new sequence. The name must match the name of a [SEQUENCE](/avsitterplus_avp_positions.html#sequence), [POSE](/avsitterplus_avp_positions.html#pose) or [SYNC](/avsitterplus_avp_positions.html#sync) line in the AVP_Positions notecard.
 
 e.g. in your AVP_sequence_settings notecard:
 
     SEQUENCE Lovescene
 
 ### PLAY
-Plays a [POSE](/avsitterplus_avpos.html#pose) or [SYNC](/avsitterplus_avpos.html#sync) that is defined in your AVpos notecard. It should refer to the menu name you have given your pose, not the animation file name.
+Plays a [POSE](/avsitterplus_avp_positions.html#pose) or [SYNC](/avsitterplus_avp_positions.html#sync) that is defined in your AVP_Positions notecard. It should refer to the menu name you have given your pose, not the animation file name.
 
 e.g.
 
@@ -75,7 +75,7 @@ Using WAIT 0 will cause it to wait until the user manually presses the forward b
 
     WAIT 0
 
-{% include note.html content="If PLAY and WAIT are <ins>both</ins> used in a sequence that is triggered by a SEQUENCE line in the AVpos notecard, the user will be given a menu to control the sequence. Otherwise, the main animation menu is returned as soon as the sequence is selected." %}
+{% include note.html content="If PLAY and WAIT are <ins>both</ins> used in a sequence that is triggered by a SEQUENCE line in the AVP_Positions notecard, the user will be given a menu to control the sequence. Otherwise, the main animation menu is returned as soon as the sequence is selected." %}
 
 ### SAY / WHISPER
 Say or whisper some text in chat. Hearing range is 20m for say, and 5m for whisper. e.g.
@@ -158,7 +158,7 @@ Sound clips that make up a song may fit together better if the WAIT between them
 
 SL won't always play sounds on time unless sounds are pre-loaded to the avatar's viewer. The sequence script will automatically pre-load sounds if there is a WAIT of at least 2 seconds above the SOUND line. To ensure pre-loading of the first sound in the song example above, we could add a new line "WAIT 2" above the first sound.
 
-To give users an option to switch sounds off, add an [ADJUST](/avsitterplus_avpos.html#adjust) command to your AVpos notecard, using link message 90205. e.g:
+To give users an option to switch sounds off, add an [ADJUST](/avsitterplus_avp_positions.html#adjust) command to your AVP_Positions notecard, using link message 90205. e.g:
 
     ADJUST [SOUND]|90205
 
@@ -224,7 +224,7 @@ WAIT 9.8
 LOOP
 ```
 
-### AVpos notecard
+### AVP_Positions notecard
 
 ```
 SITTER 0
@@ -281,7 +281,7 @@ SEQUENCE Lovescene2
 ```
 
 ### Hiding Poses
-If you don't want individual poses shown in the menu (e.g. because they are part of a sequence) then you can hide them by placing them in a [MENU](/avsitterplus_avpos.html#menu) that has no corresponding [TOMENU](/avsitterplus_avpos.html#tomenu) in the AVpos notecard, such as MENU HIDDEN. e.g:
+If you don't want individual poses shown in the menu (e.g. because they are part of a sequence) then you can hide them by placing them in a [MENU](/avsitterplus_avp_positions.html#menu) that has no corresponding [TOMENU](/avsitterplus_avp_positions.html#tomenu) in the AVP_Positions notecard, such as MENU HIDDEN. e.g:
 
 ```
 MENU HIDDEN

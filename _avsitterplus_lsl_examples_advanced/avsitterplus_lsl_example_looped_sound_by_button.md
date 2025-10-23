@@ -13,7 +13,7 @@ permalink: avsitterplus_lsl_example_looped_sound_by_button.html
 * Prim should contain a sound file that matches "sound".
 * or you can use the sound's UUID for "sound" and not have it in the prim.
 *
-* You'll need to add a button to AVpos notecard that matches the "button_name", either:
+* You'll need to add a button to AVP_Positions notecard that matches the "button_name", either:
 * ADJUST Fire Crackle|0 (this will add a button to the [ADJUST] menu).
 * or
 * BUTTON Fire Crackle|0 (add wherever you like in the menu or a submenu).

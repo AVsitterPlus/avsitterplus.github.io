@@ -1,18 +1,18 @@
 ---
-title: Special Commands - AVpos
+title: Special Commands - AVP_Positions
 keywords: AVsitterPlus
 sidebar: avsitterplus_sidebar
-permalink: avsitterplus_SpecialCommands_AVpos.html
+permalink: avsitterplus_SpecialCommands_AVP_Positions.html
 folder: avsitterplus
 ---
 
-# Special Commands - AVpos
+# Special Commands - AVP_Positions
 
-This page is devoted to explaining a few special commands that can be included in the `AVpos` notecard. It's important to note that these commands are not dumped by the `[DUMP]` utility, so we have to manually add them at the top of the `AVpos` notecard.
+This page is devoted to explaining a few special commands that can be included in the `AVP_Positions` notecard. It's important to note that these commands are not dumped by the `[DUMP]` utility, so we have to manually add them at the top of the `AVP_Positions` notecard.
 
 ## HELPER
 
-We can use the AVsitter1 style helper objects by placing `HELPER 1` at the top of the `AVpos` notecard.
+We can use the AVsitter1 style helper objects by placing `HELPER 1` at the top of the `AVP_Positions` notecard.
 
 With the AVsitter1 style helper objects, you stand up and sit on the actual helpers. The additional permission requests can make it more tedious but it gives instantaneous feedback while positioning the helper objects.
 
@@ -20,7 +20,7 @@ _Original discussion can be found at [https://avsitter.com/qa/49](https://avsitt
 
 ## KFM
 
-If you place `KFM 1` at the top of all `AVpos` notecards in the object, it will tell the scripts to expect the use of [llSetKeyframedMotion()](http://wiki.secondlife.com/wiki/LlSetKeyframedMotion) (e.g. for rocking chair or swaying raft, etc). This was added in version `2.01-08`
+If you place `KFM 1` at the top of all `AVP_Positions` notecards in the object, it will tell the scripts to expect the use of [llSetKeyframedMotion()](http://wiki.secondlife.com/wiki/LlSetKeyframedMotion) (e.g. for rocking chair or swaying raft, etc). This was added in version `2.01-08`
 
 With this command, Key Framed Motion will be paused momentarily when avatars change pose. The Key Framed Motion will then immediately be resumed.
 
@@ -42,7 +42,7 @@ _Original discussion can be found at [https://avsitter.com/qa/259](https://avsit
 
 ## LROT
 
-If you place `LROT 1` at the top of the `AVpos` notecard in the object, this will cause the positioning buttons to work relative to the root prim. If the sitter script is in a child prim, it will also be relative to root prim. This helps in cases like:
+If you place `LROT 1` at the top of the `AVP_Positions` notecard in the object, this will cause the positioning buttons to work relative to the root prim. If the sitter script is in a child prim, it will also be relative to root prim. This helps in cases like:
 
 _Making a vehicle, and using AVsitterPlus to adjust the position of the pilot relative to the vehicle, when the vehicle is at a 45 degree angle, "X+" moves the avatar towards sim-east, instead of vehicle-forward._
 
@@ -58,7 +58,7 @@ The special command `WARN` is used to control if certain warning messages will s
 
 In Second Life, less prims than sitting avatars can result in SL's `"No room to sit here"` error when furniture is used within the 'bounding box' of another prim. e.g. a sim-surround landscape sculpty or mesh house. To help prevent people going into that problem unaware, AVsitterPlus will give you a warning in a dropdown menu if you are not using the safe minimum prims, `"There aren't enough prims for required SitTargets. You must have one prim for each avatar to sit!"`.
 
-You have the option to disable the warning by placing `WARN 0` at the top of the `AVpos` notecard, but then your users are at risk of receiving SL's `"No room to sit here"` error. Instead, it is suggested that you always have a prim count equal to or more than the number of avatars you plan to sit.
+You have the option to disable the warning by placing `WARN 0` at the top of the `AVP_Positions` notecard, but then your users are at risk of receiving SL's `"No room to sit here"` error. Instead, it is suggested that you always have a prim count equal to or more than the number of avatars you plan to sit.
 
 The SL 'bug' is discussed on SL's JIRA [SVC-3811](https://jira.secondlife.com/browse/SVC-3811).
 

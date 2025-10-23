@@ -28,11 +28,11 @@ If you wish to include a security function, place this script in the root prim o
 If you have a setup with more than one SITTER then you may prefer to offer a menu of the different seats instead of having the usual [SWAP] ability which just moves an avatar to the next seat.
 
 - Simply place the AVP_select script in the prim that contains your SITTERs. [SWAP] is now removed and a [BACK] button is added to the top level of the pose menu. When an avatar chooses this [BACK] button they are taken to a menu of the sitters defined in the notecard.
-- When the SITTER has only one pose, then the pose name will be used as the button for the sitting location. When the SITTER has multiple poses the AVP_select menu name for a sitting location will be "Sitter 0", "Sitter 1", etc. To set your own name for a sitting location, add it to the end of the SITTER line in the AVpos notecard [as described in the Notecard Commands section](/avsitterplus_avpos.html#sitter):
+- When the SITTER has only one pose, then the pose name will be used as the button for the sitting location. When the SITTER has multiple poses the AVP_select menu name for a sitting location will be "Sitter 0", "Sitter 1", etc. To set your own name for a sitting location, add it to the end of the SITTER line in the AVP_Positions notecard [as described in the Notecard Commands section](/avsitterplus_avp_positions.html#sitter):
 
     SITTER 0|Female
 
-- If a singles POSE is playing, AVP_select will show a disabled symbol (<span style="font-size:150%;">&oslash;</span>) in the menu if a seat is occupied by another avatar. When a couples SYNC pose is playing, AVP_select will allow swapping with an occupied seat. You can switch off the disabled symbol to always allow swapping by including [SELECT 1](/avsitterplus_avpos.html#select) in your AVpos notecard.
+- If a singles POSE is playing, AVP_select will show a disabled symbol (<span style="font-size:150%;">&oslash;</span>) in the menu if a seat is occupied by another avatar. When a couples SYNC pose is playing, AVP_select will allow swapping with an occupied seat. You can switch off the disabled symbol to always allow swapping by including [SELECT 1](/avsitterplus_avp_positions.html#select) in your AVP_Positions notecard.
 
 {% include important.html content="The AVP_select script is *NOT* compatible with the AVP_root-control script from the AVP_control&trade; plugin!" %}
 
@@ -45,20 +45,20 @@ After adding AVhipfix you should re-adjust and [SAVE] the positions of all affec
 
 {% include warning.html content="Not all animations are designed for furniture, as the whole body isn't animated (like drinking or waving animations). Animations missing rotations in other joints will cause unpredictability, and they should not be used with furniture." %}
 
-### AVpos-generator script
+### pos-generator script
 When placed into a prim this script will output text for a basic notecard listing all the animations contained in the prim, saving the need to manually type animation names. This is not normally used but if you are using a large number of poses this may be more efficient than adding one pose at a time via AVsitterPlus's menu-making system or manual notecard entry.
 
-### AVpos-shifter script
-A helpful utility for shifting all positions & rotations in an AVpos notecard by a given amount (e.g. moving all poses 1m to the left) or for moving a setup to a child prim while keeping the positions the same. Also alters positions of props. Full instructions are given when this script is dropped into a prim.
+### pos-shifter script
+A helpful utility for shifting all positions & rotations in an AVP_Positions notecard by a given amount (e.g. moving all poses 1m to the left) or for moving a setup to a child prim while keeping the positions the same. Also alters positions of props. Full instructions are given when this script is dropped into a prim.
 
 ### Anim-perm-checker script
 Most animation vendors in SL require that you set permissions to either NO-COPY or NO-TRANSFER for NEXT_OWNER. Drop this script into a prim and it will give a warning in chat for any animations that are set to COPY-TRANSFER.
 
 ### Missing-anim-finder script
-Drop this script into a prim and it will read through your AVpos notecard and give a warning in chat for any animations that are either missing or not used in the notecard. Also gives the option to delete any animations that are not used.
+Drop this script into a prim and it will read through your AVP_Positions notecard and give a warning in chat for any animations that are either missing or not used in the notecard. Also gives the option to delete any animations that are not used.
 
 ### MLP-converter script
-When placed inside a prim that contains an MLP setup, this script will read through all notecards in the prim that start with .MENUITEMS or .POSITIONS (the standard names for MLP notecards) and generate text in chat. The text can then be pasted into an AVpos notecard. Only MLP's POSE lines will be converted, so you must manually add your MENU & TOMENU lines by [editing the notecard](/avsitterplus_avpos.html). Props and facial expressions are not converted by this script.
+When placed inside a prim that contains an MLP setup, this script will read through all notecards in the prim that start with .MENUITEMS or .POSITIONS (the standard names for MLP notecards) and generate text in chat. The text can then be pasted into an AVP_Positions notecard. Only MLP's POSE lines will be converted, so you must manually add your MENU & TOMENU lines by [editing the notecard](/avsitterplus_avp_positions.html). Props and facial expressions are not converted by this script.
 
 {% include important.html content="When using the MLP-converter script you can enter a position vector in the prim description e.g. &lt;0,0,0.5&gt; and this will offset the converter's position results by that amount." %}
 

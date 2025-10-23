@@ -23,7 +23,7 @@ To add camera settings to your furniture, start with the [normal setup](/avsitte
 - Choose [NEW] from the menu, then choose [CAMERA] and select [SAVE].
 - Repeat for each pose you want to give a camera setting.
 - When you have finished adding all your camera settings, click [DUMP] to output your settings into chat.
-- Copy-paste the [DUMP] result into your AVpos notecard, replacing the contents of the notecard.
+- Copy-paste the [DUMP] result into your AVP_Positions notecard, replacing the contents of the notecard.
 
 {% include important.html content="Camera settings are defined separately for each SITTER." %}
 

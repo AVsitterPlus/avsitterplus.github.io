@@ -26,9 +26,9 @@ The main AVsitterPlus package contains:
 
    These are setup items that allow the default pose positions to be adjusted.
 
--  <b>AVpos notecard</b>
+-  <b>AVP_Positions notecard</b>
 
-   AVsitterPlus data needs to be saved in an AVpos notecard. The notecard provided is intentionally empty.
+   AVsitterPlus data needs to be saved in an AVP_Positions notecard. The notecard provided is intentionally empty.
 
 -  <b>Examples [BOX]</b>
 
@@ -63,7 +63,7 @@ The most basic setup is a prim that seats one avatar.
 <li/>AVP_sitA + AVP_sitB scripts
 <li/>AVP_adjuster script
 <li/>AVP_helper object
-<li/>AVpos notecard
+<li/>AVP_Positions notecard
 <li/>The animation files you plan to use
 </ul>
 {% include note.html content="One pair of AVP_sit (A+B) scripts will mean the prim has <i>one</i> SITTER." %}
@@ -80,7 +80,7 @@ The most basic setup is a prim that seats one avatar.
 
 {% include note.html content="If you use a translator, turn it off before pressing [DUMP]." %}
 
-<li/>Copy-paste the [DUMP] result into your AVpos notecard, replacing the contents of the notecard.
+<li/>Copy-paste the [DUMP] result into your AVP_Positions notecard, replacing the contents of the notecard.
 
 {% include note.html content="A web link is now given as a link at the end of the settings [DUMP], which is more reliable than copying from SL chat." %}
 
@@ -143,7 +143,7 @@ To create a submenu...
 
 {% include important.html content="If adding a [SYNC] pose, the pose will be added to whichever submenu was last selected. This applies separately to each SITTER's menu. You will need to press [SWAP] to move to the other SITTER and create/select the submenu there too." %}
 
-{% include important.html content="Adding poses to submenus via the [NEW] menu is for beginners. You can create, re-order, rename, delete submenus by learning the TOMENU and MENU commands covered in the <a href='/avsitterplus_avpos.html'>Notecard Section</a>." %}
+{% include important.html content="Adding poses to submenus via the [NEW] menu is for beginners. You can create, re-order, rename, delete submenus by learning the TOMENU and MENU commands covered in the <a href='/avsitterplus_avp_positions.html'>Notecard Section</a>." %}
 
 ### Camera
 
@@ -155,7 +155,7 @@ To save a camera position...
 <li/>Changes to camera settings will take effect the next time you sit.
 </ol>
 
-{% include note.html content="The camera setting is a prim property and does not require anything to be placed in the AVpos notecard." %}
+{% include note.html content="The camera setting is a prim property and does not require anything to be placed in the AVP_Positions notecard." %}
 
 {% include warning.html content="For camera settings in multiple prims, be aware of JIRA <a href=\"https://jira.secondlife.com/browse/BUG-5494\">BUG-5494</a>." %}
 
@@ -179,11 +179,11 @@ The following chat commands can be typed into local chat while the AVP_adjuster 
 If you do not get things right the first time, you can always make corrections or additions:
 
 <ul>
-<li/>To change the position of a pose, or to add new poses, you can always select [HELPER] again, position the pose, and [SAVE]. Remember to [DUMP] your settings again and save them to the AVpos notecard after making any changes.
+<li/>To change the position of a pose, or to add new poses, you can always select [HELPER] again, position the pose, and [SAVE]. Remember to [DUMP] your settings again and save them to the AVP_Positions notecard after making any changes.
 
-<li/>If you want to rename or change the order of any menu items you can manually edit <a href="/avsitterplus_avpos.html">the AVpos notecard</a>.
+<li/>If you want to rename or change the order of any menu items you can manually edit <a href="/avsitterplus_avp_positions.html">the AVP_Positions notecard</a>.
 
-<li/>To delete a pose, you must manually remove the lines from the <a href="/avsitterplus_avpos.html">the AVpos notecard</a>.
+<li/>To delete a pose, you must manually remove the lines from the <a href="/avsitterplus_avp_positions.html">the AVP_Positions notecard</a>.
 
 <li/>As with all building in SL, you should take a backup of your work regularly to avoid losing progress.
 
@@ -191,7 +191,7 @@ If you do not get things right the first time, you can always make corrections o
 
 ## Advanced Setup
 
-The [NEW] menu described on this page is a great way to start using AVsitterPlus, however you will have much more control when you learn to edit the notecard manually. After you can follow the tutorials on this page you should then learn the format of the <a href="/avsitterplus_avpos.html">AVpos notecard</a> and learn about the <a href="/avsitterplus_utilities.html">utility scripts</a>. Advanced users can then consider <a href="/avsitterplus_scripting.html">custom scripting</a> or one of the available plugins.
+The [NEW] menu described on this page is a great way to start using AVsitterPlus, however you will have much more control when you learn to edit the notecard manually. After you can follow the tutorials on this page you should then learn the format of the <a href="/avsitterplus_avp_positions.html">AVP_Positions notecard</a> and learn about the <a href="/avsitterplus_utilities.html">utility scripts</a>. Advanced users can then consider <a href="/avsitterplus_scripting.html">custom scripting</a> or one of the available plugins.
 
 ### Multiple Setups
 
@@ -199,7 +199,7 @@ It is possible to have any mix of singles & couples setups in different prims of
 
 ### Setups for 3+ Avatars
 
-Setups in one prim for 3+ avatars is the same as for <a href="/avsitterplus_home.html#couples-prim-setup">couples setup</a> but needs to include more pairs of AVP_sit (A+B) scripts. The [NEW] menu will allow you to add a SYNC pose for multiple SITTERs but you should also learn to add/edit poses <a href="/avsitterplus_avpos.html">manually in the notecard</a>.
+Setups in one prim for 3+ avatars is the same as for <a href="/avsitterplus_home.html#couples-prim-setup">couples setup</a> but needs to include more pairs of AVP_sit (A+B) scripts. The [NEW] menu will allow you to add a SYNC pose for multiple SITTERs but you should also learn to add/edit poses <a href="/avsitterplus_avp_positions.html">manually in the notecard</a>.
 
 {% include note.html content="If your furniture does not include SYNC poses you could instead set each avatar's poses in separate prims. e.g. a table with 4 chairs around would usually be best with a singles setup in each chair, rather than 4 SITTERs in one." %}
 
@@ -207,7 +207,7 @@ Setups in one prim for 3+ avatars is the same as for <a href="/avsitterplus_home
 
 ### Animation Sequences
 
-AVsitterPlus provides two ways to do sequences: the <a href="/avsitterplus_sequence.html">AVP_sequence&trade;</a> script and the <a href="/avsitterplus_avpos.html#built-in-animation-sequence">"built-in" sequence</a> method. Read about both and use the method most appropriate for your situation.
+AVsitterPlus provides two ways to do sequences: the <a href="/avsitterplus_sequence.html">AVP_sequence&trade;</a> script and the <a href="/avsitterplus_avp_positions.html#built-in-animation-sequence">"built-in" sequence</a> method. Read about both and use the method most appropriate for your situation.
 
 ### Sounds and Songs
 

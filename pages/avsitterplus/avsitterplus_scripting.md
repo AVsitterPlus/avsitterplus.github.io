@@ -7,7 +7,7 @@ permalink: avsitterplus_scripting.html
 
 ## LSL Scripting
 
-AVsitterPlus allows creators to trigger animations with their own scripts through "Link Messages" and provides the ability to add [BUTTONS](/avsitterplus_avpos.html#button) to menus that send user-defined Link Messages to custom scripts. The examples below are intended only as examples, and to use them correctly you first need to have a decent knowledge of [LSL scripting](http://wiki.secondlife.com/wiki/LSL_Portal).
+AVsitterPlus allows creators to trigger animations with their own scripts through "Link Messages" and provides the ability to add [BUTTONS](/avsitterplus_avp_positions.html#button) to menus that send user-defined Link Messages to custom scripts. The examples below are intended only as examples, and to use them correctly you first need to have a decent knowledge of [LSL scripting](http://wiki.secondlife.com/wiki/LSL_Portal).
 
 {% include warning.html content="Don't use this section without a knowledge of [LSL scripting](http://wiki.secondlife.com/wiki/LSL_Portal). If you do not have a knowledge of scripting then please consult your own scripter." %}
 
@@ -39,7 +39,7 @@ Give menu. Sent with a sitting avatar's UUID this will give the animation menu t
 
     llMessageLinked(LINK_SET, 90005, "", <avatar_uuid>);
 
-If the string includes a [MENU](/avsitterplus_avpos.html#menu) name then it will bring up that specific submenu ([more info](https://avsitter.com/qa/761)). e.g.
+If the string includes a [MENU](/avsitterplus_avp_positions.html#menu) name then it will bring up that specific submenu ([more info](https://avsitter.com/qa/761)). e.g.
 
     llMessageLinked(LINK_SET, 90005, "My Submenu", <avatar_uuid>);
 
@@ -63,11 +63,11 @@ Swap two sitters within a setup prim. e.g.
 
 The above will swap sitters 0 & 1.
 
-This link message can be achieved directly with a [BUTTON](/avsitterplus_avpos.html#button). i.e.
+This link message can be achieved directly with a [BUTTON](/avsitterplus_avp_positions.html#button). i.e.
 
     BUTTON SWAP F|90030|0|1
 
-Also see the [SWAP notecard command](/avsitterplus_avpos.html#swap).
+Also see the [SWAP notecard command](/avsitterplus_avp_positions.html#swap).
 
 ### Link Messages to Receive
 
@@ -171,7 +171,7 @@ default
 
 #### Message 90051
 
-Sent when a sub-[MENU](/avsitterplus_avpos.html#menu) is manually selected. Data is the same format as [90050](/avsitterplus_scripting.html#message-90050) ([more info](https://avsitter.com/qa/760/)).
+Sent when a sub-[MENU](/avsitterplus_avp_positions.html#menu) is manually selected. Data is the same format as [90050](/avsitterplus_scripting.html#message-90050) ([more info](https://avsitter.com/qa/760/)).
 
 ## Script Examples
 

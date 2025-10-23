@@ -41,7 +41,7 @@ These AVsitterPlus examples are provided in the Examples [BOX], inside the main 
 <li/>Vehicle Setup#3 (Driver+Solo+Couple)
 <li/>Vehicle Setup#4 (Multiple Setups)
 </ul>
-Also be sure to see <a href="/avsitterplus_avpos.html#example-notecards">these example notecards</a>.
+Also be sure to see <a href="/avsitterplus_avp_positions.html#example-notecards">these example notecards</a>.
 
 ### AVP_prop Examples
 These <a href="/avsitterplus_prop.html">AVP_prop</a> examples are provided in the Plugins [BOX], inside the main AVsitterPlus package:

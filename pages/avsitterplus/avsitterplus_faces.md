@@ -23,7 +23,7 @@ To add facial expressions to your furniture, start with the [normal setup](/avsi
 6. You should see the facial expression playing on your avatar.
 7. Repeat for each pose you want to give a facial expression.
 8. When you have finished adding all your facial expressions, click [DUMP] to output your settings into chat.
-9. Copy-paste the [DUMP] result into your AVpos notecard, replacing the contents of the notecard.
+9. Copy-paste the [DUMP] result into your AVP_Positions notecard, replacing the contents of the notecard.
 
 {% include note.html content="Facial Expressions are defined separately for each SITTER." %}
 

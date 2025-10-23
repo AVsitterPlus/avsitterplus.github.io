@@ -28,8 +28,8 @@ entries:
       url: /avsitterplus_home.html
       output: web
 
-    - title: AVpos
-      url: /avsitterplus_avpos.html
+    - title: AVP_Positions
+      url: /avsitterplus_avp_positions.html
       output: web
 
     - title: Utilities
@@ -103,6 +103,6 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: AVpos
-      url: avsitterplus_SpecialCommands_AVpos.html
+    - title: AVP_Positions
+      url: avsitterplus_SpecialCommands_AVP_Positions.html
       output: web, pdf

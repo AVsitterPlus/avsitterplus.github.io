@@ -14,7 +14,7 @@ It is set up through linked messages, so we need to use either the `BUTTON` or `
 
 ## Example 1
 
-We want to add all the buttons under a `FAVORITES` submenu. Snippet of the `AVpos` notecard:
+We want to add all the buttons under a `FAVORITES` submenu. Snippet of the `AVP_Positions` notecard:
 
 ```
 TOMENU FAVORITES
@@ -30,7 +30,7 @@ BUTTON Favorites...|90403
 
 ## Example 2
 
-We want to add the add favorite and delete favorite buttons under the `[ADJUST]` menu, and the select favorite menu as a `BUTTON` on the main menu. Snippet of the `AVpos` notecard:
+We want to add the add favorite and delete favorite buttons under the `[ADJUST]` menu, and the select favorite menu as a `BUTTON` on the main menu. Snippet of the `AVP_Positions` notecard:
 
 ```
 ADJUST Add Fav|90401|Del Fav|90402
@@ -42,7 +42,7 @@ BUTTON Favorites...|90403
 
 ## Example 3
 
-We want to add all three buttons under the `[ADJUST]` menu. Snippet of the `AVpos` notecard:
+We want to add all three buttons under the `[ADJUST]` menu. Snippet of the `AVP_Positions` notecard:
 
 ```
 ADJUST Add Fav|90401|Del Fav|90402|Favorites...|90403
