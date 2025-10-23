@@ -1,6 +1,8 @@
 _site/
 .sass-cache/
-tmp/
+.jekyll-cache/
 .jekyll-metadata
+
+tmp/
 _pdf
 .DS_Store

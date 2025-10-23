@@ -127,38 +127,6 @@ Getting started pages:
 {% endfor %}
 </ul>
 
-If you want to sort the pages alphabetically, you have to apply a `sort` filter:
-
-```liquid
-{% raw %}
-Getting started pages:
-<ul>
-{% assign sorted_pages = (site.pages | sort: 'title') %}
-{% for page in sorted_pages %}
-{% for tag in page.tags %}
-{% if tag == "getting_started" %}
-<li><a href="{{page.url | remove: "/" }}">{{page.title}}</a></li>
-{% endif %}
-{% endfor %}
-{% endfor %}
-</ul>
-{% endraw %}
-```
-
-Here's how that code renders:
-
-Getting started pages:
-<ul>
-{% assign sorted_pages = (site.pages | sort: 'title') %}
-{% for page in sorted_pages %}
-{% for tag in page.tags %}
-{% if tag == "getting_started" %}
-<li><a href="{{page.url | remove: "/"}}">{{page.title}}</a></li>
-{% endif %}
-{% endfor %}
-{% endfor %}
-</ul>
-
 ## Efficiency
 Although the tag approach here uses `for` loops, these are somewhat inefficient on a large site. Most of my tech doc projects don't have hundreds of pages (like my blog does). If your project does have hundreds of pages, this `for` loop approach with tags is going to slow down your build times.
 
