@@ -8,6 +8,27 @@ permalink: avsitterplus_home.html
 folder: avsitterplus
 ---
 
+## What is AVsitterPlus
+
+`AVsitterPlus` is a fork of the `AVsitter` project. `AVsitter` has not been updated in many years, the last release was in March of 2018, and the last commit to the `AVsitter` repository was in 2021. `AVsitterPlus` incorporates all changes to `AVsitter` that have been committed since its last release and integrates several pull requests that have been reviewed but were never merged into `AVsitter`. In addition, `AVsitterPlus` adds several new features and bug fixes.
+
+AVsitterPlus™ is designed as the ultimate in pose systems for Second Life furniture, with powerful and easy to use scripts that allow you to create and sell furniture with perfectly positioned poses. Easily create everything from simple single animation chairs to feature rich couples furniture - without poseballs! AVsitterPlus is ideal for mesh and sculpties as well as "traditional" prim furniture.
+
+### AVsitterPlus Features
+
+- Unique furniture pose system goes beyond what any other can do in Second Life.
+- Suitable for all types of furniture and vehicles too.
+- Visually set up your poses with the SL building tools.
+- Set up sits for many avatars, each with their own animation menu.
+- Supports 300 poses per avatar, controlled via menu.
+- Easily set up couples and group poses with position "swap" ability.
+- Allows submenus of any depth, and addition of custom buttons.
+- Comprehensive instructions, videos and examples included.
+- Optional security to restrict menu access to ALL/GROUP/OWNER
+- API allows for animation sequences, custom scripting, and much more.
+- Pose memory stores personal adjustments saved by avatars.
+- Instant ready - no need for customers to wait for the script to load when rezzed.
+
 ## How to get AVsitterPlus
 
 AVsitterPlus can be freely obtained from GitHub and imported into Second Life by following our <a href='https://github.com/AVsitterPlus/AVsitterPlus/blob/master/AVsitterPlus/IMPORT_GUIDE.md'>import guide</a>.
@@ -30,10 +51,6 @@ The main AVsitterPlus package contains:
 
    AVsitterPlus data needs to be saved in an AVP_Positions notecard. The notecard provided is intentionally empty.
 
--  <b>Examples [BOX]</b>
-
-   The AVsitterPlus Examples [BOX] contains <a href="/avsitterplus_examples.html">several example items</a> that demonstrate the use of the system. The imprtance of the examples is often overlooked. Please examine the examples closely to understand how the system can be used for different setups.
-
 -  <b>Utilities [BOX]</b>
 
    The Utilities [BOX] contains the <a href="/avsitterplus_utilities.html">Utilities</a>.
@@ -41,6 +58,8 @@ The main AVsitterPlus package contains:
 -  <b>Plugins [BOX]</b>
 
    The Plugins [BOX] contains scripts that provide special functionality, along with <a href="/avsitterplus_examples.html">examples</a>. Example items are provided for each script.
+
+{% include note.html content="AVsitterPlus Examples are in development. The AVsitter Examples, available on the <a href='https://marketplace.secondlife.com/stores/79645'>AVsitter SL Marketplace</a>, contains <a href='/avsitterplus_examples.html'>over 40 example items</a> that demonstrate the use of the system. The AVsitter Examples are equally applicable to AVsitterPlus. However, the AVsitter marketplace item is priced at L$2,999." %}
 
 ## Requirements
 
@@ -212,5 +231,136 @@ AVsitterPlus provides two ways to do sequences: the <a href="/avsitterplus_seque
 ### Sounds and Songs
 
 Playing sound files is achieved with the <a href="/avsitterplus_sequence.html">AVP_sequence&trade;</a> script (includes playing a single sound with a pose, or a complete song).
+
+## Migration from AVsitter
+
+An existing AVsitter deployment can easily migrate to AVsitterPlus by replacing the AVsitter scripts with the corresponding AVsitterPlus scripts and renaming the `[AV]pos` notecard to `AVP_Positions`. Each piece of furniture that has previously been configured with AVsitter must be edited, the scripts replaced, and the notecard(s) renamed. A migration tool is in development.
+
+### Script Replacement Mapping
+
+In order to comply with the `AVsitter` trademark restrictions, `AVsitterPlus` has not only been renamed from `AVsitter` but all `[AV]*` scripts, plugins, objects, and utilities have been renamed. Renaming generally conforms to the pattern of replacement `[AV]` -> `AVP_`. For example, the `AVsitter` script `[AV]sitA` has been renamed to `AVP_sitA` in `AVsitterPlus`.
+
+The mapping between AVsitter names and AVsitterPlus names is as follows:
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>AVsitter</th>
+<th>AVsitterPlus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">[AV]pos</td>
+<td markdown="span">AVP_Positions</td>
+</tr>
+<tr>
+<td markdown="span">[AV]adjuster</td>
+<td markdown="span">AVP_adjuster</td>
+</tr>
+<tr>
+<td markdown="span">[AV]helper</td>
+<td markdown="span">AVP_helper</td>
+</tr>
+<tr>
+<td markdown="span">[AV]sitA</td>
+<td markdown="span">AVP_sitA</td>
+</tr>
+<tr>
+<td markdown="span">[AV]sitB</td>
+<td markdown="span">AVP_sitB</td>
+</tr>
+<tr>
+<td markdown="span">[AV]select</td>
+<td markdown="span">AVP_select</td>
+</tr>
+<tr>
+<td markdown="span">[AV]root-security</td>
+<td markdown="span">AVP_root-security</td>
+</tr>
+<tr>
+<td markdown="span">[AV]camera</td>
+<td markdown="span">AVP_camera</td>
+</tr>
+<tr>
+<td markdown="span">[AV]faces</td>
+<td markdown="span">AVP_faces</td>
+</tr>
+<tr>
+<td markdown="span">[AV]menu</td>
+<td markdown="span">AVP_menu</td>
+</tr>
+<tr>
+<td markdown="span">[AV]object</td>
+<td markdown="span">AVP_object</td>
+</tr>
+<tr>
+<td markdown="span">[AV]prop</td>
+<td markdown="span">AVP_prop</td>
+</tr>
+<tr>
+<td markdown="span">[AV]sequence</td>
+<td markdown="span">AVP_sequence</td>
+</tr>
+<tr>
+<td markdown="span">[AV]sequence_settings</td>
+<td markdown="span">AVP_sequence_settings</td>
+</tr>
+<tr>
+<td markdown="span">[AV]LockGuard</td>
+<td markdown="span">AVP_LockGuard</td>
+</tr>
+<tr>
+<td markdown="span">[AV]LockGuard-object</td>
+<td markdown="span">AVP_LockGuard-object</td>
+</tr>
+<tr>
+<td markdown="span">[AV]root-control</td>
+<td markdown="span">AVP_root-control</td>
+</tr>
+<tr>
+<td markdown="span">[AV]root-RLV</td>
+<td markdown="span">AVP_root-RLV</td>
+</tr>
+<tr>
+<td markdown="span">[AV]root-RLV-extra</td>
+<td markdown="span">AVP_root-RLV-extra</td>
+</tr>
+<tr>
+<td markdown="span">[AV]Xcite!</td>
+<td markdown="span">AVP_Xcite</td>
+</tr>
+<tr>
+<td markdown="span">[AV]Xcite_settings</td>
+<td markdown="span">AVP_Xcite_settings</td>
+</tr>
+<tr>
+<td markdown="span">AVhipfix</td>
+<td markdown="span">AVP_hipfix</td>
+</tr>
+<tr>
+<td markdown="span">AVpos-generator</td>
+<td markdown="span">pos-generator</td>
+</tr>
+<tr>
+<td markdown="span">Not Included</td>
+<td markdown="span">AVP_LockMeister</td>
+</tr>
+<tr>
+<td markdown="span">Not Included</td>
+<td markdown="span">AVP_favs</td>
+</tr>
+<tr>
+<td markdown="span">Not Included</td>
+<td markdown="span">PMAC-Converter</td>
+</tr>
+</tbody>
+</table>
+
+If not listed in the mapping table the name remains the same. Existing preconfigured notecards can simply be renamed, preserving their contents. Existing AVsitter scripts must be replaced with their AVsitterPlus counterpart.
 
 {% include links.html %}
