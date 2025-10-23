@@ -6,7 +6,7 @@ permalink: avsitterplus_lsl_example_button_gives_item_multiple.html
 ```js
 /******************************************************************
 * This example will give different objects to an avatar who presses different BUTTON in the menu
-* You will need a line in the AVpos notecard for each BUTTON
+* You will need a line in the AVP_Positions notecard for each BUTTON
 * e.g. BUTTON Coffee|0
 ******************************************************************/
 

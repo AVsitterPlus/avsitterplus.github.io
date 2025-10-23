@@ -29,7 +29,7 @@ To use this feature:
 
 - Start with the instructions for [AVP_root-control](avsitterplus_control.html#avroot-control-script).
 - Drop the AVP_root-RLV script into the *root prim* of your furniture.
-- Place a notecard named AVpos into the *root prim* of your furniture (if there is not one already there).
+- Place a notecard named AVP_Positions into the *root prim* of your furniture (if there is not one already there).
 
 {% include important.html content="If working with a couples setup and RLV, the sitA+sitB scripts *must* be in the root prim." %}
 
@@ -60,9 +60,9 @@ The Control menu contains the following options:
 
 {% include important.html content="For testing, you can enable RLV debug messages in your SL viewer's menu under **'RLV>Debug>Show Debug Messages'**." %}
 
-#### AVpos Notecard
+#### AVP_Positions Notecard
 
-The AVpos notecard can include the following RLV related settings, placed at the top of the notecard.
+The AVP_Positions notecard can include the following RLV related settings, placed at the top of the notecard.
 
 **RLV** - if the RLV capture and menu restrictions should be enabled (default is 1). Switch off to adjust poses. e.g.
 
@@ -72,7 +72,7 @@ The AVpos notecard can include the following RLV related settings, placed at the
 
     ROLES D|S
 
-The number of entries must correspond exactly to the number of SITTER lines in the AVpos notecard. For multiple solo-sitter setups in child prims the entries must correspond to the number of separate solo-sitter prims and must all be defined as 'S'.
+The number of entries must correspond exactly to the number of SITTER lines in the AVP_Positions notecard. For multiple solo-sitter setups in child prims the entries must correspond to the number of separate solo-sitter prims and must all be defined as 'S'.
 
 {% include note.html content="When there are no more 'S' seats available, the script will not offer the capture option." %}
 
@@ -114,7 +114,7 @@ e.g.
 
     WAITPOSE standby
 
-When used, a pose of the specified name (e.g. 'POSE standby') should be present in all sitter menus. If you don't want the WAITPOSE showing in the menu then you can place it in a MENU that has no corresponding TOMENU in the AVpos notecard, as described [here](avsitterplus_sequence.html#hiding-poses).
+When used, a pose of the specified name (e.g. 'POSE standby') should be present in all sitter menus. If you don't want the WAITPOSE showing in the menu then you can place it in a MENU that has no corresponding TOMENU in the AVP_Positions notecard, as described [here](avsitterplus_sequence.html#hiding-poses).
 
 **DOMPOSE** - optional POSE to play when an avatar chooses the 'D' role. Only applicable when using ONSIT ASK. e.g.
 

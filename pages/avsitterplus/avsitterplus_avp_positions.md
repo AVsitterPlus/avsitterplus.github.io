@@ -1,20 +1,20 @@
 ---
-title: The AVpos Notecard
+title: The AVP_Positions Notecard
 keywords: AVsitterPlus
 sidebar: avsitterplus_sidebar
-permalink: avsitterplus_avpos.html
+permalink: avsitterplus_avp_positions.html
 folder: avsitterplus
 ---
 
-## The AVpos Notecard
+## The AVP_Positions Notecard
 
-Nearly every feature of AVsitterPlus can be controlled by editing the AVpos notecard. It defines everything about each SITTERs menu and poses. Much more is possible when you learn to manually write and edit the notecard yourself, rather than using only the [NEW] menu as described in the [Setup](/avsitterplus_home.html#setup) section.
+Nearly every feature of AVsitterPlus can be controlled by editing the AVP_Positions notecard. It defines everything about each SITTERs menu and poses. Much more is possible when you learn to manually write and edit the notecard yourself, rather than using only the [NEW] menu as described in the [Setup](/avsitterplus_home.html#setup) section.
 
-{% include note.html content="Your AVpos notecard should always be left as 'full perm', otherwise scripts can not read the notecard with the next owner." %}
+{% include note.html content="Your AVP_Positions notecard should always be left as 'full perm', otherwise scripts can not read the notecard with the next owner." %}
 
 ### Basic Notecard
 
-If we want to quickly write a notecard for one avatar, with a choice of two poses, where our animation files are called "animation1" and "animation2" and we want to name the poses "Sit1" and "Sit2". We would simply type the following into the AVpos notecard:
+If we want to quickly write a notecard for one avatar, with a choice of two poses, where our animation files are called "animation1" and "animation2" and we want to name the poses "Sit1" and "Sit2". We would simply type the following into the AVP_Positions notecard:
 
 ```
 POSE Sit1|animation1
@@ -36,7 +36,7 @@ Note that position settings for the poses will be added by the script after you 
 
 This section outlines each of the notecard commands you can use.
 
-{% include important.html content="Make sure to see the next section that shows [notecard examples](/avsitterplus_avpos.html#example-notecards) and examine the contents of the Examples [BOX]." %}
+{% include important.html content="Make sure to see the next section that shows [notecard examples](/avsitterplus_avp_positions.html#example-notecards) and examine the contents of the Examples [BOX]." %}
 
 ### POSE
 Use the POSE command to add an animation to the menu. The format is:
@@ -454,7 +454,7 @@ SYNC Kiss3|couples6_Male
 
 ## "Built-In" animation sequence
 
-You can play animations in a series simply by adding extra animations to the [POSE](/avsitterplus_avpos.html#pose) (or [SYNC](/avsitterplus_avpos.html#sync)) commands. The animations all share the same position/rotation in the notecard, therefore they *must* be designed to be played together. This can be a continuous scene OR simply regular looped animations that were made as a sequence compatible set (all using use the same position/rotation).
+You can play animations in a series simply by adding extra animations to the [POSE](/avsitterplus_avp_positions.html#pose) (or [SYNC](/avsitterplus_avp_positions.html#sync)) commands. The animations all share the same position/rotation in the notecard, therefore they *must* be designed to be played together. This can be a continuous scene OR simply regular looped animations that were made as a sequence compatible set (all using use the same position/rotation).
 
 The format for the notecard is as follows:
 
@@ -482,7 +482,7 @@ Usually a sequence will loop, but if a dash ( - ) is entered instead of a durati
 Determining the gender of an avatar's shape is [now possible](http://wiki.secondlife.com/wiki/OBJECT_BODY_SHAPE_TYPE), and can be used for automatic sitter and default pose assignment in AVsitterPlus. The gender of an avatar's shape can be set from the Appearance Editor in the SL viewer.
 
 ### SITTER assignment
-You can designate a [SITTER](/avsitterplus_avpos.html#sitter) for male/female shaped avatars by adding an "M" or "F" after the sitter name. When an avatar sits, they will be assigned to the first unoccupied sitter that matches the gender of their shape, if available. e.g:
+You can designate a [SITTER](/avsitterplus_avp_positions.html#sitter) for male/female shaped avatars by adding an "M" or "F" after the sitter name. When an avatar sits, they will be assigned to the first unoccupied sitter that matches the gender of their shape, if available. e.g:
 
 ```
 SITTER 0|Female seat|F
@@ -502,7 +502,7 @@ SITTER 2|Friend seat
 {% include important.html content="SITTER assignment will not work in cases where there are [SET](/avsitterplus_sittargets.html) defined. Support for this may be added in future." %}
 
 ### Pose assignment
-Normally, the default pose to play will be the first in the sitter's menu. However, you can specify a different [POSE](/avsitterplus_avpos.html#pose) or [SYNC](/avsitterplus_avpos.html#sync) as the default for male/female shaped avatars by adding an "M" or "F" after the animation file name. e.g:
+Normally, the default pose to play will be the first in the sitter's menu. However, you can specify a different [POSE](/avsitterplus_avp_positions.html#pose) or [SYNC](/avsitterplus_avp_positions.html#sync) as the default for male/female shaped avatars by adding an "M" or "F" after the animation file name. e.g:
 
 ```
 POSE SitF|Sit1|M
@@ -527,12 +527,12 @@ Pressing the << Softer & Harder >> buttons will change the speed to the slower/f
 
 
 ## Extra notecard commands
-Some additional notecard commands exist _([read here for more information](avsitterplus_SpecialCommands_AVpos.html))_:
+Some additional notecard commands exist _([read here for more information](avsitterplus_SpecialCommands_AVP_Positions.html))_:
 
-- [HELPER](/avsitterplus_SpecialCommands_AVpos.html#helper) - use the AVsitter1 style helper system, where you sit on the helper sticks.
-- [KFM](/avsitterplus_SpecialCommands_AVpos.html#kfm) - if the object uses [llSetKeyframedMotion()](http://wiki.secondlife.com/wiki/LlSetKeyframedMotion).
-- [LROT](/avsitterplus_SpecialCommands_AVpos.html#lrot) - positioning buttons to work relative to the local rotation of the root prim, instead of global co-ordinates.
-- [WARN](/avsitterplus_SpecialCommands_AVpos.html#warn) - disable the warning when there aren't enough prims for all sitters or checks for prop permissions.
+- [HELPER](/avsitterplus_SpecialCommands_AVP_Positions.html#helper) - use the AVsitter1 style helper system, where you sit on the helper sticks.
+- [KFM](/avsitterplus_SpecialCommands_AVP_Positions.html#kfm) - if the object uses [llSetKeyframedMotion()](http://wiki.secondlife.com/wiki/LlSetKeyframedMotion).
+- [LROT](/avsitterplus_SpecialCommands_AVP_Positions.html#lrot) - positioning buttons to work relative to the local rotation of the root prim, instead of global co-ordinates.
+- [WARN](/avsitterplus_SpecialCommands_AVP_Positions.html#warn) - disable the warning when there aren't enough prims for all sitters or checks for prop permissions.
 - DFLT 0 - don't revert to the default pose when all avatars stand (unless the last pose was a SYNC pose).
 - NOWIPE - tells the scripts not to wipe sittargets in other prims (use only if you have a good reason as you may end up with prims that have unnecessary SitTargets).
 

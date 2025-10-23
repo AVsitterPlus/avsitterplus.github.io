@@ -41,7 +41,7 @@ To add props to your furniture, start with the [normal setup](/avsitterplus_home
 7. Move the prop object with the SL building tools to where you want it to rez inworld, then click [SAVE]. Props can rez a maximum of 10 metres from the border of the prim.
 8. Repeat for each prop.
 9. When you have finished saving all your props, click [DUMP] to output your settings into chat.
-10. Copy-paste the [DUMP] result into your AVpos notecard, replacing the contents of the notecard.
+10. Copy-paste the [DUMP] result into your AVP_Positions notecard, replacing the contents of the notecard.
 
 {% include note.html content="Props are defined separately for each SITTER." %}
 
@@ -59,14 +59,14 @@ With AVmenu&trade; you can create menus in prims that don't have animations. The
 
 {% include important.html content="The AVP_menu script can be used in any prim that does *NOT* include the AVP_sit, AVP_root or AVP_root-security scripts." %}
 
-As with the AVP_sit scripts, AVP_menu is controlled by an AVpos notecard. AVP_menu allows BUTTON, TOMENU, MENU, TEXT and MTYPE 3 from the [Notecard Commands](/avsitterplus_avpos.html#notecard-commands) to be used to create menus and also reacts to the [90005 link message](/avsitterplus_scripting.html#link-messages-to-send) in the same way as the AVP_sit scripts.
+As with the AVP_sit scripts, AVP_menu is controlled by an AVP_Positions notecard. AVP_menu allows BUTTON, TOMENU, MENU, TEXT and MTYPE 3 from the [Notecard Commands](/avsitterplus_avp_positions.html#notecard-commands) to be used to create menus and also reacts to the [90005 link message](/avsitterplus_scripting.html#link-messages-to-send) in the same way as the AVP_sit scripts.
 
 To add props to a prim using AVP_menu:
 
 1. Drop the following into the prim:
   - AVP_menu script
   - AVP_prop script
-  - AVpos notecard
+  - AVP_Positions notecard
   - Your prepared prop objects
 2. Touch the prim, choose [OWNER] to enter the owner menu.
 3. Choose [NEW] from the menu, then choose your prop object from the menu.
@@ -75,7 +75,7 @@ To add props to a prim using AVP_menu:
     {% include note.html content="Props can be positioned a maximum of 10 metres from the border of the prim." %}
 6. Repeat for each prop.
 7. When you have finished saving all your props, click [DUMP] to output your settings into chat.
-8. Copy-paste the [DUMP] result into your AVpos notecard, replacing the contents of the notecard.
+8. Copy-paste the [DUMP] result into your AVP_Positions notecard, replacing the contents of the notecard.
 
 {% include warning.html content="End-users of objects made with AVP_menu & AVP_prop will see [NEW] and [DUMP] in AVP_menu's [OWNER] menu, unless you set the AVP_prop script to NO-COPY or NO-TRANSFER." %}
 
@@ -90,12 +90,12 @@ Props can be set to request permission to attach to the avatar after they rez in
 
 Before you place an attachment prop inside the furniture, you need to attach it and adjust it just like you would if editing prim clothing that you avatar wears. SL automatically remembers the attachment position for an object. When you are happy with the way it's attached, you then detach it and place it in the furniture.
 
-After setting up a prop, you can designate the prop to be an attachment by editing the AVpos notecard and changing its &lt;prop_type&gt; to PROP1 or PROP2 as described in the [Notecard Commands section](/avsitterplus_prop.html#notecard-commands).
+After setting up a prop, you can designate the prop to be an attachment by editing the AVP_Positions notecard and changing its &lt;prop_type&gt; to PROP1 or PROP2 as described in the [Notecard Commands section](/avsitterplus_prop.html#notecard-commands).
 
 {% include important.html content="Attachment props *must* be COPY-OK & TRANSFER-OK for NEXT OWNER." %}
 
 ## Notecard Commands
-You can edit the AVpos notecard to change how props will behave.
+You can edit the AVP_Positions notecard to change how props will behave.
 
 The format for the notecard is:
 
@@ -132,7 +132,7 @@ You can find out more about 'experiences' on the [SL blog](https://community.sec
 {% include important.html content="If users do not enable the <ins>'AVsitter' by Code Violet</ins> experience then each prop will require permission to attach and the owner may receive the message \"To enable auto-attachments, please enable the experience in About Land.\" ([discussion](https://avsitter.com/qa/251/))" %}
 
 ## Rezzing Props by BUTTON
-If you want a [BUTTON](/avsitterplus_avpos.html#button) to trigger a prop, first [create the prop as normal](/avsitterplus_prop.html#setting-up-a-prop-with-avsittertrade) so that it rezzes for a pose, then edit the notecard to change the &lt;trigger_name&gt; of the prop to match your BUTTON. Alternately, add the PROP line manually to your notecard. e.g.
+If you want a [BUTTON](/avsitterplus_avp_positions.html#button) to trigger a prop, first [create the prop as normal](/avsitterplus_prop.html#setting-up-a-prop-with-avsittertrade) so that it rezzes for a pose, then edit the notecard to change the &lt;trigger_name&gt; of the prop to match your BUTTON. Alternately, add the PROP line manually to your notecard. e.g.
 
     BUTTON Rez Guitar
     ...
@@ -146,15 +146,15 @@ If you don't want the menu returned then use the 90220 link message in the BUTTO
 
 ## De-Rezzing Props by BUTTON
 
-If you want a [BUTTON](/avsitterplus_avpos.html#button) to clear all props then simply refer to a prop that does not exist. e.g.
+If you want a [BUTTON](/avsitterplus_avp_positions.html#button) to clear all props then simply refer to a prop that does not exist. e.g.
 
     BUTTON [CLEAR]
 
-To make a [BUTTON](/avsitterplus_avpos.html#button) to clear props by name then send remprop_&lt;trigger_name&gt; as the button's &lt;custom_string&gt; using integer 90200. e.g.
+To make a [BUTTON](/avsitterplus_avp_positions.html#button) to clear props by name then send remprop_&lt;trigger_name&gt; as the button's &lt;custom_string&gt; using integer 90200. e.g.
 
     BUTTON Clear Fruit|90200|remprop_Fruit
 
-If you want a [BUTTON](/avsitterplus_avpos.html#button) to clear all props in one &lt;prop_group&gt; then you can create a blank prop with the same &lt;prop_group&gt;. It's important to leave the &lt;prop_object&gt; for the blank prop empty as in the 'Clear Quilt' example below. e.g.
+If you want a [BUTTON](/avsitterplus_avp_positions.html#button) to clear all props in one &lt;prop_group&gt; then you can create a blank prop with the same &lt;prop_group&gt;. It's important to leave the &lt;prop_object&gt; for the blank prop empty as in the 'Clear Quilt' example below. e.g.
 
 ```
 BUTTON Quilt1
@@ -306,7 +306,7 @@ To derez a specific prop by name, just add "remprop_" to the beginning of the &l
 
 {% include important.html content="If you want the menu returned to the avatar, use 90200 instead of 90220." %}
 
-{% include note.html content="The AVP_prop script can be used by itself to create a rezzing prim where props defined in an AVpos notecard are rezzed entirely via link messages (i.e. without sit scripts in the same prim)." %}
+{% include note.html content="The AVP_prop script can be used by itself to create a rezzing prim where props defined in an AVP_Positions notecard are rezzed entirely via link messages (i.e. without sit scripts in the same prim)." %}
 
 {% include note.html content="Link Messages that rez/derez props must be sent from the same prim the props are in." %}
 
@@ -341,7 +341,7 @@ default
 
 ### LSL Link Messages Source in AVP_menu
 
-If you're using AVP_menu, starting in version $NEXTVERSION you can select which prims to accept link messages from, by using the command `LMSOURCE` in the AVpos notecard as follows:
+If you're using AVP_menu, starting in version $NEXTVERSION you can select which prims to accept link messages from, by using the command `LMSOURCE` in the AVP_Positions notecard as follows:
 
 - `LMSOURCE 0` means that it accepts script link messages from the current prim only.
 - `LMSOURCE 1` means it accepts script link messages from any prim.

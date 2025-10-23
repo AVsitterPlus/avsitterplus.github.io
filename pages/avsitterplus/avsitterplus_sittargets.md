@@ -30,7 +30,7 @@ AVsitterPlus will assign SitTargets to prims using the following method:
 
 To override the default behavior:
 
-1. Assign <a href="/avsitterplus_avpos.html#set">a SET #</a> in the AVpos notecard.
+1. Assign <a href="/avsitterplus_avp_positions.html#set">a SET #</a> in the AVP_Positions notecard.
 2. Assign each SITTER to a prim by typing the SET # and SITTER # into the description of the prim you want to assign that SITTER to, separated by a dash (-). e.g:
     - To assign the SitTarget for SET 0, SITTER 0 to a prim, type 0-0 into the description of that prim.
     - To assign the SitTarget for SET 0, SITTER 1 to a prim, type 0-1 into the description of that prim.
@@ -54,7 +54,7 @@ To override the default behavior:
 <iframe height="349" src="https://www.youtube.com/embed/RYqGKGk21D8?rel=0" frameborder="0" width="560" allowfullscreen=""></iframe>
 
 ### SitTargets and Multiple Setups
-If you have [Multiple Setups](/avsitterplus_home.html#multiple-setups) in your furniture then you must [assign a unique SET #](/avsitterplus_avpos.html#set) to each setup that is for more than one avatar. e.g. If you have 2 separate couples setups in the same furniture, type SET 0 into the notecard of one and SET 1 into the notecard of the other. You would then need to [Assign a SitTarget](/avsitterplus_sittargets.html#assigning-sittargets-specialadvanced-only) in prim descriptions for each SITTER in those setups.
+If you have [Multiple Setups](/avsitterplus_home.html#multiple-setups) in your furniture then you must [assign a unique SET #](/avsitterplus_avp_positions.html#set) to each setup that is for more than one avatar. e.g. If you have 2 separate couples setups in the same furniture, type SET 0 into the notecard of one and SET 1 into the notecard of the other. You would then need to [Assign a SitTarget](/avsitterplus_sittargets.html#assigning-sittargets-specialadvanced-only) in prim descriptions for each SITTER in those setups.
 
 {% include important.html content="See AVsitterPlus Example#09 in the AVsitterPlus Examples [BOX] (example shows a couch with couples and 3 singles prims)." %}
 

@@ -26,7 +26,7 @@ permalink: avsitterplus_lsl_example_rez_same_prop_for_several_poses.html
 * 5. Edit "SITTER" below to match the sitter # the props are for (or use -1 to ignore sitter #).
 *
 * If you are rezzing props from two or more of these scripts at same time (some poses are in
-* more than one script's "poses" list), PROP lines in AVpos notecard must specify different
+* more than one script's "poses" list), PROP lines in AVP_Positions notecard must specify different
 * <prop_group> for props rezzed by each script. This is necessary because a prop will derez
 * when a new prop is rezzed that has the same <prop_group>.
 ******************************************************************/
