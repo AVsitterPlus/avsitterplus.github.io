@@ -38,10 +38,10 @@ If you have a setup with more than one SITTER then you may prefer to offer a men
 
 {% include tip.html content="For working examples, see the AVP_select examples provided to you in the Examples [BOX]." %}
 
-### AVhipfix animation
-Some animations in SL are not properly designed for furniture, made especially clear when there is no "Hip-Joint" rotation in the animation. In this case the animation will adopt the hip rotation of whichever animation was played last, causing unreliable rotation. If you are experiencing this problem with an animation, you can drop the AVhipfix animation into your setup. AVsitterPlus will automatically recognize this animation and apply a neutral rotation to the "Hip-Joint".
+### AVP_hipfix animation
+Some animations in SL are not properly designed for furniture, made especially clear when there is no "Hip-Joint" rotation in the animation. In this case the animation will adopt the hip rotation of whichever animation was played last, causing unreliable rotation. If you are experiencing this problem with an animation, you can drop the AVP_hipfix animation into your setup. AVsitterPlus will automatically recognize this animation and apply a neutral rotation to the "Hip-Joint".
 
-After adding AVhipfix you should re-adjust and [SAVE] the positions of all affected poses so that they are positioned correctly. This is because the original saved position may have been based on the broken "Hip-Joint". If this fixes the issue then we know it was due to a missing "Hip-Joint" rotation in the animation file.
+After adding AVP_hipfix you should re-adjust and [SAVE] the positions of all affected poses so that they are positioned correctly. This is because the original saved position may have been based on the broken "Hip-Joint". If this fixes the issue then we know it was due to a missing "Hip-Joint" rotation in the animation file.
 
 {% include warning.html content="Not all animations are designed for furniture, as the whole body isn't animated (like drinking or waving animations). Animations missing rotations in other joints will cause unpredictability, and they should not be used with furniture." %}
 
@@ -63,5 +63,8 @@ When placed inside a prim that contains an MLP setup, this script will read thro
 {% include important.html content="When using the MLP-converter script you can enter a position vector in the prim description e.g. &lt;0,0,0.5&gt; and this will offset the converter's position results by that amount." %}
 
 Follow this step by step guide for more details: [MLP-converter step-by-step guide](avsitterplus_StepByStepGuides_MLPconverter.html)
+
+### PMAC-Converter script
+Similar to the `MLP-converter` script, `PMAC-Converter` can be used to convert PMAC version notecards to AVsitterPlus format. Place this script in the PMAC object contents.  It will delete itself after it finishes the conversion. Copy the results from chat into the `AVP_Positions` notecard in the object. Remove anything that starts with `~~~`. Remove any old script related to PMAC. Remove `.menuxxxx` notecards. Copy the `AVsitterPlus` scripts into the object.
 
 {% include links.html %}
