@@ -303,6 +303,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  rouge
 
 BUNDLED WITH
    2.7.2
