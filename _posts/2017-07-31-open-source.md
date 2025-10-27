@@ -1,6 +1,5 @@
 ---
 title:  "AVsitter is now open-source!"
-categories: news
 permalink: news-2017-07-31.html
 date: 2017-07-31 12:55:00 +0800
 tags: [news]
@@ -25,7 +24,7 @@ If you need advice with AVsitter, we suggest:
 ### Continuation of services
 For the forseeable future, we plan to maintain the following support services:
 
--  The <a href="/avsitterplus_home.html">AVsitter2</a> and <a href="/avsitter1_home.html">AVsitter1</a> instructions including the <a href="https://avsitter.com/qa">Q&A website archive</a> and <a href="https://www.youtube.com/user/code5violet/videos">tutorials on youtube</a>.
+-  The <a href="/avsitterplus_home.html">AVsitter2</a> and <a href="/avsitterplus_home.html">AVsitter1</a> instructions including the <a href="https://avsitter.com/qa">Q&A website archive</a> and <a href="https://www.youtube.com/user/code5violet/videos">tutorials on youtube</a>.
 -  The "AVsitter" <a href="/avsitterplus_prop.html#experience-keys">experience key</a> used for automatic attachments by the AVprop plugin.
 -  The <a href="/updates.html">inworld update system</a> for all registered AVsitter users to obtain packaged versions of the scripts.
 -  The web-link to notecard settings given in chat after settings [DUMP].
