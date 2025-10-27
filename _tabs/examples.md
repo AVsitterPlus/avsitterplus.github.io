@@ -9,9 +9,9 @@ order: 6
 
 See the following pages for AVsitterPlus script examples:
 
-- [LSL Examples (Beginner)](avsitterplus_lsl_examples_beginner.html)
-- [LSL Examples (Advanced)](avsitterplus_lsl_examples_advanced.html)
-- [LSL Examples (AVP_prop)](avsitterplus_lsl_examples_avprop.html)
+- [LSL Examples (Beginner)](/avsitterplus_lsl_examples_beginner.html)
+- [LSL Examples (Advanced)](/avsitterplus_lsl_examples_advanced.html)
+- [LSL Examples (AVP_prop)](/avsitterplus_lsl_examples_avprop.html)
 
 ## AVsitterPlus Examples
 

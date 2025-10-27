@@ -526,7 +526,7 @@ Pressing the << Softer & Harder >> buttons will change the speed to the slower/f
 
 
 ## Extra notecard commands
-Some additional notecard commands exist _([read here for more information](avsitterplus_SpecialCommands_AVP_Positions.html))_:
+Some additional notecard commands exist _([read here for more information](/avsitterplus_SpecialCommands_AVP_Positions.html))_:
 
 - [HELPER](/avsitterplus_SpecialCommands_AVP_Positions.html#helper) - use the AVsitter1 style helper system, where you sit on the helper sticks.
 - [KFM](/avsitterplus_SpecialCommands_AVP_Positions.html#kfm) - if the object uses [llSetKeyframedMotion()](http://wiki.secondlife.com/wiki/LlSetKeyframedMotion).

@@ -18,8 +18,8 @@ The AVP_root-control script allows menus of sitting avatars to be controlled by 
 
 To use this feature, start with the <a href="/avsitterplus_home.html#setup">normal setup</a> procedure, then:
 
-- Drop the [AVP_root-security](avsitterplus_utilities.html#avroot-security-script) script into the *root prim* of your furniture. (Utilities box)
-- Remove the [AVP_root](avsitterplus_utilities.html#avroot-script) script, if you were using it.
+- Drop the [AVP_root-security](/avsitterplus_utilities.html#avroot-security-script) script into the *root prim* of your furniture. (Utilities box)
+- Remove the [AVP_root](/avsitterplus_utilities.html#avroot-script) script, if you were using it.
 - Drop the AVP_root-control script into the *root prim* of your furniture.
 - Anyone can now touch the furniture to control the menu of the sitting avatars, depending on the security level.
 
@@ -28,15 +28,15 @@ The AVP_root-RLV script allows you to add RLV (Restrained Love Viewer) functions
 
 To use this feature:
 
-- Start with the instructions for [AVP_root-control](avsitterplus_control.html#avroot-control-script).
+- Start with the instructions for [AVP_root-control](/avsitterplus_control.html#avroot-control-script).
 - Drop the AVP_root-RLV script into the *root prim* of your furniture.
 - Place a notecard named AVP_Positions into the *root prim* of your furniture (if there is not one already there).
 
 {% include important.html content="If working with a couples setup and RLV, the sitA+sitB scripts *must* be in the root prim." %}
 
-{% include important.html content="The AVP_root-RLV script can not be used when assigning SitTargets for [multiple SET](avsitterplus_sittargets.html) in the same object." %}
+{% include important.html content="The AVP_root-RLV script can not be used when assigning SitTargets for [multiple SET](/avsitterplus_sittargets.html) in the same object." %}
 
-{% include tip.html content="For examples, see the [AVP_control examples](avsitterplus_control.html#examples) provided to you in the AVP_control [BOX]." %}
+{% include tip.html content="For examples, see the [AVP_control examples](/avsitterplus_control.html#examples) provided to you in the AVP_control [BOX]." %}
 
 #### Capture behavior
 
@@ -115,7 +115,7 @@ e.g.
 
     WAITPOSE standby
 
-When used, a pose of the specified name (e.g. 'POSE standby') should be present in all sitter menus. If you don't want the WAITPOSE showing in the menu then you can place it in a MENU that has no corresponding TOMENU in the AVP_Positions notecard, as described [here](avsitterplus_sequence.html#hiding-poses).
+When used, a pose of the specified name (e.g. 'POSE standby') should be present in all sitter menus. If you don't want the WAITPOSE showing in the menu then you can place it in a MENU that has no corresponding TOMENU in the AVP_Positions notecard, as described [here](/avsitterplus_sequence.html#hiding-poses).
 
 **DOMPOSE** - optional POSE to play when an avatar chooses the 'D' role. Only applicable when using ONSIT ASK. e.g.
 
@@ -188,7 +188,7 @@ ONCAPTURE @unsit=n|@fartouch=n
 ```
 {% include important.html content="RLV settings are not printed out during settings [DUMP]! Remember to leave your settings at the top of the notecard." %}
 
-{% include tip.html content="For more examples, see the [AVP_control examples](avsitterplus_control.html#examples) provided to you in the AVP_control [BOX]." %}
+{% include tip.html content="For more examples, see the [AVP_control examples](/avsitterplus_control.html#examples) provided to you in the AVP_control [BOX]." %}
 
 ### AVP_root-RLV-extra script
 
@@ -233,7 +233,7 @@ RLV for 1 submissive.
 - **RLV & LockGuard, Dom+sub**
 RLV for 1 submissive and 1 dominant (ONSIT ASK).
 - **RLV & LockGuard, 2 subs**
-RLV for 2 submissives (with [SitTargets defined](avsitterplus_sittargets.html) so avatars will be captured on to the prim that was last touched).
+RLV for 2 submissives (with [SitTargets defined](/avsitterplus_sittargets.html) so avatars will be captured on to the prim that was last touched).
 - **RLV & LockGuard, Dom+2 subs**
 RLV for 2 submissives and 1 dominant (ONSIT ASK).
 - **RLV & LockGuard, multiple setup prims**
@@ -249,7 +249,7 @@ Example of use in "normal" furniture (SUBCONTROL 1, ONTOUCH NONE, ONSIT NONE).
 - **RLV bed Example, Dom+2 subs**
 Example of use in "normal" furniture (SUBCONTROL 1, ONTOUCH NONE, ONSIT ASKONLY).
 
-{% include important.html content="OpenCollar cuffs provided in [examples](avsitterplus_examples.html) are for demonstration only. Current versions should be obtained from [OpenCollar](http://opencollar.at)." %}
+{% include important.html content="OpenCollar cuffs provided in [examples](/avsitterplus_examples.html) are for demonstration only. Current versions should be obtained from [OpenCollar](http://opencollar.at)." %}
 
 
 {% include links.html %}

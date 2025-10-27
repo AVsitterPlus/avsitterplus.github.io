@@ -3,7 +3,6 @@ title: Contributor Guidelines
 date: 2025-10-21 12:00:18 +0800
 layout: page
 summary: The AVsitterPlus Project is open-source and welcomes help from the community.
-tags: mydoc
 toc: false
 permalink: contribute.html
 ---
@@ -20,7 +19,7 @@ permalink: contribute.html
 ## Documentation contributions
 
 - Documentation improvements should be submitted via pull request on the [GitHub repository for AVsitterPlus Documentation](https://github.com/AVsitterPlus/avsitterplus.github.io).
-- AVsitterPlus Documentation uses the [Jekyll Documentation Theme](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_pages.html) ([see template guidelines](/mydoc_introduction.html)).
+- AVsitterPlus Documentation uses the [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy).
 - AVsitterPlus Documentation is released under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 - LSL example scripts provided in the AVsitterPlus Documentation are released under the [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) license.
 
