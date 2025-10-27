@@ -36,7 +36,7 @@ integer SITTER = 2;
 
 Notice how the last line of the POSES list does not end with a comma (,) at the end. If the last line of the POSES list has a comma, the compiler will issue a Syntax Error.
 
-See the [mooring points list page](http://wiki.secondlife.com/wiki/LSL_Protocol/LockMeister_System#Complete_List_of_Mooring_Points) for an exhaustive list of all the destination points that we can use.
+See the [mooring points list page](https://wiki.secondlife.com/wiki/LSL_Protocol/LockMeister_System#Complete_List_of_Mooring_Points) for an exhaustive list of all the destination points that we can use.
 
 - The third step (optional) is changing the value of PSYS_SRC_TEXTURE with our own texture UUID, if we have a different texture to use. This is very important: if the texture license does not allow for the texture to be given away, then we can't use its texture UUID in the script, for the script has to remain full perms.
 

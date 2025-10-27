@@ -128,7 +128,7 @@ Second Life has now enabled 'experiences' which will allow automatic attachments
 
 For automatic attachments to work, Users will need to enable the experience <ins>'AVsitter'</ins> (created by Code Violet) on their land. An experience may be enabled at the Estate or Parcel level by [adding it to the **'Allowed Experiences'** list](https://avsitter.com/pics/experiences.jpg). For an excellent explanation, [see this video by Froukje Hoorenbeek](https://www.youtube.com/watch?v=3gcy403FtAk). Be sure to choose [the experience created by Code Violet](https://avsitter.com/pics/experiences2.jpg) as anyone could have accidentally created an experience with the same name.
 
-You can find out more about 'experiences' on the [SL blog](https://community.secondlife.com/t5/English-Knowledge-Base/Experiences-in-Second-Life/ta-p/2744686) and in the [SL scripting WIKI](http://wiki.secondlife.com/wiki/Category:Experience_Tools).
+You can find out more about 'experiences' on the [SL blog](https://community.secondlife.com/t5/English-Knowledge-Base/Experiences-in-Second-Life/ta-p/2744686) and in the [SL scripting WIKI](https://wiki.secondlife.com/wiki/Category:Experience_Tools).
 
 {% include important.html content="If users do not enable the <ins>'AVsitter' by Code Violet</ins> experience then each prop will require permission to attach and the owner may receive the message \"To enable auto-attachments, please enable the experience in About Land.\" ([discussion](https://avsitter.com/qa/251/))" %}
 
@@ -278,7 +278,7 @@ PROP Vase|vase|shelf3|<-0.022728, -0.019066, 0.440918>|<0.000000, 0.000009, 174.
 ## LSL Scripting
 Scripting methods can be used to rez and remove props, and respond to prop related events.
 
-{% include warning.html content="Don't use this section without a knowledge of [LSL scripting](http://wiki.secondlife.com/wiki/LSL_Portal)." %}
+{% include warning.html content="Don't use this section without a knowledge of [LSL scripting](https://wiki.secondlife.com/wiki/LSL_Portal)." %}
 
 
 ### LSL Link Messages to Send

@@ -22,6 +22,6 @@ order: 1
 
 The AVsitterPlus plugin architecture provides a mechanism to extend and enhance AVsitterPlus.
 
-For example, the AVP_control&trade; plugin adds specialized features to AVsitterPlus&trade; furniture including for photo studio or furniture where one avatar wants to control the menu of another avatar. The plugin also includes scripts for compatibility with some popular 3rd party adult roleplay systems in SL such as [RLV](http://wiki.secondlife.com/wiki/Third_Party_Viewer_Directory/Restrained_Love), [Xcite!](https://www.getxcite.com/) and [Lockguard](http://lslwiki.net/lslwiki/wakka.php?wakka=exchangeLockGuard).
+For example, the AVP_control&trade; plugin adds specialized features to AVsitterPlus&trade; furniture including for photo studio or furniture where one avatar wants to control the menu of another avatar. The plugin also includes scripts for compatibility with some popular 3rd party adult roleplay systems in SL such as [RLV](https://wiki.secondlife.com/wiki/Third_Party_Viewer_Directory/Restrained_Love), [Xcite!](https://www.getxcite.com/) and [Lockguard](https://lslwiki.net/lslwiki/wakka.php?wakka=exchangeLockGuard).
 
 The AVP_faces script allows creators to add facial expressions to AVsitterPlus&trade; furniture.

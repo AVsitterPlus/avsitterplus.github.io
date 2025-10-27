@@ -68,7 +68,7 @@ The main AVsitterPlus package contains:
 There are some basic requirements to use AVsitterPlus:
 
 <ul>
-<li/>You will need to have a beginner's <a href="http://wiki.secondlife.com/wiki/Building_Tools">knowledge of building in Second Life</a>.
-<li/>You will need to purchase animation files from <a href="http://bit.ly/HtdEqK">animation stores in SL</a> or <a href="http://wiki.secondlife.com/wiki/How_to_create_animations">learn to create them yourself</a>.</ul>
+<li/>You will need to have a beginner's <a href="https://wiki.secondlife.com/wiki/Building_Tools">knowledge of building in Second Life</a>.
+<li/>You will need to purchase animation files from <a href="https://bit.ly/HtdEqK">animation stores in SL</a> or <a href="https://wiki.secondlife.com/wiki/How_to_create_animations">learn to create them yourself</a>.</ul>
 
 {% include links.html %}

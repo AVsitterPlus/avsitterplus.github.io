@@ -21,13 +21,13 @@ _Original discussion can be found at [https://avsitter.com/qa/49](https://avsitt
 
 ## KFM
 
-If you place `KFM 1` at the top of all `AVP_Positions` notecards in the object, it will tell the scripts to expect the use of [llSetKeyframedMotion()](http://wiki.secondlife.com/wiki/LlSetKeyframedMotion) (e.g. for rocking chair or swaying raft, etc). This was added in version `2.01-08`
+If you place `KFM 1` at the top of all `AVP_Positions` notecards in the object, it will tell the scripts to expect the use of [llSetKeyframedMotion()](https://wiki.secondlife.com/wiki/LlSetKeyframedMotion) (e.g. for rocking chair or swaying raft, etc). This was added in version `2.01-08`
 
 With this command, Key Framed Motion will be paused momentarily when avatars change pose. The Key Framed Motion will then immediately be resumed.
 
 ---
 
-Essentially the scripts are doing as advised on the [SL wiki](http://wiki.secondlife.com/wiki/LlSetKeyframedMotion):
+Essentially the scripts are doing as advised on the [SL wiki](https://wiki.secondlife.com/wiki/LlSetKeyframedMotion):
 
 ```
 llSetKeyframedMotion([],[KFM_COMMAND, KFM_CMD_PAUSE]);
@@ -35,9 +35,9 @@ llSetKeyframedMotion([],[KFM_COMMAND, KFM_CMD_PAUSE]);
 llSetKeyframedMotion([],[KFM_COMMAND, KFM_CMD_PLAY]);
 ```
 
-We still find [llSetKeyframedMotion()](http://wiki.secondlife.com/wiki/LlSetKeyframedMotion) itself rather buggy and unpredictable. Many residents have filed JIRA reports about problems with [llSetKeyframedMotion()](http://wiki.secondlife.com/wiki/LlSetKeyframedMotion). Also see: [https://avsitter.com/qa/130](https://avsitter.com/qa/130).
+We still find [llSetKeyframedMotion()](https://wiki.secondlife.com/wiki/LlSetKeyframedMotion) itself rather buggy and unpredictable. Many residents have filed JIRA reports about problems with [llSetKeyframedMotion()](https://wiki.secondlife.com/wiki/LlSetKeyframedMotion). Also see: [https://avsitter.com/qa/130](https://avsitter.com/qa/130).
 
-NOTE: AVsitterPlus scripts have no way to know if the motion was paused, and will always resume it with [KFM_CMD_PLAY](http://wiki.secondlife.com/wiki/KFM_CMD_PLAY) when the pose is changed. As changing a pose will restart the motion, it may be best if your script completely removes (empties) any Key Framed Motion when the motion is supposed to be stopped, rather than simply pausing it.
+NOTE: AVsitterPlus scripts have no way to know if the motion was paused, and will always resume it with [KFM_CMD_PLAY](https://wiki.secondlife.com/wiki/KFM_CMD_PLAY) when the pose is changed. As changing a pose will restart the motion, it may be best if your script completely removes (empties) any Key Framed Motion when the motion is supposed to be stopped, rather than simply pausing it.
 
 _Original discussion can be found at [https://avsitter.com/qa/259](https://avsitter.com/qa/259)_
 

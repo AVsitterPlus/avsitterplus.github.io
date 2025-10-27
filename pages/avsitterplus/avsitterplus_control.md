@@ -9,7 +9,7 @@ permalink: avsitterplus_control.html
 
 ## AVP_control&trade;
 
-The AVP_control&trade; plugin adds specialized features to AVsitterPlus&trade; furniture including for photo studio or furniture where one avatar wants to control the menu of another avatar. The plugin also includes scripts for compatibility with some popular 3rd party adult roleplay systems in SL such as [RLV](http://wiki.secondlife.com/wiki/Third_Party_Viewer_Directory/Restrained_Love), [Xcite!](https://www.getxcite.com/) and [Lockguard](http://lslwiki.net/lslwiki/wakka.php?wakka=exchangeLockGuard).
+The AVP_control&trade; plugin adds specialized features to AVsitterPlus&trade; furniture including for photo studio or furniture where one avatar wants to control the menu of another avatar. The plugin also includes scripts for compatibility with some popular 3rd party adult roleplay systems in SL such as [RLV](https://wiki.secondlife.com/wiki/Third_Party_Viewer_Directory/Restrained_Love), [Xcite!](https://www.getxcite.com/) and [Lockguard](https://lslwiki.net/lslwiki/wakka.php?wakka=exchangeLockGuard).
 
 {% include important.html content="AVP_control scripts and examples are found inside the AVP_control [BOX] (inside the Plugins [BOX])." %}
 
@@ -24,7 +24,7 @@ To use this feature, start with the <a href="/avsitterplus_home.html#setup">norm
 - Anyone can now touch the furniture to control the menu of the sitting avatars, depending on the security level.
 
 ### AVP_root-RLV script
-The AVP_root-RLV script allows you to add RLV (Restrained Love Viewer) functions to your furniture. Specifically, it allows an avatar to *capture* other avatars and impose RLV restrictions upon them. To be controlled by RLV, avatars *must* be wearing an *RLV relay* based on the [RLV API](http://wiki.secondlife.com/wiki/LSL_Protocol/RestrainedLoveAPI) (e.g. [OpenCollar](http://opencollar.at)), and turn on RLV in the SL viewer.
+The AVP_root-RLV script allows you to add RLV (Restrained Love Viewer) functions to your furniture. Specifically, it allows an avatar to *capture* other avatars and impose RLV restrictions upon them. To be controlled by RLV, avatars *must* be wearing an *RLV relay* based on the [RLV API](https://wiki.secondlife.com/wiki/LSL_Protocol/RestrainedLoveAPI) (e.g. [OpenCollar](https://opencollar.at)), and turn on RLV in the SL viewer.
 
 To use this feature:
 
@@ -103,11 +103,11 @@ e.g.
 
 {% include note.html content="When using ONSIT ASK or ONSIT ASKONLY, the regular [SWAP] button is removed from the menu." %}
 
-**ONCAPTURE** - a list of [RLV commands](http://wiki.secondlife.com/wiki/LSL_Protocol/RestrainedLoveAPI) to issue when an avatar is captured, each separated by the pipe (`|`) character (default is `@unsit=n`). e.g.
+**ONCAPTURE** - a list of [RLV commands](https://wiki.secondlife.com/wiki/LSL_Protocol/RestrainedLoveAPI) to issue when an avatar is captured, each separated by the pipe (`|`) character (default is `@unsit=n`). e.g.
 
     ONCAPTURE @unsit=n|@fartouch=n|@rez=n|@edit=n|@acceptpermission=add
 
-**ONRELEASE** - a list of [RLV commands](http://wiki.secondlife.com/wiki/LSL_Protocol/RestrainedLoveAPI) to issue when an avatar is released, each separated by the pipe (`|`) character (default is `@unsit=force`). If you don't want to unsit avatars when they are released then define ONRELEASE <ins>not</ins> to use `@unsit=force`. e.g.
+**ONRELEASE** - a list of [RLV commands](https://wiki.secondlife.com/wiki/LSL_Protocol/RestrainedLoveAPI) to issue when an avatar is released, each separated by the pipe (`|`) character (default is `@unsit=force`). If you don't want to unsit avatars when they are released then define ONRELEASE <ins>not</ins> to use `@unsit=force`. e.g.
 
     ONRELEASE @unsit=y
 
@@ -129,7 +129,7 @@ When used, a pose of the specified name (e.g. 'POSE standby') should be present 
 
     RECAPTURE 1
 
-{% include important.html content="Note that for recapture to work, it must be supported by the RLV Relay being used (see [here](http://avsitter.com/qa/955))." %}
+{% include important.html content="Note that for recapture to work, it must be supported by the RLV Relay being used (see [here](https://avsitter.com/qa/955))." %}
 
 **TIMELOCK** - the initial setting for the timelock in minutes (default is 0). e.g.
 
@@ -204,7 +204,7 @@ Adding this optional script will provide additional RLV Restrict and Un/Dress me
 
 ### LSL Scripting
 
-A link message exists so scripters can make things happen when avatars are captured/released. See [here](http://avsitter.com/qa/501).
+A link message exists so scripters can make things happen when avatars are captured/released. See [here](https://avsitter.com/qa/501).
 
 ### AVP_Xcite! script
 This optional script allows you to make your AVsitterPlus&trade; furniture compatible with Xcite! and Sensations products in SL.
@@ -216,7 +216,7 @@ This optional script allows you to make your AVsitterPlus&trade; furniture compa
 {% include note.html content="Xcite! compatible features should be switched on/off via the product's menu (e.g. on the HUD provided with the Xcite! or Sensations product menu)." %}
 
 ### AVP_LockGuard script
-This optional script allows you to make your AVsitterPlus&trade; furniture work with [LockGuard V2](http://wiki.secondlife.com/wiki/LSL_Protocol/LockGuard) compatible cuffs (e.g. [OpenCollar](http://opencollar.at)) for particle chains. Details for use are included within the AVP_LockGuard script itself.
+This optional script allows you to make your AVsitterPlus&trade; furniture work with [LockGuard V2](https://wiki.secondlife.com/wiki/LSL_Protocol/LockGuard) compatible cuffs (e.g. [OpenCollar](https://opencollar.at)) for particle chains. Details for use are included within the AVP_LockGuard script itself.
 
 ### AVP_LockMeister script
 The LockMeister System is a keyring of commands used for enhanced functions in bondage toys. Its main function is to get the keys needed for particle chains. This optional script allows you to make your AVsitterPlus&trade; furniture work with [LockMeister V2](https://wiki.secondlife.com/wiki/LSL_Protocol/LockMeister_System).
@@ -249,7 +249,7 @@ Example of use in "normal" furniture (SUBCONTROL 1, ONTOUCH NONE, ONSIT NONE).
 - **RLV bed Example, Dom+2 subs**
 Example of use in "normal" furniture (SUBCONTROL 1, ONTOUCH NONE, ONSIT ASKONLY).
 
-{% include important.html content="OpenCollar cuffs provided in [examples](/avsitterplus_examples.html) are for demonstration only. Current versions should be obtained from [OpenCollar](http://opencollar.at)." %}
+{% include important.html content="OpenCollar cuffs provided in [examples](/avsitterplus_examples.html) are for demonstration only. Current versions should be obtained from [OpenCollar](https://opencollar.at)." %}
 
 
 {% include links.html %}
