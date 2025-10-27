@@ -9,8 +9,10 @@ order: 7
 AVsitterPlus plugins extend and enhance the functionality. Included in release 2.3 of AVsitterPlus are the following plugins:
 
 
-- [LockMeister](/avsitterplus_plugin_LockMeister.html)
 - [Control](/avsitterplus_control.html)
+  - [LockMeister/LockGuard](/avsitterplus_plugin_LockMeister.html)
+  - [RLV](/avsitterplus_control.html)
+  - [Xcite! Sensations](/avsitterplus_control.html)
 - [Camera](/avsitterplus_camera.html)
 - [Faces](/avsitterplus_faces.html)
 - [Favs](/avsitterplus_plugin_AVP_favs.html)
