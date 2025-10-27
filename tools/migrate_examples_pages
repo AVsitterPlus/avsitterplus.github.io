@@ -10,10 +10,10 @@ TOP=$(dirname "${SCRIPT_PATH}")
 
 cd "${TOP}"
 
-for pdir in examples/*
+for pdir in pages/examples/*
 do
-  [ "${pdir}" == "examples/*" ] && {
-    echo "ERROR: no subirectories found in ${TOP}/examples. Exiting."
+  [ "${pdir}" == "pages/examples/*" ] && {
+    echo "ERROR: no subirectories found in ${TOP}/pages/examples. Exiting."
   }
   if [ -d ${pdir} ]; then
     cd ${pdir}
