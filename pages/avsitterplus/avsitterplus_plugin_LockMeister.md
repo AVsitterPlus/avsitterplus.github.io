@@ -2,7 +2,7 @@
 title: The LockMeister plugin
 date: 2025-10-21 12:00:10 +0800
 layout: page
-tags: AVsitterPlus, LockMeister
+tags: LockMeister, plugin
 toc: true
 permalink: avsitterplus_plugin_LockMeister.html
 ---
