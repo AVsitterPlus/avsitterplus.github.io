@@ -3,7 +3,7 @@ title: AVsitterPlus
 date: 2025-10-21 12:00:05 +0800
 layout: page
 summary:
-tags: AVsitterPlus
+tags: [avsitterplus]
 toc: true
 permalink: avsitterplus_home.html
 ---

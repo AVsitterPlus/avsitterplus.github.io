@@ -2,7 +2,7 @@
 title: LSL Scripting
 date: 2025-10-21 12:00:12 +0800
 layout: page
-tags: AVsitterPlus
+tags: [scripting]
 toc: true
 permalink: avsitterplus_scripting.html
 ---
