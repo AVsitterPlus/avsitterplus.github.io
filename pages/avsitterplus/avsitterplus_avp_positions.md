@@ -1,9 +1,10 @@
 ---
 title: The AVP_Positions Notecard
-keywords: AVsitterPlus
-sidebar: avsitterplus_sidebar
+date: 2025-10-21 12:00:00 +0800
+layout: page
+tags: AVsitterPlus
+toc: true
 permalink: avsitterplus_avp_positions.html
-folder: avsitterplus
 ---
 
 ## The AVP_Positions Notecard

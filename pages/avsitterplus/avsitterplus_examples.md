@@ -1,9 +1,10 @@
 ---
 title: AVsitterPlus Examples
-keywords: examples
-sidebar: avsitterplus_sidebar
+date: 2025-10-21 12:00:03 +0800
+layout: page
+tags: examples
+toc: true
 permalink: avsitterplus_examples.html
-folder: avsitterplus
 ---
 
 ## AVsitterPlus Examples

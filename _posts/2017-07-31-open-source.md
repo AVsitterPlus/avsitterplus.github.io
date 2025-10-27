@@ -2,7 +2,9 @@
 title:  "AVsitter is now open-source!"
 categories: news
 permalink: news-2017-07-31.html
+date: 2017-07-31 12:55:00 +0800
 tags: [news]
+img_path: "/posts/20230706"
 ---
 
 The AVsitter scripts have now been released to the community as an open-source project. For up-to-date instructions and the latest scripts and development news, please visit <a href="https://avsitter.github.io">https://avsitter.github.io</a>.

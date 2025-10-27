@@ -1,11 +1,11 @@
 ---
 title: AVsitterPlus
+date: 2025-10-21 12:00:05 +0800
+layout: page
 summary:
-keywords: AVsitterPlus
-sidebar: avsitterplus_sidebar
+tags: AVsitterPlus
 toc: true
 permalink: avsitterplus_home.html
-folder: avsitterplus
 ---
 
 ## What is AVsitterPlus

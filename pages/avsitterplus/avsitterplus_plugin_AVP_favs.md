@@ -1,9 +1,10 @@
 ---
 title: The AVP_favs plugin
-keywords: AVsitterPlus, avfavs
-sidebar: avsitterplus_sidebar
+date: 2025-10-21 12:00:09 +0800
+layout: page
+tags: AVsitterPlus, avfavs
+toc: true
 permalink: avsitterplus_plugin_AVP_favs.html
-folder: Plugins
 ---
 
 # AVP_favs

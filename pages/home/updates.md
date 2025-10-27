@@ -1,7 +1,8 @@
 ---
 title: In-world Updates
-sidebar: home_sidebar
-keywords: updates, release notes
+date: 2025-10-21 12:00:21 +0800
+layout: page
+tags: updates, release notes
 permalink: updates.html
 toc: false
 ---

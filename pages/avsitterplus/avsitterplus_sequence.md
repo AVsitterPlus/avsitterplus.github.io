@@ -1,9 +1,10 @@
 ---
 title: AVP_sequence&trade;
-keywords: sequence
-sidebar: avsitterplus_sidebar
+date: 2025-10-21 12:00:13 +0800
+layout: page
+tags: sequence
+toc: true
 permalink: avsitterplus_sequence.html
-folder: avsitterplus
 ---
 
 ## AVP_sequence&trade;

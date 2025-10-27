@@ -1,9 +1,10 @@
 ---
 title: AVP_faces&trade;
-keywords: plugin, faces
-sidebar: avsitterplus_sidebar
+date: 2025-10-21 12:00:04 +0800
+layout: page
+tags: plugin, faces
+toc: true
 permalink: avsitterplus_faces.html
-folder: avsitterplus
 ---
 
 ## AVP_faces&trade;

@@ -1,9 +1,10 @@
 ---
 title: Utilities
-keywords: AVsitterPlus
-sidebar: avsitterplus_sidebar
+date: 2025-10-21 12:00:17 +0800
+layout: page
+tags: AVsitterPlus
+toc: true
 permalink: avsitterplus_utilities.html
-folder: avsitterplus
 ---
 
 ## Utilities
