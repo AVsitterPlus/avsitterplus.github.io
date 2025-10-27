@@ -39,6 +39,7 @@ The current Development/Support Team consists of the following members:
 
 ### Code Developers:
   * [Missy Restless](https://world.secondlife.com/resident/3506213c-29c8-4aa1-a38f-e12f6d41b804) (Lead Developer / Project Maintainer)
+  * [Doc Rae](https://world.secondlife.com/resident/d648fb86-d59b-4d69-8d3c-d00862aec699) (Lead QA / Release Management)
   * *(wanted)*
 
 ### Documentation Maintainer:
