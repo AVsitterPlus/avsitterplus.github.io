@@ -2,7 +2,7 @@
 title: AVP_sequence&trade;
 date: 2025-10-21 12:00:13 +0800
 layout: page
-tags: sequence, plugin
+tags: [sequence, plugin]
 toc: true
 permalink: avsitterplus_sequence.html
 ---

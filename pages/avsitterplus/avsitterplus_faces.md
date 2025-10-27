@@ -2,7 +2,7 @@
 title: AVP_faces&trade;
 date: 2025-10-21 12:00:04 +0800
 layout: page
-tags: plugin, faces
+tags: [plugin, faces]
 toc: true
 permalink: avsitterplus_faces.html
 ---

@@ -2,7 +2,7 @@
 title: About SitTargets
 date: 2025-10-21 12:00:14 +0800
 layout: page
-tags: AVsitterPlus
+tags: [config, configuration]
 toc: true
 permalink: avsitterplus_sittargets.html
 ---

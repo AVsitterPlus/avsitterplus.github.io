@@ -2,7 +2,7 @@
 title: The AVP_Positions Notecard
 date: 2025-10-21 12:00:00 +0800
 layout: page
-tags: AVsitterPlus
+tags: [config, configuration]
 toc: true
 permalink: avsitterplus_avp_positions.html
 ---

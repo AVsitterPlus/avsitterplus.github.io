@@ -2,7 +2,7 @@
 title: Utilities
 date: 2025-10-21 12:00:17 +0800
 layout: page
-tags: AVsitterPlus
+tags: [utilities]
 toc: true
 permalink: avsitterplus_utilities.html
 ---

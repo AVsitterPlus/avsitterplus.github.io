@@ -2,7 +2,7 @@
 title: AVP_control&trade;
 date: 2025-10-21 12:00:02 +0800
 layout: page
-tags: plugin, control
+tags: [plugin, control]
 toc: true
 permalink: avsitterplus_control.html
 ---

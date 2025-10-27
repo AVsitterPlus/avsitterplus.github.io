@@ -2,7 +2,7 @@
 title: AVP_camera
 date: 2025-10-21 12:00:01 +0800
 layout: page
-tags: camera, plugin
+tags: [camera, plugin, control]
 toc: true
 permalink: avsitterplus_camera.html
 ---

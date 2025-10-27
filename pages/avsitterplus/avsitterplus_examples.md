@@ -2,7 +2,7 @@
 title: AVsitterPlus Examples
 date: 2025-10-21 12:00:03 +0800
 layout: page
-tags: examples
+tags: [examples]
 toc: true
 permalink: avsitterplus_examples.html
 ---
