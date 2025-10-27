@@ -29,7 +29,7 @@ plugins:
   - jekyll-sitemap
 
 github:
-  username: AVsitterPlus # change to your GitHub username
+  username: AVsitterPlus/AVsitterPlus # change to your GitHub username
 
 twitter:
   username: missyrestless # change to your Twitter username
