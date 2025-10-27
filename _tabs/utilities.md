@@ -61,7 +61,7 @@ When placed inside a prim that contains an MLP setup, this script will read thro
 
 {% include important.html content="When using the MLP-converter script you can enter a position vector in the prim description e.g. &lt;0,0,0.5&gt; and this will offset the converter's position results by that amount." %}
 
-Follow this step by step guide for more details: [MLP-converter step-by-step guide](avsitterplus_StepByStepGuides_MLPconverter.html)
+Follow this step by step guide for more details: [MLP-converter step-by-step guide](/avsitterplus_StepByStepGuides_MLPconverter.html)
 
 ### PMAC-Converter script
 Similar to the `MLP-converter` script, `PMAC-Converter` can be used to convert PMAC version notecards to AVsitterPlus format. Place this script in the PMAC object contents.  It will delete itself after it finishes the conversion. Copy the results from chat into the `AVP_Positions` notecard in the object. Remove anything that starts with `~~~`. Remove any old script related to PMAC. Remove `.menuxxxx` notecards. Copy the `AVsitterPlus` scripts into the object.
