@@ -2,14 +2,14 @@
 title: The LockMeister plugin
 date: 2025-10-21 12:00:10 +0800
 layout: page
-tags: LockMeister, plugin
+tags: LockGuard, LockMeister, plugin
 toc: true
 permalink: avsitterplus_plugin_LockMeister.html
 ---
 
 # The LockMeister plugin
 
-LockMeister provides us with functionality to make our furniture emit particles towards specific points of the cuffs, collar, etc. This plugin implements LockMeister in an AVsitterPlus setup (props are not supported yet). We need to follow these steps in order to make the plugin work.
+LockMeister provides us with functionality to make our furniture emit particles towards specific points of the cuffs, collar, etc. This plugin implements LockMeister and LockGuard in an AVsitterPlus setup (props are not supported yet). We need to follow these steps in order to make the plugin work.
 
 - Which is the SITTER that uses the LockMeister enabled cuffs, etc.? If, for example, this is SITTER 2, we change this line of the code:
 
