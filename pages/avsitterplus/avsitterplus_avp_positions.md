@@ -48,7 +48,7 @@ i.e.
 
     POSE Sit1|animation1
 
-{% include note.html content="[Internal SL animations](http://wiki.secondlife.com/wiki/Internal_Animations) can be used in AVsitterPlus without the animation file existing in the furniture." %}
+{% include note.html content="[Internal SL animations](https://wiki.secondlife.com/wiki/Internal_Animations) can be used in AVsitterPlus without the animation file existing in the furniture." %}
 
 ### SYNC
 Use the SYNC command for couple/group animations (e.g. cuddles). When a SYNC animation is played it will play all SYNC poses of the same &lt;menu_name&gt; in all SITTERs within the prim. Usually you would add a SYNC of the same name to each SITTER, using different animations for each SITTER (e.g. Female in *first* SITTER, male in *second* SITTER). The format is:
@@ -272,7 +272,7 @@ The default. Adds [SWAP] in all submenus, not just the top level of the menu.
 
 {% include important.html content="When playing a SYNC, [SWAP] will exchange places with the first *occupied* SITTER (if available)." %}
 
-{% include note.html content="You can override SWAP 0 or SWAP 1 and make [SWAP] appear for a specific submenu (see [here](http://avsitter.com/qa/652))." %}
+{% include note.html content="You can override SWAP 0 or SWAP 1 and make [SWAP] appear for a specific submenu (see [here](https://avsitter.com/qa/652))." %}
 
 {% include warning.html content="The optional [AVP_select script](/avsitterplus_utilities.html#avselect-script) completely replaces the normal [SWAP] buttons." %}
 
@@ -320,7 +320,7 @@ Same as `AMENU 2`, but custom buttons under the [ADJUST] menu will not send the 
 
 (As we can see, what we're doing is adding 4 when we don't want to send the second UUID.)
 
-{% include note.html content="You can override AMENU 0 or AMENU 1 and make [ADJUST] appear for a specific submenu (see [here](http://avsitter.com/qa/652))." %}
+{% include note.html content="You can override AMENU 0 or AMENU 1 and make [ADJUST] appear for a specific submenu (see [here](https://avsitter.com/qa/652))." %}
 
 ### SEQUENCE
 Creates a button that starts a sequence specified in the AVP_sequence_settings notecard. See [sequence instructions](/avsitterplus_sequence.html) for details. e.g.
@@ -480,7 +480,7 @@ Usually a sequence will loop, but if a dash ( - ) is entered instead of a durati
 {% include important.html content="For an alternate sequence method, see the [AVP_sequence&trade;](/avsitterplus_sequence.html) script." %}
 
 ## Auto-assign by gender
-Determining the gender of an avatar's shape is [now possible](http://wiki.secondlife.com/wiki/OBJECT_BODY_SHAPE_TYPE), and can be used for automatic sitter and default pose assignment in AVsitterPlus. The gender of an avatar's shape can be set from the Appearance Editor in the SL viewer.
+Determining the gender of an avatar's shape is [now possible](https://wiki.secondlife.com/wiki/OBJECT_BODY_SHAPE_TYPE), and can be used for automatic sitter and default pose assignment in AVsitterPlus. The gender of an avatar's shape can be set from the Appearance Editor in the SL viewer.
 
 ### SITTER assignment
 You can designate a [SITTER](/avsitterplus_avp_positions.html#sitter) for male/female shaped avatars by adding an "M" or "F" after the sitter name. When an avatar sits, they will be assigned to the first unoccupied sitter that matches the gender of their shape, if available. e.g:
@@ -531,7 +531,7 @@ Pressing the << Softer & Harder >> buttons will change the speed to the slower/f
 Some additional notecard commands exist _([read here for more information](/avsitterplus_SpecialCommands_AVP_Positions.html))_:
 
 - [HELPER](/avsitterplus_SpecialCommands_AVP_Positions.html#helper) - use the AVsitter1 style helper system, where you sit on the helper sticks.
-- [KFM](/avsitterplus_SpecialCommands_AVP_Positions.html#kfm) - if the object uses [llSetKeyframedMotion()](http://wiki.secondlife.com/wiki/LlSetKeyframedMotion).
+- [KFM](/avsitterplus_SpecialCommands_AVP_Positions.html#kfm) - if the object uses [llSetKeyframedMotion()](https://wiki.secondlife.com/wiki/LlSetKeyframedMotion).
 - [LROT](/avsitterplus_SpecialCommands_AVP_Positions.html#lrot) - positioning buttons to work relative to the local rotation of the root prim, instead of global co-ordinates.
 - [WARN](/avsitterplus_SpecialCommands_AVP_Positions.html#warn) - disable the warning when there aren't enough prims for all sitters or checks for prop permissions.
 - DFLT 0 - don't revert to the default pose when all avatars stand (unless the last pose was a SYNC pose).

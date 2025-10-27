@@ -83,7 +83,7 @@ If you want to re-use an ANIM line that is already defined for the same sitter, 
     ...
     ANIM pose2|pose1
 
-{% include note.html content="The full list of internal SL animations can be found [here](http://wiki.secondlife.com/wiki/Internal_Animations), and examples of the facial expressions [here](http://wiki.secondlife.com/wiki/File:SL_face_expressions.jpg)." %}
+{% include note.html content="The full list of internal SL animations can be found [here](https://wiki.secondlife.com/wiki/Internal_Animations), and examples of the facial expressions [here](https://wiki.secondlife.com/wiki/File:SL_face_expressions.jpg)." %}
 
 {% include important.html content="We suggest a sensible maximum of 3 expressions per ANIM line, to conserve script memory and reduce clutter. Also, scripts can only read the first 255 characters (bytes) per notecard line." %}
 

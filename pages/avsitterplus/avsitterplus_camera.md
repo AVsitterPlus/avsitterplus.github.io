@@ -84,7 +84,7 @@ SYNC Couples2|ml-entwine
 CAMERA DEFAULT|<-0.09605, -2.75508, 1.23718>|<-0.07217, -1.81931, 0.88538>
 CAMERA Sit2|<0.12466, -1.65931, 3.34216>|<0.12805, -1.20604, 2.45079>
 ```
-{% include important.html content="If you want the user to select camera position with menu buttons then see [here](http://avsitter.com/qa/939)." %}
+{% include important.html content="If you want the user to select camera position with menu buttons then see [here](https://avsitter.com/qa/939)." %}
 
 {% include important.html content="Remember that if your camera is already focused somewhere, you won't see the camera change. You need to first release the camera by hitting the ESC key. If this doesn't work, hit ESC again. The reason is that if you had, for example, the focus on the chat window, the first ESC will release the focus from it, while the second ESC will actually release the camera." %}
 

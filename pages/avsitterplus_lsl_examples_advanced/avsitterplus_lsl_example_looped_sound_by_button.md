@@ -6,7 +6,7 @@ permalink: avsitterplus_lsl_example_looped_sound_by_button.html
 
 ```js
 /******************************************************************
-* For most sounds and songs, use the sequence script (http://avsitterplus.github.io/avsitterplus_sequence.html)
+* For most sounds and songs, use the sequence script (https://avsitterplus.github.io/avsitterplus_sequence.html)
 *
 * This example will loop a sound continuously after a button is pressed in the menu.
 * e.g. for switching on a constant sound like a crackling fire in the background.
