@@ -238,3 +238,9 @@ jekyll-archives:
     tag: tag
   permalinks:
     tag: /tags/:name/
+
+# Site variables
+script_github: https://github.com/AVsitterPlus/AVsitterPlus
+sl_website: https://secondlife.com
+marketplace: https://marketplace.secondlife.com/stores/44210
+inworld: https://maps.secondlife.com/secondlife/Scylla/208/33/375

@@ -34,7 +34,7 @@ If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest yo
 - Scripts have been made full-perm in this latest release. For details click <a href="/news-2017-07-31.html">here</a>.
 
 ### AVsitter2, box 2.1-14.04 - 20 Apr 2017
-- AVP_adjuster, AVP_prop - pose and prop position data always appears in chat when clicking [SAVE] (removed the /5 info option from <a href="/avsitterplus_home.html#chat-commands">chat commands</a>).
+- AVP_adjuster, AVP_prop - pose and prop position data always appears in chat when clicking [SAVE] (removed the /5 info option from chat commands).
 
 ### AVsitter2, box 2.1-14.03 - 15 Apr 2017
 - AVP_sitB - changes to [BACK] button. Should allow duplicate TOMENU leading to the same submenu while keeping back button reliable for at least one level.
