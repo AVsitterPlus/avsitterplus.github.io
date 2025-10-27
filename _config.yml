@@ -1,135 +1,240 @@
-repository: AVsitterPlus/avsitterplus.github.io
+# The Site Configuration
 
-output: web
-# this property is useful for conditional filtering of content that is separate from the PDF.
+# Import the theme
+theme: jekyll-theme-chirpy
 
-topnav_title: AVsitterPlus&trade; documentation
-# this appears on the top navigation bar next to the home button
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value of 'en'.
+lang: en
 
-site_title: AVsitterPlus&trade; documentation
-# this appears in the html browser tab for the site title (seen mostly by search engines, not users)
+# Change to your timezone › https://zones.arilyn.cc
+timezone: America/Los_Angeles
 
-company_name: Truth & Beauty Lab
-# this appears in the footer
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ↓ --------------------------
 
-github_editme_path: AVsitterPlus/avsitterplus.github.io/
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+title: AVsitterPlus # the main title
 
-disqus_shortname: 
-# if you're using disqus for comments, add the shortname here. if not, leave this value blank.
+tagline: Advanced Multi-Pose System for Second Life # it will display as the subtitle
 
-google_analytics: 
-# if you have google-analytics ID, put it in. if not, edit this value to blank.
+description: >- # used by seo meta and the atom feed
+  The ultimate in pose systems for Second Life furniture, with powerful and easy to use scripts that allow you to create and sell furniture with perfectly positioned poses. Easily create everything from simple single animation chairs to feature rich couples furniture - without poseballs!
 
-host: 127.0.0.1
-# the preview server used. Leave as is.
+# Fill in the protocol & hostname for your site.
+# E.g. 'https://username.github.io', note that it does not end with a '/'.
+url: "https://avsitterplus.github.io"
 
-port: 4000
-# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
+plugins:
+  - jekyll-sitemap
 
-exclude:
-  - vendor
-  - .idea/
-  - .gitignore
-# these are the files and directories that jekyll will exclude from the build
+github:
+  username: AVsitterPlus # change to your GitHub username
 
-feedback_subject_line: AVsitterPlus documentation
+twitter:
+  username: missyrestless # change to your Twitter username
 
-feedback_email: example@gmail.com
-# used as a contact email for the Feedback link in the top navigation bar
+social:
+  # Change to your full name.
+  # It will be displayed as the default author of the posts and the copyright owner in the Footer
+  name: Missy Restless
+  email: missyrestless@gmail.com # change to your email address
+  links:
+    # The first element serves as the copyright owner's link
+    - https://twitter.com/missyrestless # change to your Twitter homepage
+    - https://github.com/AVsitterPlus/AVsitterPlus # change to your GitHub homepage
+    # Uncomment below to add more social links
+    # - https://www.facebook.com/username
+    # - https://www.linkedin.com/in/username
 
-feedback_disable: false
-# if you uncomment the previous line, the Feedback link gets removed
+# Site Verification Settings
+webmaster_verifications:
+  google: # fill in your Google verification code
+  bing: # fill in your Bing verification code
+  alexa: # fill in your Alexa verification code
+  yandex: # fill in your Yandex verification code
+  baidu: # fill in your Baidu verification code
+  facebook: # fill in your Facebook verification code
 
-# feedback_text: "Need help?"
-# if you uncomment the previous line, it changes the Feedback text
+# ↑ --------------------------
+# The end of `jekyll-seo-tag` settings
 
-feedback_link: "https://github.com/AVsitterPlus/avsitterplus.github.io/issues"
-# if you uncomment the previous line, it changes where the feedback link points to
+# Web Analytics Settings
+analytics:
+  google:
+    id: # fill in your Google Analytics ID
+  goatcounter:
+    id: # fill in your GoatCounter ID
+  umami:
+    id: # fill in your Umami ID
+    domain: # fill in your Umami domain
+  matomo:
+    id: # fill in your Matomo ID
+    domain: # fill in your Matomo domain
+  cloudflare:
+    id: # fill in your Cloudflare Web Analytics token
+  fathom:
+    id: # fill in your Fathom Site ID
 
-highlighter: rouge
-# library used for syntax highlighting
+# Page views settings
+pageviews:
+  provider: # now only supports 'goatcounter'
 
-markdown: kramdown
+# Prefer color scheme setting.
+#
+# Note: Keep empty will follow the system prefer color by default,
+# and there will be a toggle to switch the theme between dark and light
+# on the bottom left of the sidebar.
+#
+# Available options:
+#
+#     light — Use the light color scheme
+#     dark — Use the dark color scheme
+#
+theme_mode: # [light | dark]
+
+# The CDN endpoint for media resources.
+# Notice that once it is assigned, the CDN url
+# will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
+#
+# e.g. 'https://cdn.com'
+cdn:
+
+# the avatar on sidebar, support local or CORS resources
+avatar: /assets/AVsitterPlus-Logo.png
+
+# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
+# It can be overridden by a customized `page.image` in front matter.
+social_preview_image: # string, local or CORS resources
+
+# boolean type, the global switch for TOC in posts.
+toc: true
+
+comments:
+  # Global switch for the post-comment system. Keeping it empty means disabled.
+  provider: # [disqus | utterances | giscus]
+  # The provider options are as follows:
+  disqus:
+    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # utterances settings › https://utteranc.es/
+  utterances:
+    repo: # <gh-username>/<repo>
+    issue_term: # < url | pathname | title | ...>
+  # Giscus options › https://giscus.app
+  giscus:
+    repo: # <gh-username>/<repo>
+    repo_id:
+    category:
+    category_id:
+    mapping: # optional, default to 'pathname'
+    strict: # optional, default to '0'
+    input_position: # optional, default to 'bottom'
+    lang: # optional, default to the value of `site.lang`
+    reactions_enabled: # optional, default to the value of `1`
+
+# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+assets:
+  self_host:
+    enabled: # boolean, keep empty means false
+    # specify the Jekyll environment, empty means both
+    # only works if `assets.self_host.enabled` is 'true'
+    env: # [development | production]
+
+pwa:
+  enabled: true # The option for PWA feature (installable)
+  cache:
+    enabled: true # The option for PWA offline cache
+    # Paths defined here will be excluded from the PWA cache.
+    # Usually its value is the `baseurl` of another website that
+    # shares the same domain name as the current website.
+    deny_paths:
+      # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
+
+paginate: 10
+
+# The base URL of your site
+baseurl: ""
+
+# ------------ The following options are not recommended to be modified ------------------
+
 kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
- syntax_highlighter: rouge
-
-# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: highlight
+    # default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 collections:
-  avsitterplus_lsl_examples_beginner:
+  tabs:
     output: true
-  avsitterplus_lsl_examples_advanced:
-    output: true
-  avsitterplus_lsl_examples_avprop:
-    output: true
-  avsitterplus_lsl_examples_avcontrol:
-    output: true
-  releases:
-    output: false
-# collections are declared here. this renders the content in _xxxx and processes it, but doesn't output it as actual files in the output unless you change output to true
+    sort_by: order
 
 defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
+  - scope:
+      path: "" # An empty string here means all files in the project
+      type: posts
     values:
-      layout: "page"
-      comments: false
-      search: true
-      sidebar: home_sidebar
-      topnav: topnav
-  -
-    scope:
-      path: ""
-      type: "tooltips"
+      layout: post
+      comments: true # Enable comments in posts.
+      toc: true # Display TOC column in posts.
+      # DO NOT modify the following parameter unless you are confident enough
+      # to update the code of all other post links in this project.
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
     values:
-      layout: "page"
       comments: false
-      search: true
-      tooltip: true
-
-  -
-    scope:
+  - scope:
       path: ""
-      type: "posts"
+      type: tabs # see `site.collections`
     values:
-      layout: "post"
-      comments: false
-      search: true
-      sidebar: home_sidebar
-      topnav: topnav
-  -
-    scope:
-      path: ""
-      type: "releases"
-    values:
-      layout: "post"
-      comments: false
-      search: true
-      sidebar: home_sidebar
-      topnav: topnav
+      layout: page
+      permalink: /:title/
 
-# these are defaults used for the frontmatter for these file types
+sass:
+  style: compressed
 
-sidebars:
-- home_sidebar
-- mydoc_sidebar
-- avsitterplus_sidebar
-- other
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
 
-description: "AVsitterPlus"
-# the description is used in the feed.xml file
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - "*.sh"
+  - docs
+  - tmp
+  - tools
+  - README.md
+  - LICENSE
+  - purgecss.js
+  - "*.config.js"
+  - "package*.json"
 
-# needed for sitemap.xml file only
-url: https://avsitterplus.github.io
+jekyll_compose:
+  auto_open: true  # Set and export JEKYLL_EDITOR in your shell environment
+  default_front_matter:
+    drafts:
+      description:
+      tags:
+    posts:
+      description:
+      tags:
+      published: false
 
-# Site variables
-script_github: https://github.com/AVsitterPlus/AVsitterPlus
-sl_website: https://secondlife.com
-marketplace: https://marketplace.secondlife.com/stores/44210
-inworld: http://maps.secondlife.com/secondlife/Scylla/208/33/375
+jekyll-archives:
+  enabled: [tags]
+  layouts:
+    tag: tag
+  permalinks:
+    tag: /tags/:name/

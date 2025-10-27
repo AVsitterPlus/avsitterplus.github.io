@@ -1,9 +1,10 @@
 ---
 title: AVP_camera
-keywords: camera
-sidebar: avsitterplus_sidebar
+date: 2025-10-21 12:00:01 +0800
+layout: page
+tags: camera
+toc: true
 permalink: avsitterplus_camera.html
-folder: avsitterplus
 ---
 
 ## AVP_camera script

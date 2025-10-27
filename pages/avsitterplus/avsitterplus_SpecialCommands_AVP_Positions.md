@@ -1,9 +1,10 @@
 ---
 title: Special Commands - AVP_Positions
-keywords: AVsitterPlus
-sidebar: avsitterplus_sidebar
+date: 2025-10-21 12:00:15 +0800
+layout: page
+tags: AVsitterPlus
+toc: true
 permalink: avsitterplus_SpecialCommands_AVP_Positions.html
-folder: avsitterplus
 ---
 
 # Special Commands - AVP_Positions
