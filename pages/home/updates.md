@@ -41,9 +41,9 @@ If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest yo
 
 ### AVsitter2, box 2.1-14 - 24 Dec 2016
 - AVP_sitA - added <a href="/avsitterplus_scripting.html#message-90004">90004</a>, a variant of 90005 that brings up the top level of the menu.
-- AVP_sitA - added <a href="/avsitterplus_avpos.html#extra-notecard-commands">DFLT 0</a> - don't revert to the default pose when all avatars stand (unless the last pose was a SYNC pose).
+- AVP_sitA - added <a href="/avsitterplus_avp_positions.html#extra-notecard-commands">DFLT 0</a> - don't revert to the default pose when all avatars stand (unless the last pose was a SYNC pose).
 - AVP_sitB - ability to control which submenus have [ADJUST] and [SWAP] buttons (<a href="//avsitter.com/qa/652">info</a>).
-- AVP_sitB - added <a href="/avsitterplus_avpos.html#mtype">MTYPE 4</a>. Same as MTYPE 3, except the menu does not automatically return when a pose is selected.
+- AVP_sitB - added <a href="/avsitterplus_avp_positions.html#mtype">MTYPE 4</a>. Same as MTYPE 3, except the menu does not automatically return when a pose is selected.
 - AVP_faces - re-use defined faces ANIM line by referring to another faces ANIM line e.g. <code>ANIM pose2|pose1</code> (<a href="/avsitterplus_faces.html#notecard-commands">see example</a>)
 - AVP_camera - <a href="/avsitterplus_camera.html">camera script presets</a> can be selected by BUTTON (<a href="//avsitter.com/qa/939">info</a>).
 <a href="/avsitterplus_utilities.html#missing-anim-finder-script">Missing-anim-finder script</a> - gives the option to delete animations that are not used from the prim inventory.
@@ -51,11 +51,11 @@ If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest yo
 ### AVsitter2, box 2.1-12 - 22 Apr 2016
 - AVP_sitB - sends link message <a href="/avsitterplus_scripting.html#message-90051">90051</a> when a submenu is chosen (<a href="//avsitter.com/qa/760/">info</a>).
 - AVP_sitB - link message <a href="/avsitterplus_scripting.html#message-90005">90005</a> can now be used to bring up a specific submenu (<a href="//avsitter.com/qa/761">info</a>).
-- AVP_sitB - options for the MENU command to override <a href="/avsitterplus_avpos.html#amenu">AMENU</a> or <a href="/avsitterplus_avpos.html#swap">SWAP</a> settings for a specific submenu (<a href="//avsitter.com/qa/652">info</a>).
+- AVP_sitB - options for the MENU command to override <a href="/avsitterplus_avp_positions.html#amenu">AMENU</a> or <a href="/avsitterplus_avp_positions.html#swap">SWAP</a> settings for a specific submenu (<a href="//avsitter.com/qa/652">info</a>).
 - AVP_sitA - <a href="/avsitterplus_scripting.html#message-90045">90045</a> now includes IS_SYNC and updated <a href="/avsitterplus_lsl_examples_advanced.html#autoplay">Autoplay example</a> script (<a href="//avsitter.com/qa/601">info</a>).
 
 ### AVsitter2, box 2.1-11 - 20 Jan 2016
-- AVP_sitA, AVP_sitB, AVP_select, AVP_adjuster, AVP_prop, AVP_faces, AVP_sequence, AVP_root-security, AVP_root-control, AVP_root-rlv - modification to <a href="/avsitterplus_avpos.html#button">BUTTON</a> and <a href="/avsitterplus_scripting.html#message-90005">90005</a> for when an avatar is controlling another avatar's menu with <a href="/avsitterplus_control.html">AVcontrol</a>. (<a href="//avsitter.com/qa/573">info</a>).
+- AVP_sitA, AVP_sitB, AVP_select, AVP_adjuster, AVP_prop, AVP_faces, AVP_sequence, AVP_root-security, AVP_root-control, AVP_root-rlv - modification to <a href="/avsitterplus_avp_positions.html#button">BUTTON</a> and <a href="/avsitterplus_scripting.html#message-90005">90005</a> for when an avatar is controlling another avatar's menu with <a href="/avsitterplus_control.html">AVcontrol</a>. (<a href="//avsitter.com/qa/573">info</a>).
 - AVP_adjuster, AVP_sitA, AVP_sitB - the owner can rez the helpers while controlling another avatar (<a href="//avsitter.com/qa/557">info</a>).
 - AVP_sitA - guests can rez the helpers if the word HELPER is anywhere in the root prim name (<a href="//avsitter.com/qa/575">info</a>).
 - AVP_root-security - <a href="/avsitterplus_utilities.html#avroot-security-script">security menu</a> now has separate options for both "Sit" and "Menu" access (<a href="//avsitter.com/qa/568">info</a>).
@@ -75,7 +75,7 @@ If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest yo
 - AVP_camera - added <a href="/avsitterplus_camera.html">AVP_camera script</a> to the Utilities box.
 
 ### AVsitter2, box 2.1-09 - 12 Oct 2015
-- AVP_sitA & AVP_sitB - <a href="/avsitterplus_avpos.html#auto-assign-by-gender">auto seat and pose assignment</a> now prefers non-assigned seat to that assigned to opposite gender.
+- AVP_sitA & AVP_sitB - <a href="/avsitterplus_avp_positions.html#auto-assign-by-gender">auto seat and pose assignment</a> now prefers non-assigned seat to that assigned to opposite gender.
 - AVP_sitA - added <a href="https://avsitter.com/qa/260">LROT</a> to make XYZ positioning buttons work relative to rotation of the root prim, instead of global.
 - AVP_sitA - adjustments to the <a href="//avsitter.com/qa/259/">KFM</a> option to handle sync poses.
 - AVP_faces - now stops any custom overlay AVfaces animations when the main pose changes.
@@ -85,7 +85,7 @@ If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest yo
 ### AVsitter2, box 2.1-08 - 12 Aug 2015
 - AVP_sitA & AVP_adjuster - in case they are not sitting, owner can type '/5 helper' in chat to rez helpers for friend.
 - AVP_sitA - added <a href="//avsitter.com/qa/259/">KFM</a> option if the object uses <a href="http://wiki.secondlife.com/wiki/LlSetKeyframedMotion">llSetKeyframedMotion()</a>.
-- AVP_sitB - with <a href="/avsitterplus_avpos.html#etype">ETYPE 1</a>, avatars will now remain in their pose when an unrelated pose is played in the prim.
+- AVP_sitB - with <a href="/avsitterplus_avp_positions.html#etype">ETYPE 1</a>, avatars will now remain in their pose when an unrelated pose is played in the prim.
 - AVP_Lockguard - now uses pose name (rather than prop name) when USES_PROPS = TRUE (latest version is 3.03a).
 
 ### AVsitter2, box 2.1-07 - 17 Jul 2015
@@ -97,8 +97,8 @@ If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest yo
 - AVP_object - added support for <a href="/avsitterplus_prop.html#experience-keys">Experience Keys</a>. Props will attach automatically, if the correct Experience is allowed on the land and the props contain the latest AVP_object script (discussion <a href="//avsitter.com/qa/198/">here</a>).
 
 ### AVsitter2, box 2.1-05 - 24 Jun 2015
-- AVP_sitA & AVP_sitB & AVP_adjuster - added support for <a href="/avsitterplus_avpos.html#auto-assign-by-gender">auto seat and pose assignment</a> based on avatar's shape gender.
-- [sitB] - added option to use %u in key field of <a href="/avsitterplus_avpos.html#button">BUTTON</a> to insert sitter's UUID (may be helpful for AVcontrol menus).
+- AVP_sitA & AVP_sitB & AVP_adjuster - added support for <a href="/avsitterplus_avp_positions.html#auto-assign-by-gender">auto seat and pose assignment</a> based on avatar's shape gender.
+- [sitB] - added option to use %u in key field of <a href="/avsitterplus_avp_positions.html#button">BUTTON</a> to insert sitter's UUID (may be helpful for AVcontrol menus).
 - AVP_adjuster - fixed bug with settings dump to website.
 - Added AVprop script example <a href="/avsitterplus_lsl_examples_avprop.html#animated-attachment">Animated Attachment</a>.
 
@@ -109,7 +109,7 @@ If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest yo
 ### AVsitter2, box 2.1-03 - 25 Mar 2015
 - AVP_adjuster - after settings [DUMP], a web link is provided to settings.
 - AVP_sequence - added <a href="/avsitterplus_sequence.html#sound">preloading of sounds</a> & added Piano Example to the Examples [BOX].
-- AVP_menu - updated to support user-defined string and key in <a href="/avsitterplus_avpos.html#button">BUTTON</a> command.
+- AVP_menu - updated to support user-defined string and key in <a href="/avsitterplus_avp_positions.html#button">BUTTON</a> command.
 
 ### AVsitter2, box 2.1-02 - 12 Feb 2015
 - AVP_adjuster - type <a href="/avsitterplus_home.html#chat-commands">/5 info</a> in chat while in helper mode and the position info will now appear in chat when you click [SAVE].
@@ -117,7 +117,7 @@ If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest yo
 
 ### AVsitter2, box 2.1-01 - 07 Jan 2015
 - AVP_adjuster & AVP_helper - Added ability to type <a href="/avsitterplus_home.html#chat-commands">/5 &lt;avatar uuid&gt;</a> in chat to move the helper.
-- AVP_sitB - added <a href="/avsitterplus_avpos.html#mtype">MTYPE 2</a> to workaround third-party viewer issues that prevent attachment requests being noticed.
+- AVP_sitB - added <a href="/avsitterplus_avp_positions.html#mtype">MTYPE 2</a> to workaround third-party viewer issues that prevent attachment requests being noticed.
 - Added AVprop script example <a href="/avsitterplus_lsl_example_show_and_hide_prim_by_prop_group.html">Show and Hide Prim by Prop Group</a>.
 
 ### AVsitter2, box 2.1-00 - 30 Oct 2014
@@ -127,13 +127,13 @@ If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest yo
 
 ### AVsitter2, box 2.0-15 - 17 Sep 2014
 - Added instructions for <a href="/avsitterplus_scripting.html#message-90030">90030 link message</a>.
-- AVP_sitB - <a href="/avsitterplus_avpos.html#button">BUTTON</a> command updated to allow user-defined string and key.
+- AVP_sitB - <a href="/avsitterplus_avp_positions.html#button">BUTTON</a> command updated to allow user-defined string and key.
 - AVP_sitB - fixed bug sometimes preventing first menu item of 2nd page of animations being shown (since 2.0-14).
 - AVP_sitA & AVP_sitB & AVP_adjuster & AVP_helper - allows AVsitter1 style helpers by placing HELPER 1 at the top of the AVpos notecard.
 - AVP_Xcite! & AVP_Xcite_settings notecard - allows default settings for all poses by using a wildcard (*) in place of the pose name.
 
 ### AVsitter2, box 2.0-14.4 - 04 Sep 2014
-- AVP_sitB - changes and fixes for the <a href="/avsitterplus_avpos.html#variable-speed-animations">variable speed</a> animations.
+- AVP_sitB - changes and fixes for the <a href="/avsitterplus_avp_positions.html#variable-speed-animations">variable speed</a> animations.
 
 ### AVsitter2, box 2.0-14.3 - 20 Aug 2014
 - AVP_sitB - fixed bug with script listens.
@@ -143,15 +143,15 @@ If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest yo
 - AVP_sitB - fixed bug in 2.0-14 causing positions to be overwritten by new poses.
 
 ### AVsitter2, box 2.0-14 - 22 Jul 2014
-- AVP_sitA & AVP_sitB - Support for <a href="/avsitterplus_avpos.html#variable-speed-animations">variable speed</a> animations (used by some animators).
+- AVP_sitA & AVP_sitB - Support for <a href="/avsitterplus_avp_positions.html#variable-speed-animations">variable speed</a> animations (used by some animators).
 - AVP_adjuster - for more compact settings, [DUMP] rounds position to 1 millimeter & rotation to 1/10 degree.
 
 ### AVsitter2, box 2.0-13 - 27 Jun 2014
 - Added script example <a href="/avsitterplus_lsl_examples_advanced.html#move-a-prim-by-pose">Move a Prim</a>.
 - AVP_sitA - added small pause between starting/stopping anims to avoid 'bounce' while new anim loads to viewer.
 - AVP_sitA - the <a href="/avsitterplus_scripting.html#message-90045">90045</a> link message now includes a list of all sitting avatars.
-- AVP_select - added <a href="/avsitterplus_avpos.html#select">SELECT 2</a> option.
-- AVP_menu - added <a href="/avsitterplus_avpos.html#mtype">MTYPE 3</a> command to <a href="/avsitterplus_prop.html#setting-up-a-prop-with-avmenutrade">AVP_menu</a> script.
+- AVP_select - added <a href="/avsitterplus_avp_positions.html#select">SELECT 2</a> option.
+- AVP_menu - added <a href="/avsitterplus_avp_positions.html#mtype">MTYPE 3</a> command to <a href="/avsitterplus_prop.html#setting-up-a-prop-with-avmenutrade">AVP_menu</a> script.
 - AVP_Lockguard - support for linking LockGuard chains to rings in props (instructions inside the AVP_Lockguard script).
 
 ### AVsitter2, box 2.0-12 - 02 Jun 2014
@@ -162,13 +162,13 @@ If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest yo
 ### AVsitter2, box 2.0-11 - 20 May 2014
 - Added <a href="/avsitterplus_utilities.html#missing-anim-finder-script">Missing-anim-finder script</a> to Utilities [BOX].
 - AVP_sitA & AVP_adjuster - it is now possible to save <a href="/avsitterplus_home.html#camera">prim camera settings</a>.
-- AVP_sitA & AVP_sitB - when using <a href="/avsitterplus_avpos.html#mtype">MTYPE 3</a>, menu can be accessed via link message <a href="/avsitterplus_scripting.html#message-90005">90005</a>.
-- AVP_sitA & AVP_sitB & AVP_adjuster - added <a href="/avsitterplus_avpos.html#amenu">AMENU</a> command.
+- AVP_sitA & AVP_sitB - when using <a href="/avsitterplus_avp_positions.html#mtype">MTYPE 3</a>, menu can be accessed via link message <a href="/avsitterplus_scripting.html#message-90005">90005</a>.
+- AVP_sitA & AVP_sitB & AVP_adjuster - added <a href="/avsitterplus_avp_positions.html#amenu">AMENU</a> command.
 - AVP_sitA & AVP_sitB & AVP_adjuster - fix to include SELECT and ETYPE in settings dump.
 
 ### AVsitter2, box 2.0-09 - 18 Mar 2014
 - AVP_adjuster - adding SYNC poses via menu now allows for 3+ avatars.
-- AVP_sitB - addition of <a href="/avsitterplus_avpos.html#swap">SWAP 2</a> notecard command.
+- AVP_sitB - addition of <a href="/avsitterplus_avp_positions.html#swap">SWAP 2</a> notecard command.
 - AVP_prop - props rezzed by <a href="/avsitterplus_prop.html#setting-up-a-prop-with-avmenutrade">AVP_prop in non-sit prim</a> will remain when avatar stands up.
 - AVP_menu script - shortens selection menu text if too long for llDialog.
 - AVP_root-security - added GROUP ONLY menu access setting to AVcontrol plugin.
@@ -184,7 +184,7 @@ If you have purchased AVsitterPlus for OpenSim from Kitely Market, we suggest yo
 - AVP_sitA - fixed bug causing script error if avatar's AO uses llSetAnimationOverride().
 - AVP_sitA - link message <a href="/avsitterplus_scripting.html#message-90045">90045</a> now includes the SET #.
 - AVP_sitB - duplicate menu entries are no longer skipped.
-- AVP_sitA & AVP_sitB & AVP_adjuster - addition of <a href="/avsitterplus_avpos.html#adjust">ADJUST</a> notecard command.
+- AVP_sitA & AVP_sitB & AVP_adjuster - addition of <a href="/avsitterplus_avp_positions.html#adjust">ADJUST</a> notecard command.
 - AVP_helper - You can now take a copy of the "helper" script from inside the AVP_helper and put into an object of your own customized shape.
 
 ### AVsitter2, box 2.0-06 - 04 Feb 2014
